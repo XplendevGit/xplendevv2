@@ -1,0 +1,9 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/creditos/page": "app/creditos/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/mundodigital/page": "app/mundodigital/page.js",
+  "/page": "app/page.js",
+  "/terminos/page": "app/terminos/page.js",
+  "/obras/page": "app/obras/page.js"
+}

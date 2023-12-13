@@ -8,10 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        unicaone: ['Unica One','sans-serif'],
+        audiowide: ['Audiowide','sans-serif'],
+        mojormono: ['Major Mono Display','monospace'],
+        hammersmithOne: ['Hammersmith One','monospace'],
+        philosopher: ['Philosopher','sans-serif'],
+        oreglega: ['EB Garamond', 'serif'],
+        tangerine: ['Tangerine', 'cursive'],
+        cinzeldecorative: ['Cinzel Decorative', 'serif'],
+        nunito: ['Nunito', 'sans-serif'],
+        abel: ['Abel','sans-serif'],
+        oswald: ['Oswald','sans-serif'],
+        darkergrotesque: ['Darker Grotesque','sans-serif'],
       },
     },
   },

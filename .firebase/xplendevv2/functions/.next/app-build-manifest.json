@@ -1,0 +1,69 @@
+{
+  "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-9ee82dcf878e904e.js",
+      "static/chunks/fd9d1056-96883340466a6e75.js",
+      "static/chunks/472-e9209d3a82b4e932.js",
+      "static/chunks/main-app-92724accb999d7b2.js",
+      "static/chunks/app/_not-found-88ad8d29ad8d348e.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-9ee82dcf878e904e.js",
+      "static/chunks/fd9d1056-96883340466a6e75.js",
+      "static/chunks/472-e9209d3a82b4e932.js",
+      "static/chunks/main-app-92724accb999d7b2.js",
+      "static/css/2bf7f3ec5047d68e.css",
+      "static/chunks/app/layout-41c3c6b3681dff2c.js"
+    ],
+    "/creditos/page": [
+      "static/chunks/webpack-9ee82dcf878e904e.js",
+      "static/chunks/fd9d1056-96883340466a6e75.js",
+      "static/chunks/472-e9209d3a82b4e932.js",
+      "static/chunks/main-app-92724accb999d7b2.js",
+      "static/chunks/app/creditos/page-dab7c695173fd6be.js"
+    ],
+    "/mundodigital/page": [
+      "static/chunks/webpack-9ee82dcf878e904e.js",
+      "static/chunks/fd9d1056-96883340466a6e75.js",
+      "static/chunks/472-e9209d3a82b4e932.js",
+      "static/chunks/main-app-92724accb999d7b2.js",
+      "static/chunks/460-23dd078cff4292a2.js",
+      "static/chunks/app/mundodigital/page-bebbe661974227ea.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-9ee82dcf878e904e.js",
+      "static/chunks/fd9d1056-96883340466a6e75.js",
+      "static/chunks/472-e9209d3a82b4e932.js",
+      "static/chunks/main-app-92724accb999d7b2.js",
+      "static/chunks/4f9d9cd8-66c75633275205a1.js",
+      "static/chunks/bc9c3264-740f2c585fba028d.js",
+      "static/chunks/12038df7-d1877251be1cba8d.js",
+      "static/chunks/93854f56-ab740bc6017d7819.js",
+      "static/chunks/9081a741-5c47345ae664efc3.js",
+      "static/chunks/e685ae08-f0ae75b12edbdd7d.js",
+      "static/chunks/3627521c-47a66924542deb53.js",
+      "static/chunks/460-23dd078cff4292a2.js",
+      "static/chunks/396-a0e82ffff376df22.js",
+      "static/chunks/778-2f4ec2f83cbbb166.js",
+      "static/chunks/app/page-6a97407d0546eb59.js"
+    ],
+    "/terminos/page": [
+      "static/chunks/webpack-9ee82dcf878e904e.js",
+      "static/chunks/fd9d1056-96883340466a6e75.js",
+      "static/chunks/472-e9209d3a82b4e932.js",
+      "static/chunks/main-app-92724accb999d7b2.js",
+      "static/chunks/app/terminos/page-ceef0fc85f32fb14.js"
+    ],
+    "/obras/page": [
+      "static/chunks/webpack-9ee82dcf878e904e.js",
+      "static/chunks/fd9d1056-96883340466a6e75.js",
+      "static/chunks/472-e9209d3a82b4e932.js",
+      "static/chunks/main-app-92724accb999d7b2.js",
+      "static/chunks/460-23dd078cff4292a2.js",
+      "static/chunks/396-a0e82ffff376df22.js",
+      "static/chunks/357-f03a55b30acb4685.js",
+      "static/css/b9e9c7572ff0eb6b.css",
+      "static/chunks/app/obras/page-109dfe1915d912ca.js"
+    ]
+  }
+}
