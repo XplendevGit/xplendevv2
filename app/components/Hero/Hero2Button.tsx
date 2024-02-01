@@ -29,17 +29,17 @@ export const Hero2Button: React.FC<Hero2ButtonProps> = ({
       <h1
         className={` ${
           isButtonHovered
-            ? 'text-black xl:text-2xl lg:text-xl md:text-lg text-md font-oreglega transition-all duration-500 no-select'
+            ? 'text-black xl:text-2xl lg:text-xl md:text-lg text-md font-oreglega transition-all ease-in duration-200 no-select'
             : isButtonHovered2
-            ? 'xl:text-3xl lg:text-2xl md:text-xl text-lg text-black font-darkergrotesque transition-all duration-500'
+            ? 'xl:text-3xl lg:text-2xl md:text-xl text-lg text-black font-darkergrotesque transition-all ease-in duration-200'
             : isButtonHovered3
-            ? 'xl:text-2xl lg:text-xl md:text-lg text-md text-white font-nunito transition-all duration-500'
+            ? 'xl:text-2xl lg:text-xl md:text-lg text-md text-white font-nunito transition-all ease-in duration-200'
             : isButtonHovered4
-            ? 'text-black xl:text-3xl lg:text-xl md:text-md text-lg font-economica transition-all duration-500'
-            : 'xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-white transition-all duration-500'
+            ? 'text-black xl:text-3xl lg:text-xl md:text-md text-lg font-economica transition-all ease-in duration-200'
+            : 'xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-white transition-all ease-in duration-200'
         }`}
       >
-        ESTOS SON EJEMPLOS DE TEMAS <br /> CADA TAMAÑO, FUENTE Y POSICIÓN DE LOS TEXTOS SON ÚNICOS PARA CADA PROYECTO.
+        CONOCE NUESTROS SITIOS <br /> CADA TAMAÑO, FUENTE Y POSICIÓN DE LOS TEXTOS SON ÚNICOS PARA CADA PROYECTO.
         ENCONTREMOS EL QUE MÁS SE ACOMODE A TU SITIO IDEAL!
       </h1>
 
@@ -51,14 +51,14 @@ export const Hero2Button: React.FC<Hero2ButtonProps> = ({
       <button
         className={` mt-1 ${
           isButtonHovered
-            ? 'xl:text-xl lg:text-md text-white bg-[#34B1BF] rounded-xl p-4 font-philosopher transition-all duration-500 hover:scale-105 no-select'
+            ? 'xl:text-xl lg:text-md text-white bg-[#34B1BF] rounded-xl p-4 font-philosopher ease-in transition-all duration-200 hover:scale-105 no-select'
             : isButtonHovered2
-            ? 'xl:text-lg lg:text-lg md:text-md text-md border-2 bg-[#EA1E63] text-white px-6 py-2 rounded-full transition-all duration-500'
+            ? 'xl:text-lg lg:text-lg md:text-md text-md border-2 bg-[#EA1E63] text-white px-6 py-2 rounded-full transition-all ease-in duration-200'
             : isButtonHovered3
-            ? 'lg:text-2xl md:text-lg text-white font-nunito p-3 border-2 border-white transition-all duration-500'
+            ? 'lg:text-2xl md:text-lg text-white font-nunito p-3 border-2 border-white transition-all ease-in duration-200'
             : isButtonHovered4
-            ? 'lg:py-3 lg:px-5 p-2 bg-[#385AE0] rounded-md text-white transition-transform duration-500 hover:scale-105'
-            : 'lg:text-xl text-lg text-white hover:border-[#F8368F] hover:text-[#F8368F] transition-all hover:scale-105 duration-500 font-unicaone no-select px-4 py-2 rounded-full border-2'
+            ? 'lg:py-3 lg:px-5 p-2 bg-[#385AE0] rounded-md text-white transition-transform duration-200 ease-in hover:scale-105'
+            : 'lg:text-xl text-lg text-white hover:border-[#F8368F] hover:text-[#F8368F] transition-all ease-in hover:scale-105 duration-200 font-unicaone no-select px-4 py-2 rounded-full border-2'
         }`}
       >
         VER TODOS LOS DISEÑOS →

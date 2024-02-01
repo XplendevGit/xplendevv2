@@ -26,27 +26,34 @@ const Inicio = (props: Props) => {
              >
 
                 <div className="inicio-1">
-                    <div className="lg:px-12 lg:pt-12 md:px-12 lg:space-y-4 md:space-y-2 no-select">
+                    <div className="lg:px-12 lg:pt-12 md:px-12 lg:space-y-4 md:space-y-2 no-select flex flex-col md:justify-start md:items-start justify-center items-center">
 
-                    <h1 className="font-audiowide xl:text-7xl lg:text-5xl md:text-2xl text-xl text-[#29F2CD]">Arquitectos de la  <br></br></h1>
-                    <h2 className="font-audiowide xl:text-7xl lg:text-5xl md:text-2xl text-xl text-[#F8368F]">Experiencia Digital</h2>
+                    <h1 className="font-audiowide xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-[#29F2CD]">Arquitectos de la  <br></br></h1>
+                    <h2 className="font-audiowide xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-[#F8368F]">Experiencia Digital</h2>
                     
 
                     </div>
                 </div>
-                <div className="inicio-2 flex justify-start mb-auto">
+                <div className="inicio-2 flex md:justify-start justify-center mb-auto">
                
                 <button 
-                className="lg:text-xl font-unicaone lg:mx-12 md:mx-auto space-y-4 no-select text-white px-4 py-2 rounded-full border-2 border-[#F8368F] hover:text-[#F8368F] transition-all hover:scale-105 duration-500"
+                className="lg:text-xl font-unicaone lg:mx-12 md:mx-auto space-y-4 no-select text-white px-4 py-2 rounded-full border-2 border-[#F8368F] hover:text-[#F8368F] transition-all hover:scale-105 duration-200 ease-in"
                 onClick={handleButtonClick}>OBTENER DISEÑO WEB → 
                 </button>
                     
                 </div>
-                <div className="inicio-3 justify-end grid">
+                <div className="inicio-3 md:justify-end justify-center items-center grid">
+
+                  <div className="w-full h-auto justify-center items-center text-center md:text-start">
+
+                    <h1 className="lg:text-5xl md:text-3xl text-2xl font-unicaone text-[#F8368F]">TU SITIO WEB</h1>
+
+                    <h2 className="lg:text-5xl md:text-3xl text-2xl font-unicaone text-[#29F2CD]">ADMINISTRABLE</h2>
+
+                  </div>
                     
-                <h1 className="lg:text-5xl md:text-2xl text-xl font-unicaone text-[#F8368F]">TU SITIO WEB</h1>
-                    <h2 className="lg:text-5xl md:text-2xl text-xl font-unicaone text-[#29F2CD]">ADMINISTRABLE</h2>
-                    <div className="space-y-4">
+
+                    <div className="space-y-4 w-full h-auto justify-center items-center text-center md:text-start">
                     <p className="pt-4 lg:text-xl text-white font-mojormono">Creamos tu web Profesional<br></br>Administrable desde cualquier dispositivo</p>
                 </div>
 
