@@ -28,8 +28,8 @@ const Inicio = (props: Props) => {
                 <div className="inicio-1">
                     <div className="lg:px-12 lg:pt-12 md:px-12 lg:space-y-4 md:space-y-2 no-select">
 
-                    <h1 className="font-audiowide xl:text-7xl lg:text-5xl md:text-2xl text-xl text-[#29F2CD]">EL FUTURO DEL<br></br></h1>
-                    <h2 className="font-audiowide xl:text-7xl lg:text-5xl md:text-2xl text-xl text-[#F8368F]">DISEÑO WEB</h2>
+                    <h1 className="font-audiowide xl:text-7xl lg:text-5xl md:text-2xl text-xl text-[#29F2CD]">Arquitectos de la  <br></br></h1>
+                    <h2 className="font-audiowide xl:text-7xl lg:text-5xl md:text-2xl text-xl text-[#F8368F]">Experiencia Digital</h2>
                     
 
                     </div>
@@ -44,10 +44,10 @@ const Inicio = (props: Props) => {
                 </div>
                 <div className="inicio-3 justify-end grid">
                     
-                <h1 className="lg:text-5xl md:text-2xl text-xl font-unicaone text-[#F8368F]">CONOCE UNA NUEVA</h1>
-                    <h2 className="lg:text-5xl md:text-2xl text-xl font-unicaone text-[#29F2CD]">EXPERIENCIA VISUAL</h2>
+                <h1 className="lg:text-5xl md:text-2xl text-xl font-unicaone text-[#F8368F]">TU SITIO WEB</h1>
+                    <h2 className="lg:text-5xl md:text-2xl text-xl font-unicaone text-[#29F2CD]">ADMINISTRABLE</h2>
                     <div className="space-y-4">
-                    <p className="pt-4 lg:text-xl text-white font-mojormono">todo lo que PIENSAS<br></br>lo hacemos REALIDAD en tu sitio</p>
+                    <p className="pt-4 lg:text-xl text-white font-mojormono">Creamos tu web Profesional<br></br>Administrable desde cualquier dispositivo</p>
                 </div>
 
                 </div>
