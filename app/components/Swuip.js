@@ -69,7 +69,7 @@ export default function App( { onSlideChange, onSwiper }) {
             Portfolio
           </h1>
 
-          <Link href={'https://portafolio-luisrivera-v2.web.app/'} key={new Date().toISOString()}>
+          <Link href={'https://portafolioluisrivera.vercel.app/'} key={new Date().toISOString()}>
           <img src='https://i.postimg.cc/SKX6PQJV/portfoliorespponsive.png' alt="perfil" className="border p-1 cursor-pointer no-select">
           </img>
           </Link>
