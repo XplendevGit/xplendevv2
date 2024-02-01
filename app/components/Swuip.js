@@ -75,7 +75,7 @@ export default function App( { onSlideChange, onSwiper }) {
           </Link>
 
           <div className="flex justify-center items-center md:p-12 p-4">
-            <Link href={'https://portafolio-luisrivera-v2.web.app/'}  key={new Date().toISOString()}>
+            <Link href={'https://portafolioluisrivera.vercel.app/'}  key={new Date().toISOString()}>
             <button className="xl:text-lg lg:text-lg md:text-md text-md border-2 bg-[#EA1E63] text-white px-6 py-2 rounded-full">
               Ver Esta Web
             </button>
