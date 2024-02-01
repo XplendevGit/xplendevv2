@@ -10,6 +10,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -42,17 +45,6 @@
 
 .myfilter5 {
   filter: drop-shadow(4px 3px 3px #121212)
-}
-
-
-/*html {
-  scroll-behavior: smooth;
-}
-*/
-.gradient-text {
-  background: linear-gradient(to right, rgba(213, 83, 154, 0.9), rgba(255, 38, 114, 0.9));
-  -webkit-background-clip: text;
-  color: transparent;
 }
 
          /* DISEÑO CSS GRID INICIO*/

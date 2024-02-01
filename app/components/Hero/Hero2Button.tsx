@@ -35,7 +35,7 @@ export const Hero2Button: React.FC<Hero2ButtonProps> = ({
             : isButtonHovered3
             ? 'xl:text-2xl lg:text-xl md:text-lg text-md text-white font-nunito transition-all duration-500'
             : isButtonHovered4
-            ? 'xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-white transition-all duration-500'
+            ? 'text-black xl:text-3xl lg:text-xl md:text-md text-lg font-economica transition-all duration-500'
             : 'xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-white transition-all duration-500'
         }`}
       >

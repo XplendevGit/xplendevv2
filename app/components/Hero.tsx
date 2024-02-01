@@ -94,7 +94,7 @@ const Hero = (props: Props) => {
        : isButtonHovered3
        ? ' bg-black transition-all duration-500'
        : isButtonHovered4
-       ? ' bg-gradient-to-t from-black to-[#29F2CD] transition-all duration-500'
+       ? ' bg-[#F5F5F5] transition-all duration-500'
        : ' bg-gradient-to-t from-black to-[#29F2CD] transition-all duration-500'
     }`}
     >
@@ -121,7 +121,7 @@ const Hero = (props: Props) => {
                      : isButtonHovered3
                      ? ' text-white xl:text-7xl lg:text-5xl md:text-3xl text-3xl font-cinzeldecorative transition-all duration-500'
                      : isButtonHovered4
-                     ? ' text-[#F8368F] xl:text-6xl lg:text-4xl md:text-3xl text-3xl font-audiowide transition-all duration-500 myfilter5'
+                     ? ' text-[#385AE0] xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-notoserif transition-all duration-500'
                      : 'text-[#F8368F] xl:text-6xl lg:text-4xl md:text-3xl text-3xl font-audiowide transition-all duration-500 myfilter5'
                   }`}>
                 Seleccionalas

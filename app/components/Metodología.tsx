@@ -1,8 +1,5 @@
 "use client"
-import path from 'path'
 import React from 'react'
-import Image from 'next/image'
-import myImage from '../../public/images/Design/world1.png'
 import { CiBoxList, CiGrid42 } from "react-icons/ci";
 import { FaLaptopCode } from "react-icons/fa";
 import { MdVerifiedUser } from "react-icons/md";

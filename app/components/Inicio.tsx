@@ -1,8 +1,5 @@
 "use client"
 import React from 'react'
-import Image from 'next/image'
-import myImage from '../../public/images/Inicio/1.png'
-import Link from 'next/link'
 import { motion } from 'framer-motion'
 
 type Props = {}

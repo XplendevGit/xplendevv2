@@ -1,11 +1,10 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import Swip from '../components/Swuip'
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { AnimatePresence, motion } from 'framer-motion';
 
 const projectsBackgrounds = [
-  'https://i.postimg.cc/52hfYm4s/Screenshot-6.png',
+  'https://i.postimg.cc/P5zVyqtm/Screenshot-property.png',
   'https://i.postimg.cc/0QHSzr0J/portfolio-mainimgbg.png',
   'https://i.postimg.cc/bvYFtgt2/Gallery-Web-Page.png',
   'https://i.postimg.cc/8PtvCbNY/elegant-proyect.png'

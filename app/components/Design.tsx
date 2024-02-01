@@ -1,9 +1,6 @@
 "use client"
 import React, { useState } from 'react'
 import Image from 'next/image';
-import myImage from '../../public/images/Design/1.png'
-import myImage2 from '../../public/images/Design/2.png'
-import myImage3 from '../../public/images/Design/3.png'
 
 import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
