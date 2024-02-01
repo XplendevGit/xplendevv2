@@ -11,8 +11,8 @@ type Props = {}
 const Design = (props: Props) => {
 
   const imageDesign1 = "https://i.postimg.cc/0j0KDhqm/responsive-Design-movilresponsive.png"
-  const imageDesign2 = "https://i.postimg.cc/xdB9pq13/dinamismo-Image-rome.png"
-  const imageDesign3 = "https://i.postimg.cc/cCHTK1fP/webunica-Design-hand.png"
+  const imageDesign2 = "https://i.postimg.cc/59rvb242/deploy.png"
+  const imageDesign3 = "https://i.postimg.cc/vBJSzZG8/cms.png"
 
   const [isHovered, setHovered] = useState(false);
   const [isButtonHovered, setButtonHovered] = useState(false);
@@ -81,8 +81,8 @@ const Design = (props: Props) => {
 
          <div className="design-1 grid justify-center items-center lg:py-12 md:space-y-4 text-center no-select">
           
-              <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-2xl font-hammersmithOne text-white transition-all duration-500">Conoce nuestras funcionalidades</h1>
-              <p className="xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-[#29F2CD] transition-all duration-500">EL DISEÑO ES NUESTRO ENFOQUE PRINCIPAL Y NOS ESPECIALIZAMOS EN <br></br>ENTREGAR FUNCIONALIDADES INDISPENSABLES DENTRO DEL MODELADO DE CADA DISEÑO</p>
+              <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-2xl font-hammersmithOne text-white transition-all duration-500">¿Que ofrece Xplendev?</h1>
+              <p className="xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-[#29F2CD] transition-all duration-500">NOS ENFOCAMOS EN TUS IDEAS PARA DAR VIDA A UN SITIO UNICO & <br></br>ADAPTAMOS EL CONTENIDO PERMITIENDOTE GESTIONARLO A TU MANERA</p>
           
          </div>
               <div
@@ -96,7 +96,7 @@ const Design = (props: Props) => {
           >
 
           <div className="justify-end text-center my-auto flex md:px-6 px-4">
-             <h1 className="xl:text-4xl lg:text-3xl text-xl font-unicaone text-white transition-all duration-500">diseño responsivo <br /> <span className="xl:text-2xl lg:text-xl text-lg font-abel text-white transition-all duration-500">Flexibilidad visual en cada pantalla. Diseñamos una web que se adapte a cada necesidad</span>
+             <h1 className="xl:text-4xl lg:text-3xl text-xl font-unicaone text-white transition-all duration-500">diseño único responsivo <br /> <span className="xl:text-2xl lg:text-xl text-lg font-abel text-white transition-all duration-500">Plasmamos tus ideas en un sitio único, con diseño adaptativo y visualmente flexible</span>
              </h1>
          </div>
              
@@ -114,7 +114,7 @@ const Design = (props: Props) => {
           >
 
         <div className="justify-end text-center my-auto flex md:px-12 px-4">
-            <h1 className="xl:text-4xl lg:text-3xl text-xl font-unicaone text-white transition-all duration-500">Dinamísmo Visual <br /> <span className="xl:text-2xl lg:text-xl text-lg font-abel text-white transition-all duration-500">Exploramos el camino de la sutilidad de los cuadros en movimiento</span>
+            <h1 className="xl:text-4xl lg:text-3xl text-xl font-unicaone text-white transition-all duration-500">Despliegue<br /> <span className="xl:text-2xl lg:text-xl text-lg font-abel text-white transition-all duration-500">Desplegamos tu sitio de manera segura en servidores de calidad</span>
             </h1>
             <h1 className="xl:text-2xl lg:text-xl text-lg font-abel text-white transition-all duration-500"></h1>
         </div>
@@ -131,7 +131,7 @@ const Design = (props: Props) => {
             }`}
           >
         <div className="justify-end text-center my-auto flex md:px-12 px-4">
-        <h1 className="xl:text-4xl lg:text-3xl text-xl font-unicaone text-white transition-all duration-500">web única <br /> <span className="xl:text-2xl lg:text-xl text-lg font-abel text-white transition-all duration-500">Cada web, una historia nueva. Existen infinítas formas de contar tu história</span>
+        <h1 className="xl:text-4xl lg:text-3xl text-xl font-unicaone text-white transition-all duration-500">Administración<br /> <span className="xl:text-2xl lg:text-xl text-lg font-abel text-white transition-all duration-500">Integramos un CMS personalizado para administrar cada sitio que lo requiera</span>
         </h1>
        
         </div>

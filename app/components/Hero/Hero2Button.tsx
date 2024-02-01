@@ -61,7 +61,7 @@ export const Hero2Button: React.FC<Hero2ButtonProps> = ({
             : 'lg:text-xl text-lg text-white hover:border-[#F8368F] hover:text-[#F8368F] transition-all ease-in hover:scale-105 duration-200 font-unicaone no-select px-4 py-2 rounded-full border-2'
         }`}
       >
-        VER TODOS LOS DISEÑOS →
+        VER TODOS LOS SITIOS →
       </button>
       </Link>
 

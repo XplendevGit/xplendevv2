@@ -35,7 +35,7 @@ const Home = (props: Props) => {
                     <h1 className="text-white">-</h1>
 
 
-                    <h1 className="lg:text-xl md:text-lg text-lg  uppercase font-unicaone text-[#F8368F]">Design Imagen 3 por: <span className='text-white xl:text-2xl md:text-xl text-md'>Foto de <a href="https://www.freepik.com/free-ai-image/human-hand-studio_82551533.htm#fromView=search&term=autentic&page=1&position=49&track=ais_ai_generated&regularType=ai">freepik</a>
+                    <h1 className="lg:text-xl md:text-lg text-lg  uppercase font-unicaone text-[#F8368F]">Design Imagen 3 por: <span className='text-white xl:text-2xl md:text-xl text-md'>Foto de <a href="https://www.freepik.com/free-ai-image/modern-monitor-elegant-table_59774635.htm#query=web%20page%20admin&position=15&from_view=search&track=ais_ai_generated&uuid=735f9c1a-3d52-4c2d-abed-24e1d4aef97a">Image By freepik</a>
                     </span></h1>
 
                        </div>                         
