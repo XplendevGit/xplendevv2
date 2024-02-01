@@ -26,7 +26,7 @@ const Inicio = (props: Props) => {
              >
 
                 <div className="inicio-1">
-                    <div className="lg:px-12 lg:pt-12 md:px-12 lg:space-y-4 md:space-y-2 no-select flex flex-col md:justify-start md:items-start justify-center items-center">
+                    <div className="lg:px-12 lg:pt-12 md:px-12 lg:space-y-4 md:space-y-2 no-select flex flex-col md:justify-start md:items-start justify-center items-center text-center md:text-start">
 
                     <h1 className="font-audiowide xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-[#29F2CD]">Arquitectos de la  <br></br></h1>
                     <h2 className="font-audiowide xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-[#F8368F]">Experiencia Digital</h2>
