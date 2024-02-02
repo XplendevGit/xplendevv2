@@ -383,11 +383,11 @@
             @media screen and (min-width: 0px) and (max-width: 431px) {
               .contenedor-metodologia{
                 display: grid;
-                grid-gap: 1.8rem;
+                grid-gap: 2rem;
                 /* Creamos las columnas y sus valores*/
                 grid-template-columns: 1fr;
                 /* Creamos las filas y sus valores*/
-                grid-template-rows: 1.6fr 0.8fr 0.8fr 0.8fr 0.8fr;
+                grid-template-rows: 1.6fr 1fr 1fr 1fr 1fr;
               }
               .metodologia-1{
                 grid-column: 1/2;
@@ -459,7 +459,7 @@
                     @media screen and (min-width: 769px) {
                       .contenedor-metodologia{            
                         display: grid;
-                        grid-gap: 1rem;
+                        grid-gap: 1.5rem;
                         /* Creamos las columnas y sus valores*/
                         grid-template-columns: 2fr 1fr 1fr;
                         /* Creamos las filas y sus valores*/
