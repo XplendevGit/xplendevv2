@@ -38,7 +38,7 @@ const Inicio = (props: Props) => {
                
                 <button 
                 className="lg:text-xl font-unicaone lg:mx-12 md:mx-auto space-y-4 no-select text-white px-4 py-2 rounded-full border-2 border-[#F8368F] hover:text-[#F8368F] transition-all hover:scale-105 duration-200 ease-in"
-                onClick={handleButtonClick}>OBTENER DISEÑO WEB → 
+                onClick={handleButtonClick}>OBTENER SITIO WEB → 
                 </button>
                     
                 </div>

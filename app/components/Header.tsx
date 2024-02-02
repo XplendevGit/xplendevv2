@@ -23,7 +23,7 @@ function Header({}: Props) {
   };
 
   const handleButtonClick0 = () => {
-    const membershipsSection = document.getElementById('diseños');
+    const membershipsSection = document.getElementById('services');
     if (membershipsSection) {
       membershipsSection.scrollIntoView({ behavior: 'smooth' });
     }
@@ -90,21 +90,14 @@ useEffect(() => {
                 <Link href="/obras">
                 <button type="button"
                         className={tamañoTexto}
-                        data-te-ripple-init>Nuestras Obras</button>
-                </Link>
-                </li>
-                <li className="p-4">
-                <Link href={"/mundodigital"}>
-                <button type="button"
-                        className={tamañoTexto}
-                        data-te-ripple-init>Mundo Digital</button>
+                        data-te-ripple-init>Nuestros Sitios Web</button>
                 </Link>
                 </li>
                 <li className="p-4">
                 <button type="button"
                         className={tamañoTexto}
                         onClick={handleButtonClick0}
-                        data-te-ripple-init>Diseños</button>
+                        data-te-ripple-init>¿Qué Ofrecemos?</button>
                 </li>
 
                 <li className="p-4">
@@ -145,21 +138,13 @@ useEffect(() => {
             <Link href={"/obras"}>
             <li>
               <button onClick={handleNav} className="p-4 text-4xl font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out hover:scale-125">
-              Nuestras Obras
+              Nuestros Sitios Web
               </button>
               </li>
               </Link>
 
-              <Link href={"/mundodigital"}>
-              <li>
-              <button onClick={handleNav} className="p-4 text-4xl font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out hover:scale-125">
-              Mundo Digital
-              </button>
-              </li>
-                </Link>
-
                 <li onClick={handleNav} className="p-4 text-4xl font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out hover:scale-125">
-                <button onClick={handleButtonClick0}>Diseños</button>
+                <button onClick={handleButtonClick0}>¿Qué Ofrecemos?</button>
                 </li>
 
                 <li onClick={handleNav} className="p-4 text-4xl font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out hover:scale-125">

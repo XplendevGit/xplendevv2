@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import Inicio from './components/Inicio'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -19,11 +19,11 @@ export default function Home() {
         <Inicio />
       </section>
       
-      <section className="" id="diseños">
+      <section className="" id="hero">
         <Hero/>
       </section>
 
-      <section className="" id="">
+      <section className="" id="services">
         <Design/>
       </section>
 

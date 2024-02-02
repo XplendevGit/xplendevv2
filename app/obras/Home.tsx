@@ -80,7 +80,7 @@ const [currentBackground, setCurrentBackground] = useState('');
         <div className="xl:px-24 lg:px-24 md:px-24 transition-all duration-300">
           <div className="flex justify-center lg:p-24 p-8">
             <h1 className="xl:text-5xl lg:text-4xl md:text-2xl text-2xl text-[#EA1E63] font-oswald ">
-              Conoce mis Aplicaciones Web
+              Conoce Nuestros Sitios Web
             </h1>
           </div>
         </div>
