@@ -32,14 +32,14 @@ const Membership = (props: Props) => {
          ref={ref}
          className="w-full h-full lg:py-28 xl:p-28 md:p-12 p-10">
 
-           <div className="contenedor-membership h-full">
+           <div className="contenedor-membership h-full flex justify-center">
 
-               <div className="membership-1 grid">
+               <div className="membership-1 flex flex-col">
 
-                <div className="grid space-y-4 justify-center items-center lg:py-12 text-center no-select">
+                <div className="flex flex-col space-y-4 justify-center items-center lg:py-12 text-center no-select">
 
                 <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-2xl font-hammersmithOne text-white transition-all duration-500">
-                  Hazte Miembro y Comencemos!
+                  Elige como adaptar <span className="text-[#29F2CD]">Tu Sitio Web</span>
                 </h1>
 
                 <p className="xl:text-2xl lg:text-xl text-lg font-unicaone text-[#29F2CD] transition-all duration-500 uppercase">
@@ -50,190 +50,238 @@ const Membership = (props: Props) => {
                  
                </div>
                 
-               <div className="membership-2 bg-white rounded-xl lg:max-h-[550px] xl:min-h-[580px] lg:min-h-[580px] md:min-h-[480px] lg:min-w-[350px] lg:max-w-[350px] min-h-[350px] cursor-pointer md:hover:animate-none hover:animate-pulse">
+               <div className="membership-2 flex justify-center">
+
+                <div className="flex h-full w-auto rounded-xl bg-white cursor-pointer md:hover:animate-none hover:animate-pulse">
+
                <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20ESTANDAR'}>
                 <div className="h-full w-full">
-                    <div className="lg:p-12 px-5 py-3 md:space-y-6 space-y-3">
+                    <div className="p-6 py-3 space-y-4">
                         
                         <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
-                        Estandar
+                        Sitio Estandar
                         </button>
-                        <h1 className="xl:text-2xl text-xl text-md font-hammersmithOne text-black transition-all duration-500">Personalizada</h1>
+                        <h1 className="xl:text-2xl text-xl text-md font-hammersmithOne text-black transition-all duration-500">Personalizado</h1>
 
                     </div>
 
-                    <div className="lg:px-12 p-2 md:space-y-4 space-y-1">
+                    <div className="p-6 md:space-y-2 space-y-1 flex flex-col">
                         
-                        <div className="flex md:space-x-4 space-x-2">
+                        <div className="flex space-x-2">
 
                         <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
                         <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Personalizado</h1>
                         
                         </div>
 
-                        <div className="flex md:space-x-4 space-x-2">
-
-                           <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Modelos Animados</h1>
-
-                         </div>
-
-                        <div className="flex md:space-x-4 space-x-2">
+                        <div className="flex space-x-2">
 
                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Responsivo</h1>
 
                          </div>
 
-                         <div className="flex md:space-x-4 space-x-2">
+                         <div className="flex space-x-2">
 
                           <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Formularios de Contacto</h1>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Dominio .cl/com</h1>
 
                            </div>
 
-                           <div className="flex md:space-x-4 space-x-2">
+                           <div className="flex space-x-2 md:pb-4 pb-2">
 
                                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Botones de Redes Sociales</h1>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting</h1>
 
                            </div>
+
+                      <div className="pago border-t-2 border-black/20 space-y-2 items-center cursor-pointe md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
+                
+
+                       <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20ESTANDAR'}>
+                     <div className="h-full w-full">
+
+                       <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
+                     Desde $139.990
+                    </h1>
+
+                  </div>
+                  </Link>
+                 </div>
 
                     </div>
                 </div>
                 </Link>
-                  
-               </div>
 
-               <div className="membership-3 bg-[#29F2CD] rounded-xl lg:min-w-[512px] lg:max-w-[750px] cursor-pointer md:hover:animate-none hover:animate-pulse">
-               
-               <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
-               <div className="h-full w-full">
-
-
-               <div className="lg:p-12 px-5 py-3 md:space-y-6 space-y-3">
-                        
-                        <button className="border-[2px] border-white rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500 uppercase no-select myfilter3">
-                        Exclusivo
-                        </button>
-                        <h1 className="xl:text-2xl text-xl font-hammersmithOne text-white transition-all duration-500 myfilter3">Experiencia Completa</h1>
 
                 </div>
 
-                  <div className="lg:px-12 p-2 md:pace-y-4">
+                  
+               </div>
+
+               <div className="membership-3 flex justify-center">
+
+                <div className="bg-white rounded-xl h-auto w-auto cursor-pointer md:hover:animate-none hover:animate-pulse">
+
+                <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
+               <div className="h-full w-full">
 
 
-                   <div className="flex">
+               <div className="p-6 py-3 space-y-4">
+                        
+                        <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
+                        Exclusivo
+                        </button>
+                        <h1 className="xl:text-2xl text-xl text-md font-hammersmithOne text-black transition-all duration-500">Administrable</h1>
 
-                       
-                    <div className="md:space-y-4">
-
-                      <div className="flex md:space-x-4 space-x-2">
-
-                      <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                      <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Personalizado</h1>
-
-                      </div>
-
-                      <div className="flex md:space-x-4 space-x-2">
-
-                      <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                      <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Modelos Animados</h1>
-
-                      </div>
-
-                      <div className="flex md:space-x-4 space-x-2">
-
-                      <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                      <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Responsivo</h1>
-
-                      </div>
-
-                      <div className="flex md:space-x-4 space-x-2">
-
-                      <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                      <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Formularios de Contacto</h1>
-
-                      </div>
-
-                      <div className="flex md:space-x-4 space-x-2">
-
-                      <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                      <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Botones de Redes Sociales</h1>
-
-                      </div>
-
-                      </div>
-
-                      <div className="md:space-y-4 space-y-1">
-
-                      <div className="flex md:space-x-4 space-x-2">
-
-                      <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                      <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Dominio .cl/.com</h1>
-
-                      </div>
-
-                      <div className="flex md:space-x-4 space-x-2">
-
-                      <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                      <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Servicio de Hosting</h1>
-
-                      </div>
-
-                      <div className="flex md:space-x-4 space-x-2">
-
-                      <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                      <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">certificado ssl</h1>
-
-                      </div>
-
-                      <div className="flex md:space-x-4 space-x-2">
-
-                      <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                      <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">correos corporativos</h1>
-
-                      </div>
-
-                      </div>
-
-
-                      </div>
-
-                    
                     </div>
 
-                  </div> 
-                  </Link>
+                <div className="p-6 md:space-y-2 space-y-1 flex flex-col">
+                        
+                        <div className="flex space-x-2">
 
-              </div>
+                        <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
+                        <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Personalizado</h1>
+                        
+                        </div>
 
-                <div className="membership-5 border-t-2 border-black/20 lg:space-y-8 lg:mx-12 mx-6 items-center grid cursor-pointer md:hover:animate-none hover:animate-pulse">
+
+                        <div className="flex space-x-2">
+
+                         <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
+                          <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Responsivo</h1>
+
+                         </div>
+
+                         <div className="flex space-x-2">
+
+                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Dominio .cl/com</h1>
+
+                           </div>
+
+                           <div className="flex space-x-2">
+
+                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting</h1>
+
+                           </div>
+
+                             <div className="flex space-x-2 md:pb-4 pb-2">
+
+                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">SiteWizard CMS</h1>
+
+                           </div>
+
+                <div className="pago2 border-t-2 border-black/20 space-y-2 items-center justify-end cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
 
                  <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
                    <div className="">       
-                       <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black    transition-all duration-500">
-                        Desde $189.990<span className="text-white/80">/Pago único </span> ⟶ $32.990<span className="text-white/80">/anual </span>
+                       <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
+                        Desde $249.990
                       </h1>        
                   </div>
                </Link>
 
              </div>
 
-               
+                    </div>
 
-               <div className="membership-4 border-t-2 border-black/20 lg:space-y-8 lg:mx-12 mx-6 items-center grid cursor-pointe md:hover:animate-none hover:animate-pulser">
+                  </div> 
+                  </Link>
 
-               <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20ESTANDAR'}>
-                <div className="h-full w-full">
-
-                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
-                  Desde $139.990<span className="text-black/20">/Pago único</span>
-                </h1>
 
                 </div>
-                </Link>
-               </div>
+               
+
+
+              </div>
+
+              
+              <div className="membership-6 flex justify-center">
+
+
+                <div className="bg-[#29F2CD] flex rounded-xl h-auto w-auto cursor-pointer md:hover:animate-none hover:animate-pulse">
+
+                <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
+               <div className="h-full w-full">
+
+
+               <div className="p-6 py-3 space-y-4">
+                        
+                        <button className="border-[2px] border-white rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500 uppercase no-select myfilter3">
+                        E-Commerce
+                        </button>
+                        <h1 className="xl:text-2xl text-xl font-hammersmithOne text-white transition-all duration-500 myfilter3">Tienda Online</h1>
+
+                </div>
+
+                <div className="p-6 md:space-y-2 space-y-1 w-full">
+                        
+                        <div className="flex space-x-2">
+
+                        <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 h-6 w-6"></HiOutlineCheck>
+                        <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Personalizado</h1>
+                        
+                        </div>
+
+                        <div className="flex space-x-2">
+
+                         <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 h-6 w-6"></HiOutlineCheck>
+                          <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Responsivo</h1>
+
+                         </div>
+
+                         <div className="flex space-x-2">
+
+                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Dominio .cl/com</h1>
+
+                           </div>
+
+                           <div className="flex space-x-2">
+
+                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting</h1>
+
+                           </div>
+
+                            <div className="flex space-x-2">
+
+                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Pasarela De Pago</h1>
+
+                           </div>
+
+                             <div className="flex space-x-2 md:pb-4 pb-2">
+
+                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">SiteWizard CMS</h1>
+
+                           </div>
+
+                  <div className="pago2 border-t-2 border-black/20 space-y-2 items-center cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
+
+                 <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
+                   <div className="">       
+                       <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
+                        Desde $479.990
+                      </h1>        
+                  </div>
+               </Link>
+
+             </div>
+
+                    </div>
+
+                  </div> 
+                  </Link>
+
+
+                </div>
+               
+              </div>
 
 
            </div>
