@@ -56,7 +56,7 @@ const Membership = (props: Props) => {
 
                <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20ESTANDAR'}>
                 <div className="h-full w-full">
-                    <div className="p-6 py-3 space-y-4">
+                    <div className="p-12 py-6 space-y-4">
                         
                         <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
                         Sitio Estandar
@@ -65,7 +65,7 @@ const Membership = (props: Props) => {
 
                     </div>
 
-                    <div className="p-6 md:space-y-2 space-y-1 flex flex-col">
+                    <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col">
                         
                         <div className="flex space-x-2">
 
@@ -88,10 +88,25 @@ const Membership = (props: Props) => {
 
                            </div>
 
+                          <div className="flex space-x-2">
+
+                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting</h1>
+
+                           </div>
+
+                          <div className="flex space-x-2">
+
+                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
+
+                           </div>
+                           
+
                            <div className="flex space-x-2 md:pb-4 pb-2">
 
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting</h1>
+                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
 
                            </div>
 
@@ -127,7 +142,7 @@ const Membership = (props: Props) => {
                <div className="h-full w-full">
 
 
-               <div className="p-6 py-3 space-y-4">
+               <div className="p-12 py-6 space-y-4">
                         
                         <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
                         Exclusivo
@@ -136,7 +151,7 @@ const Membership = (props: Props) => {
 
                     </div>
 
-                <div className="p-6 md:space-y-2 space-y-1 flex flex-col">
+                <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col">
                         
                         <div className="flex space-x-2">
 
@@ -167,17 +182,25 @@ const Membership = (props: Props) => {
 
                            </div>
 
-                             <div className="flex space-x-2 md:pb-4 pb-2">
+                            <div className="flex space-x-2">
 
                                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
                                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">SiteWizard CMS</h1>
 
                            </div>
 
+
+                             <div className="flex space-x-2 md:pb-4 pb-2">
+
+                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
+
+                           </div>
+
                 <div className="pago2 border-t-2 border-black/20 space-y-2 items-center justify-end cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
 
                  <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
-                   <div className="">       
+                   <div className="w-full h-full">       
                        <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
                         Desde $249.990
                       </h1>        
@@ -208,7 +231,7 @@ const Membership = (props: Props) => {
                <div className="h-full w-full">
 
 
-               <div className="p-6 py-3 space-y-4">
+               <div className="p-12 py-6 space-y-4">
                         
                         <button className="border-[2px] border-white rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500 uppercase no-select myfilter3">
                         E-Commerce
@@ -217,7 +240,7 @@ const Membership = (props: Props) => {
 
                 </div>
 
-                <div className="p-6 md:space-y-2 space-y-1 w-full">
+                <div className="px-12 py-2 md:space-y-2 space-y-1 w-full">
                         
                         <div className="flex space-x-2">
 
@@ -250,7 +273,7 @@ const Membership = (props: Props) => {
                             <div className="flex space-x-2">
 
                                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Pasarela De Pago</h1>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Carrito de Compras</h1>
 
                            </div>
 
@@ -264,7 +287,7 @@ const Membership = (props: Props) => {
                   <div className="pago2 border-t-2 border-black/20 space-y-2 items-center cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
 
                  <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
-                   <div className="">       
+                   <div className="w-full h-full">       
                        <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
                         Desde $479.990
                       </h1>        
