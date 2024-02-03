@@ -562,7 +562,7 @@
                         display: grid;
                         grid-gap: 2rem;
                         /* Creamos las columnas y sus valores*/
-                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-template-columns: 0.25fr 0.25fr 0.25fr;
                         /* Creamos las filas y sus valores*/
                         grid-template-rows: 0.3fr 1fr;
                       }

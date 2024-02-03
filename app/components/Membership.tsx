@@ -54,7 +54,7 @@ const Membership = (props: Props) => {
 
                 <div className="flex h-full w-auto rounded-xl bg-white cursor-pointer md:hover:animate-none hover:animate-pulse">
 
-               <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20ESTANDAR'}>
+               <Link href={'/membersias'}>
                 <div className="h-full w-full">
                     <div className="p-12 py-6 space-y-4">
                         
@@ -145,7 +145,7 @@ const Membership = (props: Props) => {
                <div className="p-12 py-6 space-y-4">
                         
                         <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
-                        Exclusivo
+                        Sitio Exclusivo
                         </button>
                         <h1 className="xl:text-2xl text-xl text-md font-hammersmithOne text-black transition-all duration-500">Administrable</h1>
 
