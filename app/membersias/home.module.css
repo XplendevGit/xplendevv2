@@ -1,0 +1,20 @@
+
+
+   /*  Home of Membership page modeling in CSS GRID Layout + FlexBox on TailwindCSS in Home.tsx divs   */
+
+                      /* Membership HOME */
+
+            /* CSS GRID Membership HOME*/
+            @media screen and (min-width: 0px) and (max-width: 431px) {
+
+                   }
+                     
+                     /* Membership HOME  para tabletas (426px a 768px) */
+                     @media screen and (min-width: 432px) and (max-width: 768px) {
+
+                   }
+                     
+                     /* Membership HOME para escritorio (769px en adelante) */
+                     @media screen and (min-width: 769px) {
+
+                     }
