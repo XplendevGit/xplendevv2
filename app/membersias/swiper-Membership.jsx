@@ -303,7 +303,7 @@ export default function App( {  }) {
 
           <div className="w-full h-full flex flex-col py-1 text-center">
 
-            <div className="w-full h-[149px] bg-white border-[1px] border-black/20 flex justify-center items-center">
+            <div className="w-full h-[85px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                  <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
                     Sitio Estandar
                  </button>
