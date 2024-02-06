@@ -182,7 +182,7 @@ export default function App( {  }) {
 
             <div className="w-full h-[149px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                  <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
-                    Sitio Administrable
+                    Administrable
                  </button>
             </div>
 
@@ -310,47 +310,315 @@ export default function App( {  }) {
             </div>
 
             
-            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-9 w-9"></HiOutlineCheck>
-            </div>
+            <div className="w-full h-[74.5px] flex flex-col bg-white border-[1px] border-black/20 space-y-2 justify-center items-center">
 
-            
-            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
-            </div>
-
-            
-            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Gratis x 1 año
-               </h1>
-            </div>
-
-            
-            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Gratis x 1 año
+                 Diseño Personalizado
                </h1>
+
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-9 w-9"></HiOutlineCheck>
+
             </div>
 
-            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-12 w-12">
-               </CgClose>
-            </div>
+            
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
-            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-12 w-12">
-               </CgClose>
-            </div>
-
-            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 1 mes
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Diseño Responsivo
                </h1>
+
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-9 w-9"></HiOutlineCheck>
+
             </div>
 
-            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               compa
+            
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Dominio .cl/com
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  Gratis x 1 AÑO
+                </h1>
+
+            </div>
+
+            
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Hosting/Alojamiento
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  Gratis x 1 AÑO
+                </h1>
+
+            </div>
+
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Administrador Sitewizard CMS
+               </h1>
+
+               <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
+               </CgClose>
+
+            </div>
+
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Carrito de Compras
+               </h1>
+
+               <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
+               </CgClose>
+
+            </div>
+
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Mantención/soporte
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  1 mes
+                </h1>
+
+            </div>
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Desde
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  $139.990
+                </h1>
+
+            </div>
+            
+          </div>
+          
+
+        </SwiperSlide>
+
+
+
+
+
+                  <SwiperSlide className={`w-full h-full ${styleRenderMobil.swiperSlidereder}`}>
+
+          <div className="w-full h-full flex flex-col py-1 text-center">
+
+            <div className="w-full h-[85px] bg-white border-[1px] border-black/20 flex justify-center items-center">
+                 <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
+                    Administrable
+                 </button>
+            </div>
+
+            
+            <div className="w-full h-[74.5px] flex flex-col bg-white border-[1px] border-black/20 space-y-2 justify-center items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Diseño Personalizado
+               </h1>
+
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-9 w-9"></HiOutlineCheck>
+
+            </div>
+
+            
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Diseño Responsivo
+               </h1>
+
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-9 w-9"></HiOutlineCheck>
+
+            </div>
+
+            
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Dominio .cl/com
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  Gratis x 1 AÑO
+                </h1>
+
+            </div>
+
+            
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Hosting/Alojamiento
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  Gratis x 1 AÑO
+                </h1>
+
+            </div>
+
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Administrador Sitewizard CMS
+               </h1>
+
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
+
+            </div>
+
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Carrito de Compras
+               </h1>
+
+               <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
+               </CgClose>
+
+            </div>
+
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Mantención/soporte
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  1 mes
+                </h1>
+
+            </div>
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Desde
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  $249.990
+                </h1>
+
+            </div>
+            
+          </div>
+          
+
+        </SwiperSlide>
+
+
+
+                          <SwiperSlide className={`w-full h-full ${styleRenderMobil.swiperSlidereder}`}>
+
+          <div className="w-full h-full flex flex-col py-1 text-center">
+
+          <div className="w-full h-[85px] bg-[#29F2CD] border-[1px] border-black/20 flex justify-center items-center">
+                  <button className="border-[2px] border-white rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500 uppercase no-select myfilter3">
+                        E-Commerce
+                   </button>
+            </div>
+
+            
+            <div className="w-full h-[74.5px] flex flex-col bg-white border-[1px] border-black/20 space-y-2 justify-center items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Diseño Personalizado
+               </h1>
+
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-9 w-9"></HiOutlineCheck>
+
+            </div>
+
+            
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Diseño Responsivo
+               </h1>
+
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-9 w-9"></HiOutlineCheck>
+
+            </div>
+
+            
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Dominio .cl/com
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  Gratis x 1 AÑO
+                </h1>
+
+            </div>
+
+            
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Hosting/Alojamiento
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  Gratis x 1 AÑO
+                </h1>
+
+            </div>
+
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Administrador Sitewizard CMS
+               </h1>
+
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
+
+            </div>
+
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Carrito de Compras
+               </h1>
+
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-9 w-9"></HiOutlineCheck>
+
+            </div>
+
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Mantención/soporte
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  1 mes
+                </h1>
+
+            </div>
+            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+
+               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Desde
+               </h1>
+
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  $479.990
+                </h1>
+
             </div>
             
           </div>
