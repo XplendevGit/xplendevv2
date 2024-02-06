@@ -113,7 +113,7 @@ const Membership = (props: Props) => {
                       <div className="pago border-t-2 border-black/20 space-y-2 items-center cursor-pointe md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
                 
 
-                       <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20ESTANDAR'}>
+                       <Link href={'/membersias'}>
                      <div className="h-full w-full">
 
                        <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
@@ -138,7 +138,7 @@ const Membership = (props: Props) => {
 
                 <div className="bg-white rounded-xl h-auto w-auto cursor-pointer md:hover:animate-none hover:animate-pulse">
 
-                <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
+                <Link href={'/membersias'}>
                <div className="h-full w-full">
 
 
@@ -199,7 +199,7 @@ const Membership = (props: Props) => {
 
                 <div className="pago2 border-t-2 border-black/20 space-y-2 items-center justify-end cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
 
-                 <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
+                 <Link href={'/membersias'}>
                    <div className="w-full h-full">       
                        <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
                         Desde $249.990
@@ -227,7 +227,7 @@ const Membership = (props: Props) => {
 
                 <div className="bg-[#29F2CD] flex rounded-xl h-auto w-auto cursor-pointer md:hover:animate-none hover:animate-pulse">
 
-                <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
+                <Link href={'/membersias'}>
                <div className="h-full w-full">
 
 
@@ -286,7 +286,7 @@ const Membership = (props: Props) => {
 
                   <div className="pago2 border-t-2 border-black/20 space-y-2 items-center cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
 
-                 <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Vengo%20del%20enlace%20de%20su%20página%20web.%20Quiero%20información%20para%20contratar%20el%20plan%20EXCLUSIVO'}>
+                 <Link href={'/membersias'}>
                    <div className="w-full h-full">       
                        <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
                         Desde $479.990

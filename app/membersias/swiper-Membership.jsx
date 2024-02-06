@@ -111,7 +111,9 @@ export default function App( {  }) {
             </div>
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               compa
+                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
+                 Precio
+               </h1>
             </div>
             
           </div>
@@ -171,7 +173,9 @@ export default function App( {  }) {
             </div>
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               compa
+                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  $139.990
+                </h1>
             </div>
             
           </div>
@@ -229,7 +233,9 @@ export default function App( {  }) {
             </div>
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               compa
+                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  $269.990
+                </h1>
             </div>
             
           </div>
@@ -282,11 +288,13 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                 <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
                  1 mes
-               </h1>
+                </h1>
             </div>
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               compa
+                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  $479.990
+                </h1>
             </div>
             
           </div>
