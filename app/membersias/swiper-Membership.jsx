@@ -4,6 +4,8 @@ import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import Link from 'next/link';
 
+import Image from 'next/image';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // estilos necesarios
@@ -26,6 +28,8 @@ import { CgClose } from "react-icons/cg";
 export default function App( {  }) {
   return (
     <>
+
+    <Link href={'https://wa.link/pljze6'}>
       <Swiper
         pagination={{
           type: 'progressbar',
@@ -60,8 +64,22 @@ export default function App( {  }) {
 
           <div className="w-full h-full flex flex-col py-1 text-center">
 
-            <div className="w-full h-[149px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               compa
+            <div className="w-full h-[149px] [#29F2CD] border-[1px] border-black/20 flex justify-center items-center">
+
+              <div className="w-full h-auto flex justify-center items-center [#29F2CD]">
+
+              <Image 
+               src='https://i.postimg.cc/nVDKF9WY/xplendev-logo-black.png'
+               alt="Descripción de la imagen"
+               layout="responsive"
+               width={1080} // Establece el tamaño original de la imagen o el aspecto deseado
+               height={1080} // Mantén una proporción para evitar la distorsión
+               objectFit="contain">
+                
+               </Image>
+
+              </div>
+
             </div>
 
             
@@ -632,15 +650,15 @@ export default function App( {  }) {
 
             </div>
             
+            
           </div>
           
 
         </SwiperSlide>
 
-
-
-
       </Swiper>
+
+      </Link>
     </>
   );
 }
