@@ -7,7 +7,7 @@ type Props = {}
 
 function Home({}: Props) {
   return (
-    <div className="flex w-full h-auto bg-black">
+    <div className="flex w-full lg:h-auto h-screen bg-black">
 
         <div className="w-full h-full lg:py-28 xl:p-28 md:p-12 p-10 flex flex-col">
 
@@ -19,7 +19,7 @@ function Home({}: Props) {
 
             </div>
 
-            <div className="w-full h-full bg-[#29F2CD]">
+            <div className="w-full h-auto bg-[#29F2CD]">
 
               <Swiper></Swiper>
                 
