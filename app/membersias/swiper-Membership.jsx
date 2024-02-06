@@ -32,7 +32,10 @@ export default function App( {  }) {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        allowTouchMove={true} // Permite desplazamientos táctiles. Es true por defecto.
+        resistance={true} // Habilita la resistencia al borde. Es true por defecto.
+        resistanceRatio={0}
+        className="mySwiper swiperPagColor2"
                // Configura los breakpoints
         breakpoints={{
         // Cuando el ancho de la ventana es >= 320px (móvil)
@@ -508,7 +511,7 @@ export default function App( {  }) {
                </h1>
 
                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $249.990
+                  $269.990
                 </h1>
 
             </div>
