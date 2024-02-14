@@ -69,17 +69,17 @@ const Design = (props: Props) => {
 
   
   return (
-    <div className="grid bg-black ">
+    <div className="flex flex-col bg-black ">
         <motion.div
          ref={ref}
          initial={{ opacity: 0, y: 100 }}
          animate={controls}
          className="w-full h-full lg:py-28 xl:p-28 md:p-12 p-10">
 
-          <div className="contenedor-design h-full">
+          <div className="contenedor-design h-full w-full flex mx-auto">
              
 
-         <div className="design-1 grid justify-center items-center lg:py-12 md:space-y-4 text-center no-select">
+         <div className="design-1 flex flex-col justify-center items-center lg:py-12 md:space-y-4 text-center no-select">
           
               <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-2xl font-hammersmithOne text-white transition-all duration-500">¿Que ofrece Xplendev?</h1>
               <p className="xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-[#29F2CD] transition-all duration-500">NOS ENFOCAMOS EN TUS IDEAS PARA DAR VIDA A UN SITIO UNICO & <br></br>ADAPTAMOS EL CONTENIDO PERMITIENDOTE GESTIONARLO A TU MANERA</p>
@@ -88,7 +88,7 @@ const Design = (props: Props) => {
               <div
               onMouseEnter={handleHover}
               onMouseLeave={handleMouseLeave}
-             className={`no-select design-2 ${
+             className={`no-select design-2 w-full max-w-[380px] lg:max-w-[480px] xl:max-w-[580px] mx-auto ${
               isButtonHovered ?
             'bg-gradient-to-t from-black to-[#29F2CD] transition-all duration-500 rounded-md grid justify-center scale-105' 
             : 'bg-gradient-to-t from-black to-[#29F2CD] transition-all duration-500 rounded-md grid justify-center filter lg:sepia-[100]'
@@ -106,7 +106,7 @@ const Design = (props: Props) => {
           <div 
             onMouseEnter={handleHover2}
             onMouseLeave={handleMouseLeave2}
-            className={`no-select ${
+            className={`no-select w-full max-w-[380px] lg:max-w-[480px] xl:max-w-[580px] mx-auto ${
             isButtonHovered2 ?
             ' design-3 bg-gradient-to-t from-black to-[#29F2CD] transition-all duration-500 rounded-md grid justify-center scale-105' 
           : 'design-3 bg-gradient-to-t from-black to-[#29F2CD] transition-all duration-500 rounded-md grid justify-center filter lg:sepia-[100]'
@@ -124,7 +124,7 @@ const Design = (props: Props) => {
          <div 
             onMouseEnter={handleHover3}
             onMouseLeave={handleMouseLeave3}
-            className={`no-select ${
+            className={`no-select w-full max-w-[380px] lg:max-w-[480px] xl:max-w-[580px] mx-auto ${
             isButtonHovered3 ?
             ' design-4 bg-gradient-to-t from-black to-[#29F2CD] transition-all duration-500 rounded-md grid justify-center scale-105' 
           : 'design-4 bg-gradient-to-t from-black to-[#29F2CD] transition-all duration-500 rounded-md grid justify-center filter lg:sepia-[100]'
@@ -141,10 +141,12 @@ const Design = (props: Props) => {
          <div 
          onMouseEnter={handleHover}
          onMouseLeave={handleMouseLeave}
-         className="design-5 md:min-w-[160px] md:max-h-[320px] min-w-[240px] min-h-[180px] relative transition-all duration-500"
+         className="design-5 relative mx-auto flex max-w-[250px] min-w-[140px] xl:min-w-[280px]"
          >
 
-          <Image src={imageDesign1} alt={'elegant'} layout={'fill'} objectFit={'fill'} 
+          <div className="flex justify-center items-center w-full h-full">
+
+          <Image src={imageDesign1} alt={'responsive'} layout={'fill'} objectFit={'fill'} 
                             className={`${
                               isButtonHovered ?
                                ' filter-none transition-all duration-500 translate-y-[-8%] scale-105' 
@@ -154,14 +156,19 @@ const Design = (props: Props) => {
 
          </Image>
 
+
+          </div>
+
+
+
          </div>
 
          <div 
          onMouseEnter={handleHover2}
          onMouseLeave={handleMouseLeave2}
-         className="design-6 md:min-w-[160px] md:max-h-[320px] min-w-[240px] min-h-[180px] relative transition-all duration-500"
+         className="design-6 relative mx-auto flex max-w-[250px] min-w-[140px] xl:min-w-[280px]"
          >
-         <Image src={imageDesign2} alt={'elegant'} layout={'fill'} objectFit={'fill'} 
+         <Image src={imageDesign2} alt={'deploy'} layout={'fill'} objectFit={'fill'} 
                             className={`${
                               isButtonHovered2 ?
                                ' filter-none transition-all duration-500 translate-y-[-8%] scale-105' 
@@ -175,9 +182,12 @@ const Design = (props: Props) => {
          <div 
          onMouseEnter={handleHover3}
          onMouseLeave={handleMouseLeave3}
-         className="design-7 md:min-w-[160px] md:max-h-[320px] min-w-[240px] min-h-[180px] relative transition-all duration-500"
+         className="design-7 relative mx-auto flex max-w-[250px] min-w-[140px] xl:min-w-[280px]"
          >
-         <Image src={imageDesign3} alt={'elegant'} layout={'fill'} objectFit={'fill'} 
+
+          <div className=" flex object-center items-center w-full h-full">
+
+          <Image src={imageDesign3} alt={'cms'} layout={'fill'} objectFit={'fill'} 
                             className={`${
                               isButtonHovered3 ?
                                ' filter-none transition-all duration-500 translate-y-[-8%] scale-105' 
@@ -186,6 +196,10 @@ const Design = (props: Props) => {
          >
 
          </Image>
+
+
+          </div>
+
          </div>
 
           </div>

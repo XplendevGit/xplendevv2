@@ -162,9 +162,8 @@ export default function App( {  }) {
 
             
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Gratis x 1 año
-               </h1>
+            <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-12 w-12">
+            </CgClose>
             </div>
 
             
@@ -223,9 +222,8 @@ export default function App( {  }) {
 
             
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Gratis x 1 año
-               </h1>
+            <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-12 w-12">
+               </CgClose>
             </div>
 
             
@@ -252,7 +250,7 @@ export default function App( {  }) {
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                 <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $269.990
+                  $309.990
                 </h1>
             </div>
             
@@ -311,7 +309,7 @@ export default function App( {  }) {
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                 <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $479.990
+                  $489.990
                 </h1>
             </div>
             
@@ -367,9 +365,8 @@ export default function App( {  }) {
                  Dominio .cl/com
                </h1>
 
-               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  Gratis x 1 AÑO
-                </h1>
+               <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
+               </CgClose>
 
             </div>
 
@@ -479,9 +476,8 @@ export default function App( {  }) {
                  Dominio .cl/com
                </h1>
 
-               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  Gratis x 1 AÑO
-                </h1>
+               <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
+               </CgClose>
 
             </div>
 
@@ -537,7 +533,7 @@ export default function App( {  }) {
                </h1>
 
                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $269.990
+                  $309.990
                 </h1>
 
             </div>
@@ -645,7 +641,7 @@ export default function App( {  }) {
                </h1>
 
                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $479.990
+                  $489.990
                 </h1>
 
             </div>

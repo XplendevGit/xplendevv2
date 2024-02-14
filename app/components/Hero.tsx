@@ -145,7 +145,7 @@ const Hero = (props: Props) => {
           <div
             onMouseEnter={handleHover}
             onMouseLeave={handleMouseLeave}
-            className="hero-3 md:hover:scale-105 hover:scale-125 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[320px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-14 w-14 rounded-full border-2 border-white md:hover:border-white hover:border-0"
+            className="hero-3 md:hover:scale-105 hover:scale-125 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-14 w-14 rounded-full border-2 border-white md:hover:border-white hover:border-0"
           >
 
 
@@ -163,7 +163,7 @@ const Hero = (props: Props) => {
           onMouseEnter={handleHover2}
           onMouseLeave={handleMouseLeave2}
           style={{ backgroundColor: isHovered2 ? 'red' : 'gray' }}
-          className="hero-4 md:hover:scale-105 ease-in hover:scale-125 md:hover:animate-none hover:animate-pulse transition-all duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[320px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-14 w-14 rounded-full border-2 border-white md:hover:border-white hover:border-0">
+          className="hero-4 md:hover:scale-105 ease-in hover:scale-125 md:hover:animate-none hover:animate-pulse transition-all duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-14 w-14 rounded-full border-2 border-white md:hover:border-white hover:border-0">
             
             <picture>
               <source media="(max-width: 425px)" srcSet={imagePortfolio} />
@@ -177,7 +177,7 @@ const Hero = (props: Props) => {
           <div
           onMouseEnter={handleHover3}
           onMouseLeave={handleMouseLeave3}
-          className="hero-5 md:hover:scale-105 hover:scale-125 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[320px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-14 w-14 rounded-full border-2 border-white md:hover:border-white hover:border-0">
+          className="hero-5 md:hover:scale-105 hover:scale-125 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-14 w-14 rounded-full border-2 border-white md:hover:border-white hover:border-0">
             
             <picture>
               <source media="(max-width: 425px)" srcSet={imageGallery} />
@@ -191,12 +191,12 @@ const Hero = (props: Props) => {
           onMouseEnter={handleHover4}
           onMouseLeave={handleMouseLeave4}
           style={{ backgroundColor: isHovered4 ? 'orange' : 'gray' }}
-          className="hero-6 md:hover:scale-105 hover:scale-125 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[320px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-14 w-14 rounded-full border-2 border-white md:hover:border-white hover:border-0">
+          className="hero-6 md:hover:scale-105 hover:scale-125 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-14 w-14 rounded-full border-2 border-white md:hover:border-white hover:border-0">
             
             <picture>
               <source media="(max-width: 425px)" srcSet={imageProperty} />
                <source media="(min-width: 426px)" srcSet={imageProperty} />
-               <Image className="md:rounded-sm rounded-full" src={imageProperty} alt={''} layout={'fill'} objectFit={'fill'}>
+               <Image className="md:rounded-sm rounded-full" src={imageProperty} alt={'property'} layout={'fill'} objectFit={'fill'}>
                 </Image>
                </picture>
 

@@ -59,11 +59,11 @@ function Metodología({}: Props) {
 
                             <div className="w-full h-auto flex pt-2 justify-center lg:justify-start">
 
-                            <Link href={'/mundodigital'}>
+
                               <button className="text-white hover:border-[#F8368F] hover:text-[#F8368F] transition-all hover:scale-105 duration-500 lg:text-xl font-unicaone no-select px-4 py-2 rounded-full border-2 uppercase">
                                 Ir al sitio de SiteWizard CMS
                               </button>
-                              </Link>
+
 
                             </div>
 

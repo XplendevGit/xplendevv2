@@ -84,7 +84,7 @@ const Membership = (props: Props) => {
                          <div className="flex space-x-2">
 
                           <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Dominio .cl/com</h1>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hasta 9 Secciones</h1>
 
                            </div>
 
@@ -171,7 +171,7 @@ const Membership = (props: Props) => {
                          <div className="flex space-x-2">
 
                           <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Dominio .cl/com</h1>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hasta 14 Secciones</h1>
 
                            </div>
 
@@ -202,7 +202,7 @@ const Membership = (props: Props) => {
                  <Link href={'/membersias'}>
                    <div className="w-full h-full">       
                        <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
-                        Desde $249.990
+                        Desde $309.990
                       </h1>        
                   </div>
                </Link>
@@ -289,7 +289,7 @@ const Membership = (props: Props) => {
                  <Link href={'/membersias'}>
                    <div className="w-full h-full">       
                        <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
-                        Desde $479.990
+                        Desde $489.990
                       </h1>        
                   </div>
                </Link>
