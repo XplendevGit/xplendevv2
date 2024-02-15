@@ -52,7 +52,7 @@ function Footer({}: Props) {
 
                   
                       <div className="flex">
-                        <Link href={'https://portafolio-luis-rivera.web.app/'}>
+                        <Link href={'https://portafolioluisrivera.vercel.app/'}>
                       <h1 className="xl:text-2xl lg:text-xl text-lg text-black font-unicaone transition-all duration-500 uppercase no-select myfilte2 no-select cursor-pointer hover:text-white">© 2023 XplenDev | Code By Luis Rivera Araya</h1>
                       </Link>
                       </div>
