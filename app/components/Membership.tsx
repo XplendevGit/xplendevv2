@@ -66,6 +66,13 @@ const Membership = (props: Props) => {
                     </div>
 
                     <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col">
+
+                        <div className="flex space-x-2">
+
+                        <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
+                        <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">One Page</h1>
+                        
+                        </div>
                         
                         <div className="flex space-x-2">
 
@@ -95,22 +102,15 @@ const Membership = (props: Props) => {
 
                            </div>
 
-                          <div className="flex space-x-2">
+                              <div className="flex space-x-2 md:pb-4 pb-2">
 
-                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
+                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Administrador</h1>
 
                            </div>
                            
 
-                           <div className="flex space-x-2 md:pb-4 pb-2">
-
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
-
-                           </div>
-
-                      <div className="pago border-t-2 border-black/20 space-y-2 items-center cursor-pointe md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
+                      <div className="pago border-t-2 border-black/20 space-y-2 items-center justify-end cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
                 
 
                        <Link href={'/membersias'}>
@@ -185,7 +185,7 @@ const Membership = (props: Props) => {
                             <div className="flex space-x-2">
 
                                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">SiteWizard CMS</h1>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Administrador</h1>
 
                            </div>
 
@@ -259,21 +259,21 @@ const Membership = (props: Props) => {
                          <div className="flex space-x-2">
 
                           <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Dominio .cl/com</h1>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Pasarela de Pago</h1>
 
                            </div>
 
                            <div className="flex space-x-2">
 
                                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting</h1>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Carrito de Compras</h1>
 
                            </div>
 
                             <div className="flex space-x-2">
 
                                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Carrito de Compras</h1>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting</h1>
 
                            </div>
 

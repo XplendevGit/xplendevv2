@@ -99,7 +99,7 @@ export default function App( {  }) {
             
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Dominio .cl/com
+                 Dominio .com
                </h1>
             </div>
 
