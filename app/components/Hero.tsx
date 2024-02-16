@@ -155,7 +155,7 @@ const Hero = (props: Props) => {
             <picture>
               <source media="(max-width: 425px)" srcSet={imagenElegantMobile} />
                <source media="(min-width: 426px)" srcSet={imagenElegant} />
-               <Image className="md:rounded-sm" src={imagenElegant} alt={'elegant'} layout={'fill'} objectFit={'cover'}>
+               <Image className="md:rounded-sm md:hover:rounded-none hover:rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imagenElegant} alt={'elegant'} layout={'fill'} objectFit={'cover'}>
                 </Image>
                </picture>
 
@@ -171,7 +171,7 @@ const Hero = (props: Props) => {
             <picture>
               <source media="(max-width: 425px)" srcSet={imagePortfolioMobile} />
                <source media="(min-width: 426px)" srcSet={imagePortfolio} />
-               <Image className="md:rounded-sm" src={imagePortfolio} alt={'portfolio'} layout={'fill'} objectFit={'cover'}>
+               <Image className="md:rounded-sm md:hover:rounded-none hover:rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imagePortfolio} alt={'portfolio'} layout={'fill'} objectFit={'cover'}>
                 </Image>
                </picture>
             
@@ -185,7 +185,7 @@ const Hero = (props: Props) => {
             <picture>
               <source media="(max-width: 425px)" srcSet={imageGalleryMobile} />
                <source media="(min-width: 426px)" srcSet={imageGallery} />
-               <Image className="md:rounded-sm" src={imageGallery} alt={'gallery'} layout={'fill'} objectFit={'cover'}>
+               <Image className="md:rounded-sm md:hover:rounded-none hover:rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imageGallery} alt={'gallery'} layout={'fill'} objectFit={'cover'}>
                 </Image>
                </picture>
           </div>
@@ -199,7 +199,7 @@ const Hero = (props: Props) => {
             <picture>
               <source media="(max-width: 425px)" srcSet={imagePropertyMobile} />
                <source media="(min-width: 426px)" srcSet={imageProperty} />
-               <Image className="md:rounded-sm" src={imageProperty} alt={'property'} layout={'fill'} objectFit={'cover'}>
+               <Image className="md:rounded-sm md:hover:rounded-none hover:rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imageProperty} alt={'property'} layout={'fill'} objectFit={'cover'}>
                 </Image>
                </picture>
 
