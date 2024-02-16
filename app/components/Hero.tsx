@@ -148,14 +148,14 @@ const Hero = (props: Props) => {
           <div
             onMouseEnter={handleHover}
             onMouseLeave={handleMouseLeave}
-            className="hero-3 hover:scale-105 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-32 w-14 rounded-lg border-2 border-white md:hover:border-white hover:border-0"
+            className="hero-3 hover:scale-105 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-32 w-16 rounded-lg border-2 border-white md:hover:border-white hover:border-0"
           >
 
 
             <picture>
               <source media="(max-width: 425px)" srcSet={imagenElegantMobile} />
                <source media="(min-width: 426px)" srcSet={imagenElegant} />
-               <Image className="md:rounded-sm md:hover:rounded-none hover:rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imagenElegant} alt={'elegant'} layout={'fill'} objectFit={'cover'}>
+               <Image className="md:rounded-sm md:hover:rounded-none rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imagenElegant} alt={'elegant'} layout={'fill'} objectFit={'cover'}>
                 </Image>
                </picture>
 
@@ -166,12 +166,12 @@ const Hero = (props: Props) => {
           onMouseEnter={handleHover2}
           onMouseLeave={handleMouseLeave2}
           style={{ backgroundColor: isHovered2 ? 'red' : 'gray' }}
-          className="hero-4 hover:scale-105 ease-in md:hover:animate-none hover:animate-pulse transition-all duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-32 w-14 rounded-lg border-2 border-white md:hover:border-white hover:border-0">
+          className="hero-4 hover:scale-105 ease-in md:hover:animate-none hover:animate-pulse transition-all duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-32 w-16 rounded-lg border-2 border-white md:hover:border-white hover:border-0">
             
             <picture>
               <source media="(max-width: 425px)" srcSet={imagePortfolioMobile} />
                <source media="(min-width: 426px)" srcSet={imagePortfolio} />
-               <Image className="md:rounded-sm md:hover:rounded-none hover:rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imagePortfolio} alt={'portfolio'} layout={'fill'} objectFit={'cover'}>
+               <Image className="md:rounded-sm md:hover:rounded-none rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imagePortfolio} alt={'portfolio'} layout={'fill'} objectFit={'cover'}>
                 </Image>
                </picture>
             
@@ -180,12 +180,12 @@ const Hero = (props: Props) => {
           <div
           onMouseEnter={handleHover3}
           onMouseLeave={handleMouseLeave3}
-          className="hero-5 hover:scale-105 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-32 w-14 rounded-lg border-2 border-white md:hover:border-white hover:border-0">
+          className="hero-5 hover:scale-105 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-32 w-16 rounded-lg border-2 border-white md:hover:border-white hover:border-0">
             
             <picture>
               <source media="(max-width: 425px)" srcSet={imageGalleryMobile} />
                <source media="(min-width: 426px)" srcSet={imageGallery} />
-               <Image className="md:rounded-sm md:hover:rounded-none hover:rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imageGallery} alt={'gallery'} layout={'fill'} objectFit={'cover'}>
+               <Image className="md:rounded-sm md:hover:rounded-none rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imageGallery} alt={'gallery'} layout={'fill'} objectFit={'cover'}>
                 </Image>
                </picture>
           </div>
@@ -194,12 +194,12 @@ const Hero = (props: Props) => {
           onMouseEnter={handleHover4}
           onMouseLeave={handleMouseLeave4}
           style={{ backgroundColor: isHovered4 ? 'orange' : 'gray' }}
-          className="hero-6 hover:scale-105 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-32 w-14 rounded-lg border-2 border-white md:hover:border-white hover:border-0">
+          className="hero-6 hover:scale-105 md:hover:animate-none hover:animate-pulse transition-all ease-in duration-300 relative xl:max-h-[440px] xl:min-h-[480px] xl:max-w-[340px] xl:min-w-[280px] lg:max-h-[280px] lg:min-h-[240px] lg:min-w-[160px] lg:max-w-[160px] md:border-[4px] md:min-h-[230px] md:max-h-[240px] md:max-w-auto md:rounded-sm md:border-white md:w-auto md:h-auto h-32 w-16 rounded-lg border-2 border-white md:hover:border-white hover:border-0">
             
             <picture>
               <source media="(max-width: 425px)" srcSet={imagePropertyMobile} />
                <source media="(min-width: 426px)" srcSet={imageProperty} />
-               <Image className="md:rounded-sm md:hover:rounded-none hover:rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imageProperty} alt={'property'} layout={'fill'} objectFit={'cover'}>
+               <Image className="md:rounded-sm md:hover:rounded-none rounded-lg hover:scale-105 transition-all ease-in duration-300" src={imageProperty} alt={'property'} layout={'fill'} objectFit={'cover'}>
                 </Image>
                </picture>
 
