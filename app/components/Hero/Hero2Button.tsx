@@ -39,7 +39,7 @@ export const Hero2Button: React.FC<Hero2ButtonProps> = ({
             : 'xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-white transition-all ease-in duration-200'
         }`}
       >
-        CONOCE NUESTRaAS WEBS<br /> CADA ENFOQUE ES ÚNICO.
+        CONOCE NUESTRAS WEBS<br /> CADA ENFOQUE ES ÚNICO.
         CREEMOS TU SITIO IDEAL!
       </h1>
 
