@@ -144,7 +144,7 @@ const Design = (props: Props) => {
          className="design-5 relative mx-auto flex max-w-[250px] min-w-[140px] xl:min-w-[280px]"
          >
 
-          <div className="flex justify-center items-center w-full h-full">
+          <div className="flex justify-center items-center w-full h-full py-14">
 
           <Image src={imageDesign1} alt={'responsive'} layout={'fill'} objectFit={'fill'} 
                             className={`${
@@ -168,6 +168,10 @@ const Design = (props: Props) => {
          onMouseLeave={handleMouseLeave2}
          className="design-6 relative mx-auto flex max-w-[250px] min-w-[140px] xl:min-w-[280px]"
          >
+
+          <div className="flex justify-center items-center w-full h-full py-16">
+
+
          <Image src={imageDesign2} alt={'deploy'} layout={'fill'} objectFit={'fill'} 
                             className={`${
                               isButtonHovered2 ?
@@ -177,6 +181,10 @@ const Design = (props: Props) => {
          >
 
          </Image>
+
+         </div>
+
+
          </div>
 
          <div 
@@ -185,7 +193,7 @@ const Design = (props: Props) => {
          className="design-7 relative mx-auto flex max-w-[250px] min-w-[140px] xl:min-w-[280px]"
          >
 
-          <div className=" flex object-center items-center w-full h-full">
+          <div className="flex object-center items-center w-full h-full py-20">
 
           <Image src={imageDesign3} alt={'cms'} layout={'fill'} objectFit={'fill'} 
                             className={`${
