@@ -44,7 +44,7 @@ function Metodología({}: Props) {
                           <div className="flex flex-col justify-center lg:justify-start">
 
                           <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-xl font-hammersmithOne transition-all duration-500 text-[#29F2CD]">
-                          SiteWizard CMS<br></br> <span className="text-white">Conoce Nuestro Gestor de contenido</span>
+                          SiteWizard CMS<br></br> <span className="text-white">Conoce como Administrar el Contenido</span>
                           </h1>
                            
                           </div>
@@ -52,7 +52,7 @@ function Metodología({}: Props) {
                            <div className="flex flex-col justify-center text-center lg:text-start lg:justify-start space-y-2">
 
                            <p className="xl:text-2xl lg:text-xl text-lg font-unicaone text-[#29F2CD] transition-all duration-500 uppercase">
-                            A través de nuestros planes ofrecemos la integración de nuestro administrador de contenido SiteWizard CMS, para que logres administrar el contenido de tu sitio desde cualquier lugar de manera rápida y sencilla.
+                            Con la integración de SiteWizard Sanity CMS, lograrás administrar el contenido de tu sitio de manera rápida y sencilla.
                             </p>
 
                             <p className="xl:text-2xl lg:text-xl text-lg font-unicaone text-white transition-all duration-500 uppercase">¿Quieres Saber más?</p>
@@ -96,7 +96,7 @@ function Metodología({}: Props) {
                           </div>
 
                           <p className="xl:text-xl lg:text-xl text-lg font-unicaone text-white transition-all duration-500 uppercase myfilter">
-                          Accedes directamente a SiteWizard CMS con tus credenciales</p>
+                          Accedes directamente con tus credenciales</p>
 
                         </div>
 
@@ -120,7 +120,7 @@ function Metodología({}: Props) {
 
 
                            <p className="xl:text-xl lg:text-xl text-lg font-unicaone text-white myfilter transition-all duration-500 uppercase">
-                           Administra el contenido de tu sitio, editando el contenido de las secciones desde textos hasta imagenes</p>
+                           Administra desde TEXTOS hasta IMAGENES</p>
 
                     </div>
 
@@ -142,7 +142,7 @@ function Metodología({}: Props) {
 
 
                         <p className="xl:text-xl lg:text-xl text-lg font-unicaone text-white myfilter transition-all duration-500 uppercase">
-                        Es posible agregar cuentas para que varios usuarios puedan administrar el contenido del sitio</p>
+                        Administran hasta 20 usuarios</p>
 
                        </div>
 
@@ -165,8 +165,7 @@ function Metodología({}: Props) {
                       </div>
 
                           <p className="xl:text-xl lg:text-xl text-lg font-unicaone text-white myfilter transition-all duration-500 uppercase">
-                          Editas y Publicas de manera instantanea desde cualquier dispositivo conectado a la red</p>
-
+                          Publicas instantaneamente desde cualquier dispositivo</p>
                           </div>
 
                     </div>

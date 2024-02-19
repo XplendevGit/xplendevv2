@@ -16,10 +16,10 @@ const Hero = (props: Props) => {
   const imageProperty = 'https://i.postimg.cc/bJ3S9Vk4/portfoliorespponsive-1.png'
 
 
-  const imagenElegantMobile = "https://i.postimg.cc/cLPStJnq/page-1.png"
-  const imagePortfolioMobile = "https://i.postimg.cc/76krXQ9m/page-3.png"
+  const imagenElegantMobile = "https://i.postimg.cc/J4S8h4LN/elegant-mobile1.png"
+  const imagePortfolioMobile = "https://i.postimg.cc/wjHCMWvV/portfolio-mobile1.png"
   const imageGalleryMobile = "https://i.postimg.cc/XvF0f0fr/page-2.png"
-  const imagePropertyMobile = "https://i.postimg.cc/V6WQhBH1/page-4.png"
+  const imagePropertyMobile = "https://i.postimg.cc/jSNbn0xG/property-mobile1.png"
 
 
   const [isHovered, setHovered] = useState(false);

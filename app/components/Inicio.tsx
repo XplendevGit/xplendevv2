@@ -54,7 +54,7 @@ const Inicio = (props: Props) => {
                     
 
                     <div className="space-y-4 w-full h-auto justify-center items-center text-center md:text-start">
-                    <p className="pt-4 lg:text-xl text-white font-mojormono">Creamos tu web Profesional<br></br>Administrable desde cualquier dispositivo</p>
+                    <p className="pt-4 lg:text-3xl text-white font-mojormono">Creamos tu web Profesional<br></br>Administrable desde cualquier dispositivo</p>
                 </div>
 
                 </div>

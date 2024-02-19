@@ -82,7 +82,7 @@ const Design = (props: Props) => {
          <div className="design-1 flex flex-col justify-center items-center lg:py-12 md:space-y-4 text-center no-select">
           
               <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-2xl font-hammersmithOne text-white transition-all duration-500">¿Que ofrece Xplendev?</h1>
-              <p className="xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-[#29F2CD] transition-all duration-500">NOS ENFOCAMOS EN TUS IDEAS PARA DAR VIDA A UN SITIO UNICO & <br></br>ADAPTAMOS EL CONTENIDO PERMITIENDOTE GESTIONARLO A TU MANERA</p>
+              <p className="xl:text-2xl lg:text-xl md:text-lg text-md font-unicaone text-[#29F2CD] transition-all duration-500 uppercase">Sitio Único, En Línea & Completamente administrable</p>
           
          </div>
               <div
@@ -131,7 +131,7 @@ const Design = (props: Props) => {
             }`}
           >
         <div className="justify-end text-center my-auto flex md:px-12 px-4">
-        <h1 className="xl:text-4xl lg:text-3xl text-xl font-unicaone text-white transition-all duration-500">Administración<br /> <span className="xl:text-2xl lg:text-xl text-lg font-abel text-white transition-all duration-500">Integramos un CMS personalizado para administrar cada sitio que lo requiera</span>
+        <h1 className="xl:text-4xl lg:text-3xl text-xl font-unicaone text-white transition-all duration-500">Administración<br /> <span className="xl:text-2xl lg:text-xl text-lg font-abel text-white transition-all duration-500">Integramos un panel personalizado para administrar cada sitio</span>
         </h1>
        
         </div>
