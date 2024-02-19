@@ -127,7 +127,7 @@ const Hero = (props: Props) => {
                      ? ' text-[#385AE0] xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-notoserif transition-all ease-in duration-200'
                      : 'text-[#F8368F] xl:text-6xl lg:text-4xl md:text-3xl text-3xl font-audiowide transition-all ease-in duration-200 myfilter5'
                   }`}>
-                Exploralos
+                Seleccionalos
               </h1>
               </div>
               </div>
