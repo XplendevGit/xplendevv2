@@ -104,7 +104,7 @@ const Membership = (props: Props) => {
 
                               <div className="flex space-x-2 md:pb-4 pb-2">
 
-                               <h1 className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"> </h1>
+
                                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
 
                            </div>
