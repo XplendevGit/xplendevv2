@@ -44,7 +44,7 @@ function Metodología({}: Props) {
                           <div className="flex flex-col justify-center lg:justify-start">
 
                           <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-xl font-hammersmithOne transition-all duration-500 text-[#29F2CD]">
-                          SiteWizard CMS<br></br> <span className="text-white">Conoce como Administrar el Contenido</span>
+                          Administra Tu Sitio<br></br> <span className="text-white">Conoce como Administrar el Contenido</span>
                           </h1>
                            
                           </div>
@@ -63,7 +63,7 @@ function Metodología({}: Props) {
                             <Link href={'https://sitewizardcontentstudio.vercel.app/'}>
                               <button
                                className="text-white hover:border-[#F8368F] hover:text-[#F8368F] transition-all hover:scale-105 duration-500 lg:text-xl font-unicaone no-select px-4 py-2 rounded-full border-2 uppercase">
-                                Ir al sitio de SiteWizard CMS
+                                Ir al sitio del Administrador
                               </button>
                               </Link>
 

@@ -39,11 +39,11 @@ const Membership = (props: Props) => {
                 <div className="flex flex-col space-y-4 justify-center items-center lg:py-12 text-center no-select">
 
                 <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-2xl font-hammersmithOne text-white transition-all duration-500">
-                  Elige como adaptar <span className="text-[#29F2CD]">Tu Sitio Web</span>
+                  Elige <span className="text-[#29F2CD]">Tu Sitio Web</span>
                 </h1>
 
                 <p className="xl:text-2xl lg:text-xl text-lg font-unicaone text-[#29F2CD] transition-all duration-500 uppercase">
-                  <span className="text-[#F8368F]">Haz click </span> para conocer nuestros planes de contratación y sus diferentes características
+                  <span className="text-[#F8368F]">Haz click </span> para conocer a detalle nuestros planes de contratación y sus diferentes características
                 </p>
 
                 </div>
@@ -61,7 +61,7 @@ const Membership = (props: Props) => {
                         <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
                         Sitio Estandar
                         </button>
-                        <h1 className="xl:text-2xl text-xl text-md font-hammersmithOne text-black transition-all duration-500">Personalizado</h1>
+                        <h1 className="xl:text-2xl text-xl text-md font-hammersmithOne text-black transition-all duration-500">One Page</h1>
 
                     </div>
 
@@ -70,42 +70,42 @@ const Membership = (props: Props) => {
                         <div className="flex space-x-2">
 
                         <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                        <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">One Page</h1>
+                        <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Landing Page</h1>
                         
                         </div>
                         
                         <div className="flex space-x-2">
 
                         <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                        <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Personalizado</h1>
+                        <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Responsivo</h1>
                         
                         </div>
 
                         <div className="flex space-x-2">
 
                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                          <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Responsivo</h1>
+                          <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hasta 9 Secciones</h1>
 
                          </div>
 
                          <div className="flex space-x-2">
 
                           <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hasta 9 Secciones</h1>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting</h1>
 
                            </div>
 
                           <div className="flex space-x-2">
 
                           <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting</h1>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Administrador</h1>
 
                            </div>
 
                               <div className="flex space-x-2 md:pb-4 pb-2">
 
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Administrador</h1>
+                               <h1 className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"> </h1>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
 
                            </div>
                            
@@ -147,7 +147,7 @@ const Membership = (props: Props) => {
                         <button className="border-[2px] border-black rounded-2xl px-3 xl:text-lg lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
                         Sitio Exclusivo
                         </button>
-                        <h1 className="xl:text-2xl text-xl text-md font-hammersmithOne text-black transition-all duration-500">Administrable</h1>
+                        <h1 className="xl:text-2xl text-xl text-md font-hammersmithOne text-black transition-all duration-500">Personalizado</h1>
 
                     </div>
 
@@ -280,7 +280,7 @@ const Membership = (props: Props) => {
                              <div className="flex space-x-2 md:pb-4 pb-2">
 
                                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">SiteWizard CMS</h1>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Administrador</h1>
 
                            </div>
 

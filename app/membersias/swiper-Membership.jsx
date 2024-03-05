@@ -168,9 +168,7 @@ export default function App( {  }) {
 
             
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Gratis x 1 año
-               </h1>
+            <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
             </div>
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
@@ -228,9 +226,7 @@ export default function App( {  }) {
 
             
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Gratis x 1 año
-               </h1>
+            <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
             </div>
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
@@ -288,9 +284,7 @@ export default function App( {  }) {
 
             
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Gratis x 1 año
-               </h1>
+            <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
             </div>
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
@@ -377,9 +371,7 @@ export default function App( {  }) {
                  Hosting/Alojamiento
                </h1>
 
-               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  Gratis x 1 AÑO
-                </h1>
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
 
             </div>
 
@@ -488,9 +480,7 @@ export default function App( {  }) {
                  Hosting/Alojamiento
                </h1>
 
-               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  Gratis x 1 AÑO
-                </h1>
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
 
             </div>
 
@@ -597,9 +587,7 @@ export default function App( {  }) {
                  Hosting/Alojamiento
                </h1>
 
-               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  Gratis x 1 AÑO
-                </h1>
+               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
 
             </div>
 
