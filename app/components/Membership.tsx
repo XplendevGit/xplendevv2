@@ -65,7 +65,7 @@ const Membership = (props: Props) => {
 
                     </div>
 
-                    <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col">
+                    <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col min-w-[270px]">
 
                         <div className="flex space-x-2">
 
@@ -108,9 +108,14 @@ const Membership = (props: Props) => {
                                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
 
                            </div>
+                            <div className="flex space-x-2 md:pb-4 pb-2">
+
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
+
+                           </div>
                            
 
-                      <div className="pago border-t-2 border-black/20 space-y-2 items-center justify-end cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
+                      <div className="pago border-t-2 border-black/20 space-y-2 items-center justify-end cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col w-full h-full">
                 
 
                        <Link href={'/membersias'}>
@@ -171,7 +176,7 @@ const Membership = (props: Props) => {
                          <div className="flex space-x-2">
 
                           <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Hasta 14 Secciones</h1>
+                           <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Páginas Avanzadas</h1>
 
                            </div>
 
