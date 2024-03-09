@@ -62,9 +62,6 @@ const Contact = (props: Props) => {
                 <Link href={'https://www.instagram.com/xplendev/?hl=es'}>
                   <RiInstagramFill className="md:h-12 md:w-12 w-8 h-8 text-white hover:text-[#F8368F] transition-all duration-300 cursor-pointer myfilter4"/>
                 </Link>
-                <Link href={''}>
-                  <FaFacebook className="md:h-12 md:w-12 w-8 h-8 text-white hover:text-blue-400 transition-all duration-300 cursor-pointer myfilter4"/>
-                </Link>
                 <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Me%20gustaría%20conversar%20con%20Xplendev'}>
                   <IoLogoWhatsapp className="md:h-12 md:w-12 w-8 h-8 text-white hover:text-green-400 transition-all duration-300 cursor-pointer myfilter4"/>
                  </Link>

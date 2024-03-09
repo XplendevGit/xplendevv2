@@ -62,10 +62,6 @@ function Footer({}: Props) {
                     <div className="footer-3 p-4 ">
 
                       <div className="flex space-x-2 md:justify-start md:items-start items-center justify-center">
-
-                      <Link href={''}>
-                      <FaFacebook className="xl:text-2xl lg:text-xl text-lg text-black font-unicaone transition-all duration-500 uppercase no-select cursor-pointer h-10 w-10 md:w-6 md:h-6"></FaFacebook>
-                      </Link>
                       
                       <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Me%20gustaría%20conversar%20con%20Xplendev'}>
                       <IoLogoWhatsapp className="xl:text-2xl lg:text-xl text-lg text-black font-unicaone transition-all duration-300 uppercase no-select cursor-pointer h-10 w-10 md:w-6 md:h-6"></IoLogoWhatsapp>
