@@ -79,7 +79,9 @@ useEffect(() => {
     style={{backgroundColor: `${color}` }}
      className={tamañoNav}
      >
+      
         <div className="max-w-[1240px] no-select mx-auto h-auto w-auto flex justify-between items-center p-4 text-white">
+          {/* Logo */}
             <Link href="https://xplendev.com/" className="no-select cursor-pointer">
             <motion.img
             className={tamañoLogo + "cursor-pointer"}
