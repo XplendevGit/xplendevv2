@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { motion } from 'framer-motion'
 
+import Image from 'next/image';
+
 interface SeccionData {
   texto1: string;
   texto2: string;
@@ -79,10 +81,11 @@ useEffect(() => {
      >
         <div className="max-w-[1240px] no-select mx-auto h-auto w-auto flex justify-between items-center p-4 text-white">
             <Link href="https://xplendev.com/" className="no-select cursor-pointer">
-            <motion.img 
-              className={tamañoLogo + "cursor-pointer"}
-              src="https://i.postimg.cc/V6PqVmNk/xplendev-newlogotransparent.png"
-              >
+            <motion.img
+            className={tamañoLogo + "cursor-pointer"}
+            src="https://i.postimg.cc/V6PqVmNk/xplendev-newlogotransparent.png" 
+            alt={'Logo'}             
+             >
               </motion.img>
             </Link>
             <ul style={{color: `${textColor}`}} className="hidden sm:flex">
