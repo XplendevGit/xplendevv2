@@ -284,8 +284,8 @@ const Membership = (props: Props) => {
 
                              <div className="flex space-x-2 md:pb-4 pb-2">
 
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
+                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
+                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Dominio .Com</h1>
 
                            </div>
 
@@ -294,7 +294,7 @@ const Membership = (props: Props) => {
                  <Link href={'/membersias'}>
                    <div className="w-full h-full">       
                        <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
-                        Desde $327.990
+                        Desde $343.980
                       </h1>        
                   </div>
                </Link>

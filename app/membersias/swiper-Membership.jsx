@@ -30,6 +30,8 @@ export default function App( {  }) {
     <>
 
     <Link href={'https://wa.link/pljze6'}>
+
+      {/* Swiper Pagination Sets */}
       <Swiper
         pagination={{
           type: 'progressbar',
@@ -60,6 +62,7 @@ export default function App( {  }) {
 
 
 
+        {/* Main Swiper Pagination */}
         <SwiperSlide className={`w-full h-full ${styleRender.swiperSlidereder}`}>
 
           <div className="w-full h-full flex flex-col py-1 text-center">
@@ -112,13 +115,13 @@ export default function App( {  }) {
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                 <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Administrador Sitewizard CMS
+                 Administrador 
                </h1>
             </div>
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Carrito de Compas
+                 Pasarela de Pago
                </h1>
             </div>
 
@@ -130,7 +133,7 @@ export default function App( {  }) {
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                 <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Precio
+                 Precio Desde
                </h1>
             </div>
             
@@ -139,7 +142,7 @@ export default function App( {  }) {
 
         </SwiperSlide>
 
-       
+       {/* Sitio Estandar Swiper Pagination */}
         <SwiperSlide className={`w-full h-full ${styleRender.swiperSlidereder}`}>
 
           <div className="w-full h-full flex flex-col py-1 text-center">
@@ -189,7 +192,7 @@ export default function App( {  }) {
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                 <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $139.990
+                  $99.980
                 </h1>
             </div>
             
@@ -198,6 +201,7 @@ export default function App( {  }) {
 
         </SwiperSlide>
         
+        {/* Sitio Administrable Swiper Pagination */}
         <SwiperSlide className={`w-full h-full ${styleRender.swiperSlidereder}`}>
 
           <div className="w-full h-full flex flex-col py-1 text-center">
@@ -246,7 +250,7 @@ export default function App( {  }) {
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                 <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $309.990
+                  $132.970
                 </h1>
             </div>
             
@@ -255,6 +259,7 @@ export default function App( {  }) {
 
         </SwiperSlide>
 
+        {/* E-commerce Swiper Pagination */}
         <SwiperSlide className={`w-full h-full ${styleRender.swiperSlidereder}`}>
 
           <div className="w-full h-full flex flex-col py-1 text-center">
@@ -284,7 +289,8 @@ export default function App( {  }) {
 
             
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
-            <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
+            <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-12 w-12">
+            </CgClose>
             </div>
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
@@ -303,7 +309,7 @@ export default function App( {  }) {
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                 <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $489.990
+                  $343.980
                 </h1>
             </div>
             
