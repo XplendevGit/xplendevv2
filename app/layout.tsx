@@ -17,6 +17,9 @@ export default function RootLayout({children}: {
       <head>
       <link rel="icon" href="/favicon.ico" />
       <title>Xplendev</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        
+      </meta>
       </head>
       <body className={inter.className}>
         <main className="mx-w-4xl mx-auto">

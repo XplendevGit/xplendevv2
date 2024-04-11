@@ -76,7 +76,7 @@ function Footer({}: Props) {
 
                       <div className="pt-3 flex md:justify-start md:items-start items-center justify-center">
                          <h1 className="xl:text-xl lg:text-xl text-lg text-black font-unicaone transition-all duration-500 uppercase myfilte2">
-                           xplendev@gmail.com
+                           contacto@xplendev.com
                          </h1>
                        </div>
 

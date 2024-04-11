@@ -106,7 +106,7 @@ const Hero = (props: Props) => {
          ref={ref}
          initial={{ opacity: 0, y: 100 }}
          animate={controls}
-         className="contenedor-hero h-full md:pt-0 pt-14"
+         className="contenedor-hero h-full md:w-full w-[150px]  md:pt-0 pt-14"
          >
           <div className="hero-1 no-select">
             <div className="space-y-2 md:grid flex md:justify-start md:items-start justify-center items-center">

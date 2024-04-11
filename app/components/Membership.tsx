@@ -65,7 +65,7 @@ const Membership = (props: Props) => {
 
                     </div>
 
-                    <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col min-w-[270px] lg:min-w-[290px]">
+                    <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col min-w-[230px] lg:min-w-[290px]">
 
                         <div className="flex space-x-2">
 
@@ -156,7 +156,7 @@ const Membership = (props: Props) => {
 
                     </div>
 
-                <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col min-w-[270px] lg:min-w-[290px]">
+                <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col min-w-[230px] lg:min-w-[290px]">
                         
                         <div className="flex space-x-2">
 
@@ -245,7 +245,7 @@ const Membership = (props: Props) => {
 
                 </div>
 
-                <div className="px-12 py-2 md:space-y-2 space-y-1 w-full min-w-[270px] lg:min-w-[290px]">
+                <div className="px-12 py-2 md:space-y-2 space-y-1 w-full min-w-[230px] lg:min-w-[290px]">
                         
                         <div className="flex space-x-2">
 
