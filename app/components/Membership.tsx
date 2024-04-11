@@ -190,7 +190,7 @@ const Membership = (props: Props) => {
                             <div className="flex space-x-2">
 
                                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Administrador</h1>
+                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Administrable</h1>
 
                            </div>
 
@@ -278,7 +278,7 @@ const Membership = (props: Props) => {
                             <div className="flex space-x-2">
 
                                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Administrador</h1>
+                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Administrable</h1>
 
                            </div>
 

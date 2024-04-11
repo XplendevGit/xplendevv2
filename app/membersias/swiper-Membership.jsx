@@ -115,7 +115,7 @@ export default function App( {  }) {
 
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex justify-center items-center">
                 <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Administrador 
+                Administrable
                </h1>
             </div>
 
@@ -325,7 +325,8 @@ export default function App( {  }) {
 
 
 
-
+{/* Main Render Mobile Swiperslide */}
+     {/* Sitio Estandar Mobile Swiperslide */}
           <SwiperSlide className={`w-full h-full ${styleRenderMobil.swiperSlidereder}`}>
 
           <div className="w-full h-full flex flex-col py-1 text-center">
@@ -362,7 +363,7 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Dominio .cl/com
+                 Dominio .com
                </h1>
 
                <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
@@ -384,7 +385,7 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Administrador Sitewizard CMS
+               Administrable
                </h1>
 
                <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
@@ -395,7 +396,7 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Carrito de Compras
+                 Pasarela de Pago
                </h1>
 
                <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
@@ -421,7 +422,7 @@ export default function App( {  }) {
                </h1>
 
                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $139.990
+                  $99.980
                 </h1>
 
             </div>
@@ -434,7 +435,7 @@ export default function App( {  }) {
 
 
 
-
+{/* Sitio Exclusivo Mobile Swiperslide */}
                   <SwiperSlide className={`w-full h-full ${styleRenderMobil.swiperSlidereder}`}>
 
           <div className="w-full h-full flex flex-col py-1 text-center">
@@ -471,7 +472,7 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Dominio .cl/com
+                 Dominio .com
                </h1>
 
                <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
@@ -483,7 +484,7 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Hosting/Alojamiento
+                 Hosting/Alojamiento Web
                </h1>
 
                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
@@ -493,7 +494,7 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Administrador Sitewizard CMS
+               Administrable
                </h1>
 
                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
@@ -503,7 +504,7 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Carrito de Compras
+                 Pasarela de Pago
                </h1>
 
                <CgClose className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-red-400 transition-all duration-500 h-9 w-9">
@@ -529,20 +530,18 @@ export default function App( {  }) {
                </h1>
 
                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $309.990
+                  $132.970
                 </h1>
 
             </div>
             
           </div>
-          
+        
 
         </SwiperSlide>
 
-
-
-                          <SwiperSlide className={`w-full h-full ${styleRenderMobil.swiperSlidereder}`}>
-
+{/* E-commerce Mobile Swiperslide */}
+    <SwiperSlide className={`w-full h-full ${styleRenderMobil.swiperSlidereder}`}>
           <div className="w-full h-full flex flex-col py-1 text-center">
 
           <div className="w-full h-[85px] bg-[#29F2CD] border-[1px] border-black/20 flex justify-center items-center">
@@ -577,7 +576,7 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Dominio .cl/com
+                 Dominio .com
                </h1>
 
                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
@@ -590,7 +589,7 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Hosting/Alojamiento
+                 Hosting/Alojamiento Web
                </h1>
 
                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
@@ -600,20 +599,25 @@ export default function App( {  }) {
             <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Administrador Sitewizard CMS
+                 Administrable
                </h1>
 
                <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-12 w-12"></HiOutlineCheck>
 
             </div>
 
-            <div className="w-full h-[74.5px] bg-white border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center">
+            <div className="w-full h-[74.5px] bg-whie border-[1px] border-black/20 flex flex-col justify-center space-y-2 items-center bg-white">
 
                <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">
-                 Carrito de Compras
+                 Pasarela de Pago
                </h1>
 
-               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-9 w-9"></HiOutlineCheck>
+               <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
+                  Mercado Pago
+                </h1>
+
+
+
 
             </div>
 
@@ -635,7 +639,7 @@ export default function App( {  }) {
                </h1>
 
                <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500 uppercase">
-                  $489.990
+                  $343.980
                 </h1>
 
             </div>
