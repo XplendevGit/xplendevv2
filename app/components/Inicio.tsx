@@ -26,15 +26,23 @@ const Inicio = (props: Props) => {
              >
 
                 <div className="inicio-1">
-                    <div className="xl:p-24 xl:py-[150px] lg:p-12 lg:space-y-5 md:space-y-4 space-y-1 no-select flex flex-col justify-center items-center text-center md:text-start">
+                    <div className="xl:p-24 xl:py-[150px] lg:p-12 lg:space-y-5 md:space-y-4 space-y-1 no-select flex flex-col text-center md:text-start">
 
-                    <h1 className="font-audiowide xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-[#29F2CD]">Arquitectos de la  <br></br></h1>
-                    <h2 className="font-audiowide xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-[#F8368F]">Experiencia Digital</h2>
+                    <h1 className="font-audiowide xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-[#29F2CD]">Arquitectos de la  <br></br>
+                    </h1>
 
-                    <div className="flex pt-6">
+                    <h2 className="font-audiowide xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-[#F8368F]">Experiencia Digital
+                    </h2>
+
+                    <div className="flex pt-6 space-x-4">
                     <button 
                 className="lg:text-xl font-unicaone space-y-4 no-select text-white px-4 py-2 rounded-full border-2 border-[#F8368F] hover:text-[#F8368F] transition-all hover:scale-105 duration-200 ease-in"
-                onClick={handleButtonClick}>OBTENER SITIO WEB → 
+                onClick={handleButtonClick}>QUIERO UN SITIO → 
+                </button>
+
+                <button 
+                className="lg:text-xl font-unicaone space-y-4 no-select text-white px-4 py-2 rounded-full border-2 border-[#29F2CD] hover:text-[#29F2CD] transition-all hover:scale-105 duration-200 ease-in"
+                onClick={handleButtonClick}>VER PLANES → 
                 </button>
                     </div>
 
