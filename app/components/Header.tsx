@@ -17,6 +17,14 @@ interface SeccionData {
 type Props = {}
 
 function Header({}: Props) {
+
+  const handleButtonClicksitioWeb = () => {
+    const membershipsSection = document.getElementById('hero');
+    if (membershipsSection) {
+      membershipsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const handleButtonClick = () => {
     const membershipsSection = document.getElementById('memberships');
     if (membershipsSection) {
@@ -25,7 +33,7 @@ function Header({}: Props) {
   };
 
   const handleButtonClick0 = () => {
-    const membershipsSection = document.getElementById('services');
+    const membershipsSection = document.getElementById('app');
     if (membershipsSection) {
       membershipsSection.scrollIntoView({ behavior: 'smooth' });
     }
@@ -54,7 +62,7 @@ function Header({}: Props) {
 useEffect(() => {
      const changeColor = () => {
         if(window.scrollY >= 90) {
-            setColor('#010101')
+            setColor('#141627')
             setTextColor('#F7F7F7')
             setTamañoNav("w-full h-[62px] md:h-[82px] max-w-auto fixed left-0 top-0 z-10 shadow-xl ease-in duration-200 shadow-[#29F2CD]/30 shadow-lg")
             setTamañoLogo("w-[150px] h-[40px] no-select hover:scale-105 transition-all ease-in duration-300 cursor-default")
@@ -92,24 +100,23 @@ useEffect(() => {
             </Link>
             <ul style={{color: `${textColor}`}} className="hidden sm:flex">
                 <li className="p-4">
-                <Link href="/obras">
                 <button type="button"
                         className={tamañoTexto}
-                        data-te-ripple-init>Nuestros Sitios Web</button>
-                </Link>
+                        onClick={handleButtonClicksitioWeb}
+                        data-te-ripple-init>Sitios Web</button>
                 </li>
                 <li className="p-4">
                 <button type="button"
                         className={tamañoTexto}
                         onClick={handleButtonClick0}
-                        data-te-ripple-init>¿Qué Ofrecemos?</button>
+                        data-te-ripple-init>Aplicación Móvil</button>
                 </li>
 
                 <li className="p-4">
                 <button type="button"
                         className={tamañoTexto}
                         onClick={handleButtonClick}
-                        data-te-ripple-init>Membersías
+                        data-te-ripple-init>Planes de Contratación
                         </button>
                 </li>
 

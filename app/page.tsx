@@ -23,12 +23,8 @@ export default function Home() {
         <Hero/>
       </section>
 
-      <section className="" id="services">
+      <section className="" id="app">
         <Design/>
-      </section>
-
-      <section className="" id="">
-        <Metodología/>
       </section>
 
       <section className="" id="memberships">

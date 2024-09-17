@@ -1,120 +1,74 @@
 "use client"
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react'
-import { FaFacebook } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io";
-import { RiInstagramFill } from "react-icons/ri";
 
-import { useInView } from 'react-intersection-observer';
-import { motion, useAnimation } from 'framer-motion';
 
-type Props = {}
+type Props = {};
 
 const Contact = (props: Props) => {
 
-  const controls = useAnimation();
-  const { ref, inView } = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      controls.start({
-        opacity: 1,
-        y: 0,
-        transition: { duration: 1, ease: [0.6, 0.05, 0.5, 0.95] },
-      });
-    }
-  }, [controls, inView]);
-
-
   const [message, setMessage] = useState(false);
 
-  const handleClick = () => {
+  const handleClickSubmit = () => {
     setMessage(true);
     alert("Tu mensaje será enviado, te responderemos lo antes posible!. Se redireccionará la página automaticamente al presionar ACEPTAR");
   };
 
 
   return (
-    <div className="bg-black">
+    <div className="min-h-screen h-auto w-full bg-gradient-to-b from-[#29F2CD] via-[#243B55] to-[#141E30] py-12 px-6 items-center justify-center flex flex-col">
+      {/* Contenedor principal */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1240px] mx-auto items-center">
+        {/* Formulario de contacto */}
+        <div className="bg-[#1B1E32] p-8 rounded-lg shadow-lg flex flex-col justify-center w-full">
+          <h2 className="text-white text-3xl md:text-4xl font-bold mb-6">Contáctanos</h2>
+          <form 
+          action="https://formsubmit.co/ca48646714845b36c95f666f850a0954" 
+          method="POST"
+          className="space-y-4">
+            <input
+              type="text"
+              placeholder="Tu Nombre"
+              name="nombre" 
+              className="w-full py-3 px-4 rounded-md bg-[#243B55] text-gray-200 border border-gray-500 focus:outline-none focus:border-[#D43EFF] transition-all"
+            />
+            <input
+              type="email"
+              placeholder="Tu Correo"
+              name="mail"
+              className="w-full py-3 px-4 rounded-md bg-[#243B55] text-gray-200 border border-gray-500 focus:outline-none focus:border-[#D43EFF] transition-all"
+            />
+            <textarea
+              placeholder="Comparte tus pensamientos"
+              name="mensaje"
+              rows={4}
+              className="w-full py-3 px-4 rounded-md bg-[#243B55] text-gray-200 border border-gray-500 focus:outline-none focus:border-[#D43EFF] transition-all"
+            />
+            <button
+              type="submit"
+              onClick={handleClickSubmit}
+              className="w-full py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold hover:opacity-90 transition-all"
+            >
+              Enviar Feedback
+            </button>
+            <input type="hidden" name="_next" value="https://xplendev.com/"/>
+            <input type="hidden" name="_captcha" value="false"/>
+          </form>
+        </div>
 
-        <motion.div
-         ref={ref}
-         initial={{ opacity: 0, y: 100  }}
-         animate={controls}
-         className="w-full min-h-screen h-full lg:py-28 xl:p-28 md:p-12 p-10 grid items-center justify-center">
-
-            <div className="contenedor-contact h-full">
-
-              <div className="contact-1 bg-[#29F2CD] grid md:justify-start md:items-center lg:px-12 p-4 rounded-xl md:min-h-auto min-h-[350px]">
-              
-                <div className="w-auto h-auto space-y-4">
-
-                <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-2xl font-hammersmithOne text-white transition-all duration-500 myfilter">
-                    Hablemos de tu proyecto
-                </h1>
-                <p className="xl:text-2xl lg:text-xl text-lg font-unicaone text-black transition-all duration-500 uppercase">
-                  Ponte en contacto y te responderémos vía E-mail o Whatsapp<br></br>
-                  También puedes comunicarte desde nuestras redes sociales
-                </p>
-
-                <div className="flex space-x-4 lg:pt-2 md:justify-start md:items-start justify-center">
-                
-                <Link href={'https://www.instagram.com/xplendev/?hl=es'}>
-                  <RiInstagramFill className="md:h-12 md:w-12 w-8 h-8 text-white hover:text-[#F8368F] transition-all duration-300 cursor-pointer myfilter4"/>
-                </Link>
-                <Link href={'https://api.whatsapp.com/send?phone=56940898950&text=Hola!%20Me%20gustaría%20conversar%20con%20Xplendev'}>
-                  <IoLogoWhatsapp className="md:h-12 md:w-12 w-8 h-8 text-white hover:text-green-400 transition-all duration-300 cursor-pointer myfilter4"/>
-                 </Link>
-                </div>
-
-                </div>
-
-              </div>
-
-              <div className="contact-2 bg-white rounded-xl grid lg:justify-center lg:items-center md:justify-end md:items-center lg:p-0 md:p-12 p-4 md:max-h-[auto] justify-center items-center md:pt-0 pt-[4vh]">
-
-              <form action="https://formsubmit.co/ca48646714845b36c95f666f850a0954" method="POST" className="">
-                 
-              <div className="h-auto lg:p-12 space-y-2 w-full lg:ml-[9vh] mt-10 md:mt-0 grid justify-end md:justify-center md:items-center">
-
-              <h1 className="xl:text-2xl lg:text-xl text-lg font-unicaone text-black transition-all duration-500 uppercase no-select">
-              Nombre:
-              </h1>
-              <input type="text" name="nombre" className="border-black border-2 rounded-lg w-full lg:h-[30px] md:text-lg text-md font-hammersmithOne px-2 text-black transition-all duration-500" />
-
-              <h1 className="xl:text-2xl lg:text-xl text-lg font-unicaone text-black transition-all duration-500 uppercase no-select">
-              Email o Telefono:
-              </h1>
-              <input type="text" name="mail" className="border-black border-2 rounded-lg w-full lg:h-[30px] md:text-lg text-md font-hammersmithOne px-2 text-black transition-all duration-500" />
-
-              <h1 className="xl:text-2xl lg:text-xl text-lg font-unicaone text-black transition-all duration-500 uppercase no-select">
-              Asunto:
-              </h1>
-              <input type="text" name="asunto" className="border-black border-2 rounded-lg w-full lg:h-[30px] md:text-lg text-md font-hammersmithOne px-2 text-black transition-all duration-500" />
-
-              <h1 className="xl:text-2xl lg:text-xl text-lg font-unicaone text-black transition-all duration-500 uppercase no-select">
-              Mensaje:
-              </h1>
-              <textarea name="mensaje" className="border-black border-2 rounded-lg w-full lg:h-[150px] md:text-lg text-md font-hammersmithOne px-2 text-black transition-all duration-500" maxLength={300} style={{ resize: 'none' }}/>
-
-
- 
-              <input onClick={handleClick} type='submit' value="Enviar" className="lg:text-xl font-unicaone lg:mx-12 md:mx-auto space-y-4 no-select text-white px-5 py-1 rounded-full border-2 border-[#F8368F] hover:text-[#29F2CD] transition-all hover:scale-105 duration-500 bg-[#F8368F] cursor-pointer">
-              </input>
-
-              <input type="hidden" name="_next" value="https://xplendev.com/"/>
-              <input type="hidden" name="_captcha" value="false"/>
- 
-
-                </div>
-
-              </form>
-
-              </div>
-            </div>
-        </motion.div>
+        {/* Sección de información de contacto */}
+        <div className="text-white flex flex-col justify-center items-center md:items-start">
+          <h2 className="text-4xl md:text-5xl font-bold text-center md:text-left">
+            Contacta con <span className="text-[#D43EFF]">Nosotros</span>
+          </h2>
+          <p className="text-gray-400 text-lg md:text-xl mt-6 text-center md:text-left">
+            Es muy importante para nosotros mantenernos en contacto contigo. Siempre estaremos
+            listos para responder a cualquier pregunta que te interese. ¡Escríbenos!
+          </p>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

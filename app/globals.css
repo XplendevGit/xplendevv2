@@ -93,73 +93,87 @@
   color: #29F2CD; /* O usa `fill` para SVGs */
 }
 
+/* Evitar desbordamiento en móviles */
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%; /* Limitar el ancho al tamaño de la pantalla */
+  overflow-x: hidden; /* Evitar desplazamiento horizontal */
+}
 
-         /* DISEÑO CSS GRID INICIO*/
 
-            /* DISEÑO CSS GRID INICIO*/
-            @media screen and (min-width: 0px) and (max-width: 431px) {
-            .contenedor-inicio{
-              display: grid;
-              grid-gap: 1rem;
-              /* Creamos las columnas y sus medidad*/
-              grid-template-columns: 1fr;
-              /* Creamos las filas y sus valores de medidas*/
-              grid-template-rows: 0.75fr 1fr;
-            }
-            .inicio-1{
-              grid-column: 1/2;
-              grid-row: 1/2;
-            }
-            .inicio-3{
-              grid-column: 1/2;
-              grid-row: 2/3;
-              z-index: 1;
-            }
-                }
-                  
-                  /* INICIO  para tabletas (426px a 768px) */
-                  @media screen and (min-width: 432px) and (max-width: 768px) {
-                    .contenedor-inicio{
-                      display: grid;
-                      grid-gap: 1rem;
-                      /* Creamos las columnas y sus medidad*/
-                      grid-template-columns: 2fr;
-                      /* Creamos las filas y sus valores de medidas*/
-                      grid-template-rows: 0.75fr 1fr;
-                    }
-                    .inicio-1{
-                      grid-column: 1/2;
-                      grid-row: 1/2;
-                    }
 
-                    .inicio-3{
-                      grid-column: 1/2;
-                      grid-row: 2/3;
-                      z-index: 1;
-                    }
-                }
-                  
-                  /* INICIO  para escritorio (769px en adelante) */
-                  @media screen and (min-width: 769px) {
-                    .contenedor-inicio{
-                      display: grid;
-                      grid-gap: 1rem;
-                      /* Creamos las columnas y sus medidad*/
-                      grid-template-columns: 2fr;
-                      /* Creamos las filas y sus valores de medidas*/
-                      grid-template-rows: 0.75fr 1fr;
-                    }
-                    .inicio-1{
-                      grid-column: 1/2;
-                      grid-row: 1/2;
-                    }
+/* Color de fondo oscuro */
+.bg-dark {
+  background-color: #141627; /* Color oscuro restaurado */
+}
 
-                    .inicio-3{
-                      grid-column: 1/2;
-                      grid-row: 2/3;
-                      z-index: 1;
-                    }
-                  }
+/* Configuración para pantallas grandes (Escritorio) */
+@media screen and (min-width: 769px) {
+  .contenedor-inicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    grid-template-rows: 1fr; /* Una fila */
+    gap: 2rem;
+  }
+}
+
+/* Configuración para tabletas (432px a 768px) */
+@media screen and (min-width: 432px) and (max-width: 768px) {
+  .contenedor-inicio {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna */
+    grid-template-rows: auto auto; /* Apilado */
+    gap: 1.5rem;
+  }
+
+  .col-span-1 img {
+    width: 80%; /* Imagen más pequeña en tabletas */
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+/* Configuración para móviles (menos de 432px) */
+@media screen and (max-width: 431px) {
+  .contenedor-inicio {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna */
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .col-span-1 img {
+    width: 100%; /* Imagen ocupa todo el ancho en móviles */
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.2rem;
+  }
+}
+
+
 
       
 

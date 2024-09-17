@@ -27,7 +27,7 @@ function Metodología({}: Props) {
 
 
   return (
-    <div className="bg-black">
+    <div className="bg-dark">
         <motion.div
          ref={ref}
          initial={{ opacity: 0, y: 100  }}

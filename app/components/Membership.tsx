@@ -7,317 +7,76 @@ import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
 
-type Props = {}
+type Props = {};
 
 const Membership = (props: Props) => {
- 
-  const controls = useAnimation();
-  const { ref, inView } = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      controls.start({
-        opacity: 1,
-        y: 0,
-        transition: { duration: 1, ease: [0.6, 0.05, 0.5, 0.95] },
-      });
-    }
-  }, [controls, inView]);
-
   return (
-    <div className="bg-black min-h-screen h-auto min-w-screen">
-        <motion.div
-         initial={{ opacity: 0, y: 100 }}
-         animate={controls}
-         ref={ref}
-         className="w-full h-full lg:py-28 xl:p-28 md:p-12 p-10">
-
-           <div className="contenedor-membership h-full flex justify-center">
-
-               <div className="membership-1 flex flex-col">
-
-                <div className="flex flex-col space-y-4 justify-center items-center lg:py-12 text-center no-select">
-
-                <h1 className="xl:text-6xl lg:text-4xl md:text-3xl text-2xl font-hammersmithOne text-white transition-all duration-500">
-                  Elige <span className="text-[#29F2CD]">Tu Sitio Web</span>
-                </h1>
-
-                <p className="xl:text-2xl lg:text-xl text-lg font-unicaone text-[#29F2CD] transition-all duration-500 uppercase">
-                  <span className="text-[#F8368F]">Haz click </span> para conocer a detalle nuestros planes de contratación y sus diferentes características
-                </p>
-
-                </div>
-                 
-               </div>
-                
-               <div className="membership-2 flex justify-center">
-
-                <div className="flex h-full w-auto rounded-xl bg-white cursor-pointer md:hover:animate-none hover:animate-pulse">
-
-               <Link href={'/membersias'}>
-                <div className="h-full w-full">
-                    <div className="p-12 py-6 space-y-4">
-                        
-                        <button className="border-[2px] border-black rounded-2xl px-3 lg:text-lg  text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
-                        Sitio Estandar
-                        </button>
-                        <h1 className="lg:text-xl text-lg font-hammersmithOne text-black transition-all duration-500">One Page</h1>
-
-                    </div>
-
-                    <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col min-w-[230px] lg:min-w-[290px]">
-
-                        <div className="flex space-x-2">
-
-                        <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                        <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Landing Page</h1>
-                        
-                        </div>
-                        
-                        <div className="flex space-x-2">
-
-                        <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                        <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Responsivo</h1>
-                        
-                        </div>
-
-                        <div className="flex space-x-2">
-
-                         <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                          <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Personalizado</h1>
-
-                         </div>
-
-                         <div className="flex space-x-2">
-
-                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting Gratis</h1>
-
-                           </div>
-
-                          <div className="flex space-x-2">
-
-                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
-
-                           </div>
-
-                              <div className="flex space-x-2 md:pb-4 pb-2">
-
-
-                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
-
-                           </div>
-                            <div className="flex space-x-2 md:pb-4 pb-2">
-
-                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
-
-                           </div>
-                           
-
-                      <div className="pago border-t-2 border-black/20 space-y-2 items-center justify-end cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col w-full h-full">
-                
-
-                       <Link href={'/membersias'}>
-                     <div className="h-full w-full">
-
-                       <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
-                     Desde $99.980
-                    </h1>
-
-                  </div>
-                  </Link>
-                 </div>
-
-                    </div>
-                </div>
-                </Link>
-
-
-                </div>
-
-                  
-               </div>
-
-               <div className="membership-3 flex justify-center">
-
-                <div className="bg-white rounded-xl h-auto w-auto cursor-pointer md:hover:animate-none hover:animate-pulse">
-
-                <Link href={'/membersias'}>
-               <div className="h-full w-full">
-
-
-               <div className="p-12 py-6 space-y-4">
-                        
-                        <button className="border-[2px] border-black rounded-2xl px-3 lg:text-md xl:text-lg text-md font-hammersmithOne text-black transition-all duration-500 uppercase no-select">
-                        Sitio Exclusivo
-                        </button>
-                        <h1 className="lg:text-xl text-lg font-hammersmithOne text-black transition-all duration-500">Administrable</h1>
-
-                    </div>
-
-                <div className="px-12 py-2 md:space-y-2 space-y-1 flex flex-col min-w-[230px] lg:min-w-[290px]">
-                        
-                        <div className="flex space-x-2">
-
-                        <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                        <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Landing Page</h1>
-                        
-                        </div>
-
-
-                        <div className="flex space-x-2">
-
-                         <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                          <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Responsivo</h1>
-
-                         </div>
-
-                         <div className="flex space-x-2">
-
-                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Personalizado</h1>
-
-                           </div>
-
-                           <div className="flex space-x-2">
-
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Hosting Gratis</h1>
-
-                           </div>
-
-                            <div className="flex space-x-2">
-
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-[#29F2CD] transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Administrable</h1>
-
-                           </div>
-
-
-                             <div className="flex space-x-2 md:pb-4 pb-2">
-
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-white transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase"></h1>
-
-                           </div>
-
-                <div className="pago2 border-t-2 border-black/20 space-y-2 items-center justify-end cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
-
-                 <Link href={'/membersias'}>
-                   <div className="w-full h-full">       
-                       <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
-                        Desde $132.970
-                      </h1>        
-                  </div>
-               </Link>
-
-             </div>
-
-                    </div>
-
-                  </div> 
-                  </Link>
-
-
-                </div>
-               
-
-
-              </div>
-
-              
-              <div className="membership-6 flex justify-center">
-
-
-                <div className="bg-[#29F2CD] flex rounded-xl h-auto w-auto cursor-pointer md:hover:animate-none hover:animate-pulse">
-
-                <Link href={'/membersias'}>
-               <div className="h-full w-full">
-
-
-               <div className="p-12 py-6 space-y-4">
-                        
-                        <button className="border-[2px] border-white rounded-2xl px-3 lg:text-lg text-md font-hammersmithOne text-white transition-all duration-500 uppercase no-select myfilter3">
-                        E-Commerce
-                        </button>
-                        <h1 className="lg:text-xl text-lg font-hammersmithOne text-white transition-all duration-500 myfilter3">Tienda Online</h1>
-
-                </div>
-
-                <div className="px-12 py-2 md:space-y-2 space-y-1 w-full min-w-[230px] lg:min-w-[290px]">
-                        
-                        <div className="flex space-x-2">
-
-                        <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                        <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Personalizado</h1>
-                        
-                        </div>
-
-                        <div className="flex space-x-2">
-
-                         <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500 h-6 w-6"></HiOutlineCheck>
-                          <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Diseño Responsivo</h1>
-
-                         </div>
-
-                         <div className="flex space-x-2">
-
-                          <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                           <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Pasarela de Pago</h1>
-
-                           </div>
-
-                           <div className="flex space-x-2">
-
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Carrito de Compras</h1>
-
-                           </div>
-
-                            <div className="flex space-x-2">
-
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-lg text-md font-unicaone text-black transition-all duration-500 uppercase">Administrable</h1>
-
-                           </div>
-
-                             <div className="flex space-x-2 md:pb-4 pb-2">
-
-                               <HiOutlineCheck className="xl:text-2xl lg:text-xl md:text-lg text-md font-hammersmithOne text-black transition-all duration-500  h-6 w-6"></HiOutlineCheck>
-                               <h1 className="xl:text-xl lg:text-xl text-md font-unicaone text-black transition-all duration-500 uppercase">Dominio .Com</h1>
-
-                           </div>
-
-                  <div className="pago2 border-t-2 border-black/20 space-y-2 items-center cursor-pointer md:hover:animate-none hover:animate-pulse pt-2 flex flex-col">
-
-                 <Link href={'/membersias'}>
-                   <div className="w-full h-full">       
-                       <h1 className="xl:text-lg lg:text-lg md:text-md text-md font-hammersmithOne text-black transition-all duration-500">
-                        Desde $343.980
-                      </h1>        
-                  </div>
-               </Link>
-
-             </div>
-
-                    </div>
-
-                  </div> 
-                  </Link>
-
-
-                </div>
-               
-              </div>
-
-
-           </div>
-
-        </motion.div>
-        
+    <div className="min-h-screen h-auto w-full bg-gradient-to-b from-[#243B55] to-[#141E30] transition-all ease-in duration-200 py-12 px-6 items-center justify-center flex flex-col">
+      {/* Título del Menú centrado */}
+      <div className="flex flex-col items-center justify-center mb-8 space-y-4">
+        <h1 className="text-white text-4xl md:text-5xl font-bold text-center">
+          Elige tu <span className="text-[#D43EFF]">Plan Perfecto</span>
+        </h1>
+        <h2 className="text-gray-400 text-xl text-center">
+          Te acompañamos en el proceso completo
+        </h2>
+      </div>
+
+      {/* Contenedor de Planes */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1240px] mx-auto">
+        {/* Plan Básico */}
+        <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
+          <div>
+            <h2 className="text-[#C6FF00] text-2xl font-bold mb-4">Básico</h2>
+            <p className="text-gray-400 mb-6">
+              Para uso personal y integración de nuevos sitios.
+            </p>
+            <div className="text-6xl font-bold text-white mb-4">$179.990</div>
+            <p className="text-gray-400 mb-4">Landing Page / Portafolio Web</p>
+            <p className="text-gray-400 mb-4">Sitio Administrable</p>
+            <p className="text-gray-400 mb-4"></p>
+          </div>
+          <button className="bg-transparent border border-[#C6FF00] text-[#C6FF00] py-2 px-4 rounded-full hover:bg-[#C6FF00] hover:text-black transition-all">
+            Comenzar
+          </button>
+        </div>
+
+        {/* Plan Premium */}
+        <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
+          <div>
+            <h2 className="text-[#D43EFF] text-2xl font-bold mb-4">Premium</h2>
+            <p className="text-gray-400 mb-6">
+              Perfecto para profesionales y empresas que necesitan sitios avanzados.
+            </p>
+            <div className="text-6xl font-bold text-white mb-4">$275.990</div>
+            <p className="text-gray-400 mb-4">E-commerce / E-learning</p>
+            <p className="text-gray-400 mb-4">Sitio Administrable</p>
+            <p className="text-gray-400 mb-4">Soporte Especializado</p>
+          </div>
+          <button className="bg-[#D43EFF] text-white py-2 px-4 rounded-full hover:opacity-90 transition-all">
+            Comenzar
+          </button>
+        </div>
+
+        {/* Plan Enterprise */}
+        <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
+          <div>
+            <h2 className="text-[#00D4FF] text-2xl font-bold mb-4">Enterprise</h2>
+            <p className="text-gray-400 mb-6">
+            Perfecto para toda empresa que necesite una aplicación móvil personalizada.
+            </p>
+            <div className="text-6xl font-bold text-white mb-4">$375.990</div>
+            <p className="text-gray-400 mb-4">App IOS/Android</p>
+            <p className="text-gray-400 mb-4">Despliegue Completo</p>
+            <p className="text-gray-400 mb-4">Soporte Especializado</p>
+          </div>
+          <button className="bg-transparent border border-[#00D4FF] text-[#00D4FF] py-2 px-4 rounded-full hover:bg-[#00D4FF] hover:text-black transition-all">
+            Comenzar
+          </button>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Membership
+export default Membership;
