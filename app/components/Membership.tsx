@@ -31,7 +31,7 @@ const Membership = (props: Props) => {
             <p className="text-gray-400 mb-6">
               Para uso personal y integración de nuevos sitios.
             </p>
-            <div className="text-6xl font-bold text-white mb-4">$179.990</div>
+            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$179.990</div>
             <p className="text-gray-400 mb-4">Landing Page / Portafolio Web</p>
             <p className="text-gray-400 mb-4">Sitio Administrable</p>
             <p className="text-gray-400 mb-4"></p>
@@ -48,7 +48,7 @@ const Membership = (props: Props) => {
             <p className="text-gray-400 mb-6">
               Perfecto para profesionales y empresas que necesitan sitios avanzados.
             </p>
-            <div className="text-6xl font-bold text-white mb-4">$275.990</div>
+            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$275.990</div>
             <p className="text-gray-400 mb-4">E-commerce / E-learning</p>
             <p className="text-gray-400 mb-4">Sitio Administrable</p>
             <p className="text-gray-400 mb-4">Soporte Especializado</p>
@@ -65,7 +65,7 @@ const Membership = (props: Props) => {
             <p className="text-gray-400 mb-6">
             Perfecto para toda empresa que necesite una aplicación móvil personalizada.
             </p>
-            <div className="text-6xl font-bold text-white mb-4">$375.990</div>
+            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$375.990</div>
             <p className="text-gray-400 mb-4">App IOS/Android</p>
             <p className="text-gray-400 mb-4">Despliegue Completo</p>
             <p className="text-gray-400 mb-4">Soporte Especializado</p>
