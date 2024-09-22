@@ -16,7 +16,7 @@ const Contact = (props: Props) => {
 
 
   return (
-    <div className="min-h-screen h-auto w-full bg-gradient-to-b from-[#29F2CD] via-[#243B55] to-[#141E30] py-12 px-6 items-center justify-center flex flex-col">
+    <div className="min-h-screen h-auto w-full bg-gradient-to-b from-[#29F2CD] via-[#243B55] to-[#141E30] py-12 px-6 items-center justify-center flex flex-col pt-[80px] md:pt-0">
       {/* Contenedor principal */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1240px] mx-auto items-center">
         {/* Formulario de contacto */}

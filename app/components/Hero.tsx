@@ -6,7 +6,7 @@ type Props = {};
 
 const CategoryMenu = (props: Props) => {
   return (
-    <div className="min-h-screen h-auto w-full bg-gradient-to-b from-[#243B55] to-[#141E30] transition-all ease-in duration-200 py-12 px-6 items-center justify-center flex flex-col">
+    <div className="min-h-screen h-auto w-full pt-[80px] md:pt-0 bg-gradient-to-b from-[#243B55] to-[#141E30] transition-all ease-in duration-200 py-12 px-6 items-center justify-center flex flex-col">
       {/* Título del Menú centrado */}
       <div className="flex flex-col items-center justify-center mb-8 space-y-4">
         <h1 className="text-white text-4xl md:text-5xl font-bold text-center">

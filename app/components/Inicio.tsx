@@ -21,7 +21,7 @@ const Inicio = (props: Props) => {
   };
 
   return (
-    <div className="min-h-screen h-auto w-full bg-gradient-to-t from-[#29F2CD] via-[#243B55] to-[#141E30] bg-cover bg-center relative flex justify-center items-center overflow-hidden pt-12 md:pt-0">
+    <div className="min-h-screen h-auto w-full bg-gradient-to-t from-[#29F2CD] via-[#243B55] to-[#141E30] bg-cover bg-center relative flex justify-center items-center overflow-hidden pt-[80px] md:pt-0">
       {/* Contenedor principal */}
       <div className="w-full h-full flex justify-center items-center px-6">
         <motion.div

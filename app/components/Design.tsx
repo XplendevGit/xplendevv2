@@ -6,7 +6,7 @@ type Props = {};
 
 const MobileAppPage = (props: Props) => {
   return (
-    <div className="min-h-screen h-auto w-full bg-gradient-to-t from-[#29F2CD] via-[#243B55] to-[#141E30] transition-all ease-in-out duration-200 py-12 px-6 flex flex-col items-center justify-center">
+    <div className="min-h-screen h-auto w-full pt-[80px] md:pt-0 bg-gradient-to-t from-[#29F2CD] via-[#243B55] to-[#141E30] transition-all ease-in-out duration-200 py-12 px-6 flex flex-col items-center justify-center">
       {/* Contenedor principal */}
       <div className="max-w-[1240px] w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center">
         {/* Columna izquierda: Texto descriptivo */}
