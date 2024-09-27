@@ -141,12 +141,20 @@ useEffect(() => {
             {/* Movile Menu */}
             <div className={
                 nav
-                 ? 'sm:hidden absolute top-0 left-[-20%] right-0 bottom-0 flex justify-center pt-10 w-full h-screen bg-[#141627] text-start ease-in duration-300'
-                 : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center pt-10 w-full h-screen bg-black text-start ease-in duration-300'
+                 ? 'sm:hidden absolute top-0 left-[-20%] right-0 bottom-0 flex justify-center pt-4 w-full h-screen bg-[#141627] text-start ease-in duration-300'
+                 : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center pt-14 w-full h-screen bg-black text-start ease-in duration-300'
                    
                 }
                  >
             <ul>
+
+            <div className="flex items-center space-x-4 justify-center">
+          <img
+            src="https://i.postimg.cc/V6PqVmNk/xplendev-newlogotransparent.png" // ruta de Logo
+            alt="Logo"
+            className="w-[130px] h-auto"
+          />
+        </div>
 
                 <li onClick={handleNav} className=" font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
                 <button onClick={handleButtonClicksitioWeb}>
@@ -156,7 +164,7 @@ useEffect(() => {
 
                 <li onClick={handleNav} className=" font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
                 <button onClick={handleButtonClick0}>
-                  ¿Qué Ofrecemos?
+                  Aplicaciónes Móviles
                 </button>
                 </li>
 
