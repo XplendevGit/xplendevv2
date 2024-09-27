@@ -141,30 +141,35 @@ useEffect(() => {
             {/* Movile Menu */}
             <div className={
                 nav
-                 ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
-                 : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+                 ? 'sm:hidden absolute top-0 left-[-20%] right-0 bottom-0 flex justify-center pt-10 w-full h-screen bg-[#141627] text-start ease-in duration-300'
+                 : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center pt-10 w-full h-screen bg-black text-start ease-in duration-300'
                    
                 }
                  >
             <ul>
-            <Link href={"/obras"}>
-            <li>
-              <button onClick={handleNav} className="p-4 text-4xl font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out hover:scale-125">
-              Nuestros Sitios Web
-              </button>
-              </li>
-              </Link>
 
-                <li onClick={handleNav} className="p-4 text-4xl font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out hover:scale-125">
-                <button onClick={handleButtonClick0}>¿Qué Ofrecemos?</button>
+                <li onClick={handleNav} className=" font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
+                <button onClick={handleButtonClicksitioWeb}>
+                 Promociones Web
+                </button>
                 </li>
 
-                <li onClick={handleNav} className="p-4 text-4xl font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out hover:scale-125">
-                <button onClick={handleButtonClick}>Membersías</button>
+                <li onClick={handleNav} className=" font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
+                <button onClick={handleButtonClick0}>
+                  ¿Qué Ofrecemos?
+                </button>
                 </li>
 
-                <li onClick={handleNav} className="p-4 text-4xl font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out hover:scale-125">
-                <button onClick={handleButtonClick2}>Contacto</button>
+                <li onClick={handleNav} className="font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
+                <button onClick={handleButtonClick}>
+                  Membersías
+                </button>
+                </li>
+
+                <li onClick={handleNav} className="font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
+                <button onClick={handleButtonClick2}>
+                  Contacto
+                </button>
                 </li>
             </ul>
             </div>
