@@ -61,7 +61,7 @@ const Membership = (props: Props) => {
         {/* Plan Enterprise */}
         <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
           <div>
-            <h2 className="text-[#00D4FF] text-2xl font-bold mb-4">Enterprise</h2>
+            <h2 className="text-[#00D4FF] text-2xl font-bold mb-4">Enterprise App</h2>
             <p className="text-gray-400 mb-6">
             Perfecto para toda empresa que necesite una aplicación móvil personalizada.
             </p>
