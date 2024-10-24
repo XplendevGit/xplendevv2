@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {};
 
@@ -20,9 +21,12 @@ const MobileAppPage = (props: Props) => {
 
           {/* Botones */}
           <div className="flex space-x-4 items-center justify-center md:items-start md:justify-start">
-            <button className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-3 px-6 rounded-full hover:opacity-90 transition-all duration-200">
+            <Link href={"/landingapp"}>
+            <h1 
+            className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-3 px-6 rounded-full hover:opacity-90 transition-all duration-200">
               Obtén tu Aplicación
-            </button>
+            </h1>
+            </Link>
           </div>
 
           {/* Estadísticas */}
