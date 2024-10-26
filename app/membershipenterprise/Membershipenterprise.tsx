@@ -34,7 +34,7 @@ const MembershipEnterprise = () => {
               <p className="text-gray-300">Despliegue Completo</p>
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/color/48/000000/technical-support.png" alt="Soporte Especializado" className="w-8 h-8 mr-3" />
+              <img src="https://img.icons8.com/fluent/48/000000/customer-support.png" alt="Soporte Especializado" className="w-8 h-8 mr-3" />
               <p className="text-gray-300">Soporte Especializado</p>
             </div>
           </div>
@@ -46,7 +46,7 @@ const MembershipEnterprise = () => {
             rel="noopener noreferrer"
             className="inline-block text-[#00BFFF] border-[#00BFFF] border-2 font-semibold py-2 px-8 rounded-full hover:bg-[#00BFFF] hover:text-[#000000]"
           >
-            Comenzar Ahora
+            Contratar Ahora
           </a>
         </div>
       </section>
@@ -83,7 +83,7 @@ const MembershipEnterprise = () => {
           {/* Feature 3 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
             <img
-              src="https://img.icons8.com/color/64/000000/technical-support.png" // Icono para soporte especializado
+              src="https://img.icons8.com/fluent/48/000000/customer-support.png" // Icono para soporte especializado
               alt="Soporte Especializado"
               className="w-16 h-16 mx-auto mb-4"
             />

@@ -45,7 +45,7 @@ const Membership = (props: Props) => {
             </div>
             <div className="flex items-center">
               <img src="https://img.icons8.com/fluent/48/000000/high-importance.png" alt="Support" className="w-8 h-8 mr-3" />
-              <p className="text-gray-300">Soporte técnico</p>
+              <p className="text-gray-300">Soporte técnico por 1 mes</p>
             </div>
           </div>
 
@@ -113,7 +113,7 @@ const Membership = (props: Props) => {
               <p className="text-gray-300">Despliegue Completo</p>
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/color/48/000000/technical-support.png" alt="Soporte Especializado" className="w-8 h-8 mr-3" />
+              <img src="https://img.icons8.com/fluent/48/000000/customer-support.png" alt="Soporte Especializado" className="w-8 h-8 mr-3" />
               <p className="text-gray-300">Soporte Especializado</p>
             </div>
           </div>

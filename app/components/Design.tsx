@@ -21,9 +21,9 @@ const MobileAppPage = (props: Props) => {
 
           {/* Botones */}
           <div className="flex space-x-4 items-center justify-center md:items-start md:justify-start">
-            <Link href={"/landingapp"}>
+            <Link href={"/membershipenterprise"}>
             <h1 
-            className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-3 px-6 rounded-full hover:opacity-90 transition-all duration-200">
+            className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-3 px-6 rounded-full hover:opacity-90 transition-all duration-200 text-lg md:text-xl">
               Obtén tu Aplicación
             </h1>
             </Link>
@@ -32,8 +32,8 @@ const MobileAppPage = (props: Props) => {
           {/* Estadísticas */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8 text-center">
             <div className="text-white">
-              <h2 className="text-3xl font-bold">1,265</h2>
-              <p className="text-gray-400">Usuarios</p>
+              <h2 className="text-3xl font-bold">+10</h2>
+              <p className="text-gray-400">Clientes</p>
             </div>
             <div className="text-white">
               <h2 className="text-3xl font-bold">+1,000</h2>
@@ -45,7 +45,7 @@ const MobileAppPage = (props: Props) => {
             </div>
             <div className="text-white">
               <h2 className="text-3xl font-bold">809</h2>
-              <p className="text-gray-400">5-star Ratings</p>
+              <p className="text-gray-400">Calificaciónes</p>
             </div>
           </div>
         </div>

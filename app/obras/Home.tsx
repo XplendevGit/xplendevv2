@@ -96,9 +96,21 @@ const Portfolio = (props: Props) => {
           <p className="text-gray-400 mb-4">
             Descarga y conoce nuestra aplicación mobil NutriSnap con AI integrada.
           </p>
+
+          
           <div className="flex space-x-4">
-            <button className="bg-[#D43EFF] text-white py-2 px-4 rounded-full hover:bg-[#B732CC] transition-all duration-200">Ir al Sitio</button>
-            <button className="bg-[#29F2CD] text-white py-2 px-4 rounded-full hover:bg-[#24cbb5] transition-all duration-200">Descargar</button>
+            <Link href={"/landingapp"}>
+            <div className="bg-[#D43EFF] text-white py-2 px-4 rounded-full hover:bg-[#B732CC] transition-all duration-200">
+              Ir al Sitio
+            </div>
+            </Link>
+
+            <Link href={"/landingapp"}>
+            <div className="bg-[#29F2CD] text-white py-2 px-4 rounded-full hover:bg-[#24cbb5] transition-all duration-200">
+              Descargar
+            </div>
+            </Link>
+
           </div>
         </div>
 
