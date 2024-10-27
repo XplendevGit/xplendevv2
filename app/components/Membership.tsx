@@ -26,9 +26,9 @@ const Membership = (props: Props) => {
       {/* Contenedor de Planes */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1240px] mx-auto">
         {/* Plan Básico */}
-        <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
+        <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#C6FF00] hover:shadow-2xl">
           <div>
-            <h2 className="text-[#C6FF00] text-2xl font-bold mb-4">Básico</h2>
+            <h2 className="text-[#C6FF00] text-2xl font-bold mb-4">Sitio Básico</h2>
             <p className="text-gray-400 mb-6">
               Para uso personal y integración de nuevos sitios completos desde cero.
             </p>
@@ -42,8 +42,8 @@ const Membership = (props: Props) => {
                 src="https://img.icons8.com/fluent/48/000000/monitor.png" 
                 alt="Landing Page" 
                 className="w-8 h-8 mr-3" 
-                height={8}
-                width={8}
+                height={80}
+                width={80}
               />
               <p className="text-gray-300">Landing Page / Portafolio Web</p>
 
@@ -54,8 +54,8 @@ const Membership = (props: Props) => {
                 src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" 
                 alt="Admin Site" 
                 className="w-8 h-8 mr-3" 
-                height={8}
-                width={8}
+                height={80}
+                width={80}
                 />
               <p className="text-gray-300">Sitio Administrable</p>
             </div>
@@ -66,8 +66,8 @@ const Membership = (props: Props) => {
                 src="https://img.icons8.com/fluent/48/000000/high-importance.png" 
                 alt="Support" 
                 className="w-8 h-8 mr-3"
-                height={8}
-                width={8} 
+                height={80}
+                width={80} 
                 />
               <p className="text-gray-300">Soporte técnico por 1 mes</p>
 
@@ -87,7 +87,7 @@ const Membership = (props: Props) => {
         {/* Plan Premium */}
         <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
           <div>
-            <h2 className="text-[#D43EFF] text-2xl font-bold mb-4">Premium</h2>
+            <h2 className="text-[#D43EFF] text-2xl font-bold mb-4">Sitio Premium</h2>
             <p className="text-gray-400 mb-6">
               Perfecto para profesionales y empresas que necesitan sitios avanzados.
             </p>
@@ -101,8 +101,8 @@ const Membership = (props: Props) => {
                 src="https://img.icons8.com/fluent/48/000000/monitor.png" 
                 alt="E-commerce / E-learning" 
                 className="w-8 h-8 mr-3" 
-                height={8}
-                width={8}
+                height={80}
+                width={80}
                 />
               <p className="text-gray-300">E-commerce / E-learning</p>
 
@@ -113,8 +113,8 @@ const Membership = (props: Props) => {
                 src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" 
                 alt="Admin Site" 
                 className="w-8 h-8 mr-3" 
-                height={8}
-                width={8}
+                height={80}
+                width={80}
                 />
               <p className="text-gray-300">Sitio Administrable</p>
 
@@ -125,8 +125,8 @@ const Membership = (props: Props) => {
                 src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
                 alt="Soporte Especializado" 
                 className="w-8 h-8 mr-3"
-                height={8}
-                width={8}
+                height={80}
+                width={80}
                 />
               <p className="text-gray-300">Soporte Especializado</p>
 
@@ -143,7 +143,7 @@ const Membership = (props: Props) => {
         </div>
 
         {/* Plan Enterprise */}
-        <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
+        <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#00D4FF] hover:shadow-2xl">
           <div>
             <h2 className="text-[#00D4FF] text-2xl font-bold mb-4">Enterprise App</h2>
             <p className="text-gray-400 mb-6">
@@ -159,8 +159,8 @@ const Membership = (props: Props) => {
                 src="https://img.icons8.com/fluent/48/000000/android-os.png" 
                 alt="App iOS/Android" 
                 className="w-8 h-8 mr-3" 
-                height={8}
-                width={8}
+                height={80}
+                width={80}
                 />
               <p className="text-gray-300">App iOS / Android</p>
 
@@ -170,8 +170,8 @@ const Membership = (props: Props) => {
                 src="https://img.icons8.com/ios-filled/50/00BFFF/cloud.png" 
                 alt="Despliegue Completo" 
                 className="w-8 h-8 mr-3" 
-                height={8}
-                width={8}
+                height={80}
+                width={80}
                 />
               <p className="text-gray-300">Despliegue Completo</p>
             </div>
@@ -180,8 +180,8 @@ const Membership = (props: Props) => {
                 src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
                 alt="Soporte Especializado" 
                 className="w-8 h-8 mr-3"
-                height={8}
-                width={8} 
+                height={80}
+                width={80} 
                 />
               <p className="text-gray-300">Soporte Especializado</p>
             </div>
