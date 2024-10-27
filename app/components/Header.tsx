@@ -149,10 +149,12 @@ useEffect(() => {
             <ul>
 
             <div className="flex items-center space-x-4 justify-center">
-          <img
+          <Image
             src="https://i.postimg.cc/V6PqVmNk/xplendev-newlogotransparent.png" // ruta de Logo
             alt="Logo"
             className="w-[130px] h-auto"
+            width={130}
+            height={450}
           />
         </div>
 

@@ -46,7 +46,10 @@ export default function App( { onSlideChange, onSwiper }) {
           </h1>
 
           <Link href={'https://horizon-property-webpage.vercel.app/'} key={new Date().toISOString()}>
-          <img src='https://i.postimg.cc/bJ3S9Vk4/portfoliorespponsive-1.png' alt="perfil" className="border p-1 cursor-pointer no-select">
+          <img 
+          src='https://i.postimg.cc/bJ3S9Vk4/portfoliorespponsive-1.png' 
+          alt="perfil" 
+          className="border p-1 cursor-pointer no-select">
           </img>
           </Link>
 

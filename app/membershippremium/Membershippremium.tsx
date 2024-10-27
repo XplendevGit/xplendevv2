@@ -1,4 +1,5 @@
 // pages/MembershipPremium.js
+import Image from "next/image";
 import React from "react";
 
 const Membershippremium = () => {
@@ -26,15 +27,33 @@ const Membershippremium = () => {
           {/* Benefits */}
           <div className="text-left space-y-4 mb-6">
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/monitor.png" alt="E-commerce / E-learning" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/monitor.png" 
+                alt="E-commerce / E-learning" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
               <p className="text-gray-300">E-commerce / E-learning</p>
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" alt="Admin Site" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" 
+                alt="Admin Site" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
               <p className="text-gray-300">Sitio Administrable</p>
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/customer-support.png" alt="Soporte Especializado" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
+                alt="Soporte Especializado" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
               <p className="text-gray-300">Soporte Especializado</p>
             </div>
           </div>
@@ -60,10 +79,12 @@ const Membershippremium = () => {
           
           {/* Feature 1 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/64/000000/shopping-cart.png" // Icono para E-commerce
               alt="E-commerce"
               className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
             />
             <h3 className="text-2xl text-[#FF00FF] font-semibold">Tienda en Línea</h3>
             <p className="text-gray-400 mt-4">Implementación completa de tu tienda online con todas las funciones necesarias.</p>
@@ -72,10 +93,12 @@ const Membershippremium = () => {
 
           {/* Feature 2 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/64/000000/student-male.png" // Icono para E-learning
               alt="E-learning"
               className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
             />
             <h3 className="text-2xl text-[#FF00FF] font-semibold">Plataforma de E-learning</h3>
             <p className="text-gray-400 mt-4">Crea tu propio espacio de enseñanza en línea para cursos y formación.</p>
@@ -83,10 +106,12 @@ const Membershippremium = () => {
 
           {/* Feature 3 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/64/000000/customer-support.png" // Icono para soporte especializado
               alt="Soporte Especializado"
               className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
             />
             <h3 className="text-2xl text-[#FF00FF] font-semibold">Soporte Especializado</h3>
             <p className="text-gray-400 mt-4">Obtén soporte técnico especializado para garantizar el correcto funcionamiento de tu sitio.</p>

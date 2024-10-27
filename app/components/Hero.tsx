@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -25,10 +26,13 @@ const CategoryMenu = (props: Props) => {
             <div className="md:text-3xl text-lg font-bold text-[#C6FF00]">OFERTA $130.990</div>
             <h2 className="text-white md:text-2xl font-bold mt-4">Landing Page Profesional Wordpress</h2>
           </div>
-          <img
+
+          <Image
             src="https://i.postimg.cc/YSw0YtfF/image-hero1.webp" 
             alt="Sitio Web Wordpress"
             className="md:w-48 md:h-48 w-32 h-32 object-contain"
+            height={850}
+            width={850}
           />
         </div>
         </Link>
@@ -41,10 +45,13 @@ const CategoryMenu = (props: Props) => {
             <div className="md:text-3xl text-lg font-bold text-[#C6FF00]">OFERTA $245.990</div>
             <h2 className="text-white md:text-2xl font-bold mt-4">E-Commerce Profesional Wordrpess</h2>
           </div>
-          <img
+
+          <Image
             src="https://i.postimg.cc/90bVG32Y/image-hero-2.webp" 
             alt="Landing Pages"
             className="md:w-48 md:h-48 w-32 h-32 object-contain"
+            height={850}
+            width={850}
           />
         </div>
         </Link>
@@ -56,12 +63,16 @@ const CategoryMenu = (props: Props) => {
             <div className="text-sm text-gray-400 mb-2">Explora</div>
             <h2 className="text-white md:text-2xl font-bold mt-4">Conoce nuestros Sitios Web</h2>
           </div>
-          <img
+
+          <Image
             src="https://i.postimg.cc/L6FZDjpq/image-hero-3.webp" 
             alt="Conoce nuestros Sitios Web"
             className="md:w-48 md:h-48 w-32 h-32 object-contain"
+            height={850}
+            width={850}
           />
         </div>
+
         </Link>
       </div>
     </div>

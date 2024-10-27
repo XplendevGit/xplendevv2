@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 type Props = {};
 
@@ -62,10 +63,12 @@ const Inicio = (props: Props) => {
 
           {/* Columna derecha con la imagen gráfica */}
           <div className="col-span-1 flex justify-center md:justify-end items-center">
-            <img
+            <Image
               src="https://i.postimg.cc/Qxdqgtz7/image-portada-1-rtransparent.png" // Cambia la ruta según la ubicación de tu imagen
               alt="Graphic Illustration"
               className="w-[80%] md:w-[90%] mx-auto"
+              height={850}
+              width={850}
             />
           </div>
         </motion.div>

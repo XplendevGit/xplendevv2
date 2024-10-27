@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -25,11 +26,13 @@ const Footer = (props: Props) => {
         
         {/* Logo y nombre */}
         <div className="flex items-center space-x-4 justify-center">
-          <img
+          <Image
             onClick={handleButtonClickLogo}
             src="https://i.postimg.cc/V6PqVmNk/xplendev-newlogotransparent.png" // ruta de Logo
             alt="Logo"
             className="w-[150px] h-auto"
+            width={150}
+            height={450}
           />
         </div>
         

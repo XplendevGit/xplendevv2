@@ -1,4 +1,5 @@
 // pages/MembershipLanding.js
+import Image from "next/image";
 import React from "react";
 
 const Membershipbasic = () => {
@@ -26,15 +27,33 @@ const Membershipbasic = () => {
           {/* Benefits */}
           <div className="text-left space-y-4 mb-6">
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/monitor.png" alt="Landing Page" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/monitor.png" 
+                alt="Landing Page" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
               <p className="text-gray-300">Landing Page / Portafolio Web</p>
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" alt="Admin Site" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" 
+                alt="Admin Site" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
               <p className="text-gray-300">Sitio Administrable</p>
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/high-importance.png" alt="Support" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/high-importance.png" 
+                alt="Support" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
               <p className="text-gray-300">Soporte técnico</p>
             </div>
           </div>
@@ -60,10 +79,12 @@ const Membershipbasic = () => {
           
           {/* Feature 1 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/64/000000/wordpress.png" // Icono nuevo para WordPress
               alt="WordPress"
               className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
             />
             <h3 className="text-2xl text-[#B6E4FF] font-semibold">Implementación con WordPress</h3>
             <p className="text-gray-400 mt-4">Tu sitio web será construido en WordPress, la plataforma de gestión de contenido más popular y flexible.</p>
@@ -72,10 +93,12 @@ const Membershipbasic = () => {
 
           {/* Feature 2 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/64/000000/control-panel.png" // Icono nuevo para Sitio Administrable
               alt="Sitio Administrable"
               className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
             />
             <h3 className="text-2xl text-[#B6E4FF] font-semibold">Sitio Web Administrable</h3>
             <p className="text-gray-400 mt-4">Tendrás un sitio web completamente administrable, donde podrás modificar y actualizar contenido de manera sencilla.</p>
@@ -85,10 +108,12 @@ const Membershipbasic = () => {
 
           {/* Feature 3 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/64/000000/online-support.png" // Icono nuevo para Soporte Online
               alt="Soporte Online"
               className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
             />
             <h3 className="text-2xl text-[#B6E4FF] font-semibold">Soporte Online por 1 Mes</h3>
             <p className="text-gray-400 mt-4">Disfruta de soporte técnico online durante el primer mes para resolver cualquier duda o inconveniente que surja.</p>

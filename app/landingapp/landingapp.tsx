@@ -51,10 +51,12 @@ const LandingApp = () => {
       {/* Features Section */}
       <section className="text-white py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mt-12">
         <div className="bg-[#128C7E] p-8 rounded-xl shadow-lg text-center transition-all duration-200 hover:scale-105 hover:bg-[#0D6E68]">
-          <img
+          <Image
             src="https://i.postimg.cc/hGXnLQSx/Nutri-icon.png" // Reemplaza con la URL del icono correspondiente
             alt="Evaluación de Objetivos Nutricionales"
             className="w-16 h-16 mx-auto mb-4"
+            height={16}
+            width={16}
           />
           <h3 className="text-2xl font-bold">Evaluación de Objetivos Nutricionales</h3>
           <p className="mt-4 text-white">
@@ -62,10 +64,12 @@ const LandingApp = () => {
           </p>
         </div>
         <div className="bg-[#128C7E] p-8 rounded-xl shadow-lg text-center transition-all duration-200 hover:scale-105 hover:bg-[#0D6E68]">
-          <img
+          <Image
             src="https://i.postimg.cc/nLrF3w1X/AI-icon.png" // Reemplaza con la URL del icono correspondiente
             alt="Comparación de Alimentos con IA"
             className="w-16 h-16 mx-auto mb-4"
+            height={16}
+            width={16}
           />
           <h3 className="text-2xl font-bold">Comparación de Alimentos con IA</h3>
           <p className="mt-4 text-white">
@@ -73,10 +77,12 @@ const LandingApp = () => {
           </p>
         </div>
         <div className="bg-[#128C7E] p-8 rounded-xl shadow-lg text-center transition-all duration-200 hover:scale-105 hover:bg-[#0D6E68]">
-          <img
+          <Image
             src="https://i.postimg.cc/hGLr3pPq/infectado.png" // Reemplaza con la URL del icono correspondiente
             alt="Análisis Personalizado para Enfermedades"
             className="w-16 h-16 mx-auto mb-4"
+            height={16}
+            width={16}
           />
           <h3 className="text-2xl font-bold">Análisis Personalizado para Enfermedades</h3>
           <p className="mt-4 text-white">
@@ -90,28 +96,34 @@ const LandingApp = () => {
         <h2 className="text-3xl font-bold mb-8">¿Cómo Funciona NutriSnap?</h2>
         <div className="flex flex-wrap justify-center md:space-x-8 space-y-6 md:space-y-0">
           <div className="text-center">
-            <img
+            <Image
               src="https://i.postimg.cc/XYJmmZrv/1create-step.png" // Reemplaza con la URL del icono correspondiente
               alt="Step 1"
               className="w-52 h-52 mx-auto mb-4"
+              height={52}
+              width={52}
             />
             <h3 className="text-xl font-semibold">1. Crear una cuenta en NutriSnap</h3>
             <p className="text-gray-200">Regístrate fácilmente y comienza a usar la app para gestionar tu nutrición de manera inteligente.</p>
           </div>
           <div className="text-center">
-            <img
+            <Image
               src="https://i.postimg.cc/fTM67qZm/2create-step.png" // Reemplaza con la URL del icono correspondiente
               alt="Step 2"
               className="w-52 h-52 mx-auto mb-4"
+              height={52}
+              width={52}
             />
             <h3 className="text-xl font-semibold">2. Completar tu perfil</h3>
             <p className="text-gray-200">Rellena tu perfil con detalles como tu físico, condiciones de salud y objetivos nutricionales para obtener recomendaciones personalizadas.</p>
           </div>
           <div className="text-center">
-            <img
+            <Image
               src="https://i.postimg.cc/15Mbv05T/3create-step.png" // Reemplaza con la URL del icono correspondiente
               alt="Step 3"
               className="w-52 h-52 mx-auto mb-4"
+              height={52}
+              width={52}
             />
             <h3 className="text-xl font-semibold">3. Comparar alimentos con la cámara</h3>
             <p className="text-gray-200">Utiliza la cámara para comparar alimentos en tiempo real y recibe resultados basados en inteligencia artificial, adaptados a tus necesidades.</p>

@@ -1,4 +1,5 @@
 // pages/MembershipEnterprise.js
+import Image from "next/image";
 import React from "react";
 
 const MembershipEnterprise = () => {
@@ -26,15 +27,33 @@ const MembershipEnterprise = () => {
           {/* Benefits */}
           <div className="text-left space-y-4 mb-6">
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/android-os.png" alt="App iOS/Android" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/android-os.png" 
+                alt="App iOS/Android" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
               <p className="text-gray-300">App iOS / Android</p>
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/ios-filled/50/00BFFF/cloud.png" alt="Despliegue Completo" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/ios-filled/50/00BFFF/cloud.png" 
+                alt="Despliegue Completo" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
               <p className="text-gray-300">Despliegue Completo</p>
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/customer-support.png" alt="Soporte Especializado" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
+                alt="Soporte Especializado" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
               <p className="text-gray-300">Soporte Especializado</p>
             </div>
           </div>
@@ -60,10 +79,12 @@ const MembershipEnterprise = () => {
           
           {/* Feature 1 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/fluent/64/000000/android-os.png" // Icono para App iOS / Android
               alt="App iOS / Android"
               className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
             />
             <h3 className="text-2xl text-[#00BFFF] font-semibold">App iOS / Android</h3>
             <p className="text-gray-400 mt-4">Desarrollo de una aplicación nativa tanto para iOS como para Android.</p>
@@ -71,10 +92,12 @@ const MembershipEnterprise = () => {
 
           {/* Feature 2 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/ios-filled/50/00BFFF/cloud.png" // Nuevo icono para Despliegue Completo
               alt="Despliegue Completo"
               className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
             />
             <h3 className="text-2xl text-[#00BFFF] font-semibold">Despliegue Completo</h3>
             <p className="text-gray-400 mt-4">Nos encargamos del despliegue completo en tiendas de aplicaciones y en la nube.</p>
@@ -82,10 +105,12 @@ const MembershipEnterprise = () => {
 
           {/* Feature 3 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/fluent/48/000000/customer-support.png" // Icono para soporte especializado
               alt="Soporte Especializado"
               className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
             />
             <h3 className="text-2xl text-[#00BFFF] font-semibold">Soporte Especializado</h3>
             <p className="text-gray-400 mt-4">Obtén soporte técnico especializado durante el desarrollo y posterior al lanzamiento.</p>

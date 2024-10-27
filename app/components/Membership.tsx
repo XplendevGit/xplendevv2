@@ -6,6 +6,7 @@ import { HiOutlineCheck } from "react-icons/hi";
 import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
+import Image from 'next/image';
 
 type Props = {};
 
@@ -36,16 +37,40 @@ const Membership = (props: Props) => {
           {/* Benefits */}
           <div className="text-left space-y-4 mb-6">
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/monitor.png" alt="Landing Page" className="w-8 h-8 mr-3" />
+
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/monitor.png" 
+                alt="Landing Page" 
+                className="w-8 h-8 mr-3" 
+                height={8}
+                width={8}
+              />
               <p className="text-gray-300">Landing Page / Portafolio Web</p>
+
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" alt="Admin Site" className="w-8 h-8 mr-3" />
+
+              <Image
+                src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" 
+                alt="Admin Site" 
+                className="w-8 h-8 mr-3" 
+                height={8}
+                width={8}
+                />
               <p className="text-gray-300">Sitio Administrable</p>
             </div>
+
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/high-importance.png" alt="Support" className="w-8 h-8 mr-3" />
+
+              <Image
+                src="https://img.icons8.com/fluent/48/000000/high-importance.png" 
+                alt="Support" 
+                className="w-8 h-8 mr-3"
+                height={8}
+                width={8} 
+                />
               <p className="text-gray-300">Soporte técnico por 1 mes</p>
+
             </div>
           </div>
 
@@ -71,16 +96,40 @@ const Membership = (props: Props) => {
             {/* Beneficios Premium */}
             <div className="text-left space-y-4 mb-6">
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/monitor.png" alt="E-commerce / E-learning" className="w-8 h-8 mr-3" />
+
+              <Image
+                src="https://img.icons8.com/fluent/48/000000/monitor.png" 
+                alt="E-commerce / E-learning" 
+                className="w-8 h-8 mr-3" 
+                height={8}
+                width={8}
+                />
               <p className="text-gray-300">E-commerce / E-learning</p>
+
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" alt="Admin Site" className="w-8 h-8 mr-3" />
+
+              <Image
+                src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" 
+                alt="Admin Site" 
+                className="w-8 h-8 mr-3" 
+                height={8}
+                width={8}
+                />
               <p className="text-gray-300">Sitio Administrable</p>
+
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/customer-support.png" alt="Soporte Especializado" className="w-8 h-8 mr-3" />
+
+              <Image
+                src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
+                alt="Soporte Especializado" 
+                className="w-8 h-8 mr-3"
+                height={8}
+                width={8}
+                />
               <p className="text-gray-300">Soporte Especializado</p>
+
             </div>
           </div>
           </div>
@@ -105,15 +154,35 @@ const Membership = (props: Props) => {
           {/* Beneficios Enteprise */}
           <div className="text-left space-y-4 mb-6">
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/android-os.png" alt="App iOS/Android" className="w-8 h-8 mr-3" />
+
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/android-os.png" 
+                alt="App iOS/Android" 
+                className="w-8 h-8 mr-3" 
+                height={8}
+                width={8}
+                />
               <p className="text-gray-300">App iOS / Android</p>
+
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/ios-filled/50/00BFFF/cloud.png" alt="Despliegue Completo" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/ios-filled/50/00BFFF/cloud.png" 
+                alt="Despliegue Completo" 
+                className="w-8 h-8 mr-3" 
+                height={8}
+                width={8}
+                />
               <p className="text-gray-300">Despliegue Completo</p>
             </div>
             <div className="flex items-center">
-              <img src="https://img.icons8.com/fluent/48/000000/customer-support.png" alt="Soporte Especializado" className="w-8 h-8 mr-3" />
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
+                alt="Soporte Especializado" 
+                className="w-8 h-8 mr-3"
+                height={8}
+                width={8} 
+                />
               <p className="text-gray-300">Soporte Especializado</p>
             </div>
           </div>
