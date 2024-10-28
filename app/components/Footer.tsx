@@ -38,8 +38,8 @@ const Footer = (props: Props) => {
         
         {/* Menú de enlaces */}
         <div className="flex justify-center md:space-x-8 space-x-4">
-          <Link href="/products" legacyBehavior>
-            <a className="hover:text-white transition-all duration-300">Todo Sitio Web</a>
+          <Link href="/servicios" legacyBehavior>
+            <a className="hover:text-white transition-all duration-300">Nuestros Servicios</a>
           </Link>
           <Link href="/resources" legacyBehavior>
             <a className="hover:text-white transition-all duration-300">APP</a>

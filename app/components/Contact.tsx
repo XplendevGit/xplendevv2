@@ -29,7 +29,7 @@ const Contact = (props: Props) => {
         </div>
 
         {/* Formulario de contacto */}
-        <div className="bg-[#1B1E32] p-8 rounded-lg shadow-lg flex flex-col justify-center w-full md:order-last">
+        <div className="bg-[#1B1E32] p-8 rounded-lg shadow-lg flex flex-col justify-center w-full md:order-last border-[#1B1E32] border-2 hover:border-[#D43EFF] transition-all ease-in duration-150">
           <h2 className="text-white text-3xl md:text-4xl font-bold mb-6">Contáctanos</h2>
           <form 
             action="https://formsubmit.co/ca48646714845b36c95f666f850a0954" 

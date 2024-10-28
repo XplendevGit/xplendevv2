@@ -31,8 +31,8 @@ const MembershipEnterprise = () => {
                 src="https://img.icons8.com/fluent/48/000000/android-os.png" 
                 alt="App iOS/Android" 
                 className="w-8 h-8 mr-3" 
-                height={80}
-                width={80}
+                height={180}
+                width={180}
                 />
               <p className="text-gray-300">App iOS / Android</p>
             </div>
