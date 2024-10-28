@@ -8,7 +8,7 @@ const Servicios = () => {
       {/* Header Section */}
       <section className="text-center text-white mb-12">
         <h2 className="text-4xl md:text-5xl font-bold mb-4">Nuestros Servicios</h2>
-        <p className="text-gray-400 text-lg md:text-xl">Lo que hacemos para ayudarte a crecer.</p>
+        <p className="text-gray-400 text-lg md:text-xl">Conoce lo que hacemos para ayudarte a crecer.</p>
       </section>
 
       {/* Services Section */}
@@ -69,15 +69,15 @@ const Servicios = () => {
       <section className="w-full max-w-6xl flex flex-col md:flex-row items-center bg-[#1B1E32] border-[#1B1E32] border-2 hover:border-[#D43EFF] transition-all ease-in duration-150 rounded-lg p-8 md:p-16 shadow-lg space-y-8 md:space-y-0 md:space-x-8">
         <div className="w-full md:w-1/2">
           <Image
-            src="https://img.icons8.com/fluent/96/000000/headphones.png" // Icon or illustrative image
+            src="https://i.postimg.cc/NfXNtz85/bg-4-2.png" // Icon or illustrative image
             alt="About Us"
-            width={400}
-            height={400}
-            className="mx-auto md:mx-0"
+            width={900}
+            height={900}
+            className="mx-auto md:mx-0 w-auto h-auto"
           />
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left text-white">
-          <h2 className="text-4xl font-bold mb-4">Creatividad para Llevarte al Éxito</h2>
+          <h2 className="text-4xl font-bold mb-4 text-[#C6FF00]">Creatividad <span className="text-white">para Llevarte al Éxito</span> </h2>
           <p className="text-gray-400 mb-6">Nos enfocamos en soluciones creativas que destacan tu negocio en el mercado digital.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex items-center space-x-3">
@@ -88,7 +88,7 @@ const Servicios = () => {
                 height={48}
               />
               <div>
-                <h3 className="text-xl font-semibold">Código Limpio</h3>
+                <h3 className="text-xl font-semibold text-[#D43EFF]">Código Limpio</h3>
                 <p className="text-gray-400">Nuestro código es estructurado y fácil de mantener.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@ const Servicios = () => {
                 height={48}
               />
               <div>
-                <h3 className="text-xl font-semibold">Diseño Moderno</h3>
+                <h3 className="text-xl font-semibold text-[#00D4FF]">Diseño Moderno</h3>
                 <p className="text-gray-400">Diseños atractivos y actuales que conectan con tu audiencia.</p>
               </div>
             </div>
