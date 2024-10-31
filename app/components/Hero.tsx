@@ -28,7 +28,7 @@ const CategoryMenu = (props: Props) => {
           </div>
 
           <Image
-            src="https://i.postimg.cc/YSw0YtfF/image-hero1.webp" 
+            src="https://i.postimg.cc/HLkNzSyC/wordpress.webp" 
             alt="Sitio Web Wordpress"
             className="md:w-48 md:h-48 w-32 h-32 object-contain"
             height={850}
@@ -47,7 +47,7 @@ const CategoryMenu = (props: Props) => {
           </div>
 
           <Image
-            src="https://i.postimg.cc/90bVG32Y/image-hero-2.webp" 
+            src="https://i.postimg.cc/R08zHrbY/ecommerce.png" 
             alt="Landing Pages"
             className="md:w-48 md:h-48 w-32 h-32 object-contain"
             height={850}
@@ -84,7 +84,7 @@ const CategoryMenu = (props: Props) => {
           </div>
 
           <Image
-            src="https://i.postimg.cc/L6FZDjpq/image-hero-3.webp" 
+            src="https://i.postimg.cc/Vv21QxXM/nuestrositios.png" 
             alt="Conoce nuestros Sitios Web"
             className="md:w-48 md:h-48 w-32 h-32 object-contain"
             height={850}
