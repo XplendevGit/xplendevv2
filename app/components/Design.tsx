@@ -45,7 +45,7 @@ const MobileAppPage = (props: Props) => {
             </div>
             <div className="text-white">
               <h2 className="text-3xl font-bold">809</h2>
-              <p className="text-gray-400">Calificaciónes</p>
+              <p className="text-gray-400">Calificaciones</p>
             </div>
           </div>
         </div>

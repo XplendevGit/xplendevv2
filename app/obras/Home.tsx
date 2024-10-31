@@ -25,8 +25,8 @@ const Portfolio = (props: Props) => {
                   src="https://i.postimg.cc/wvTt4NVJ/property-demo1.webp" // Imagen de referencia
                   alt="Trailer 1"
                   className="w-full h-24 object-cover rounded-md mb-2"
-                  height={100}
-                  width={100}
+                  height={500}
+                  width={500}
                 />
                 <h3 className="text-gray-300 text-sm">Sitio Web: Horizon Property</h3>
               </div>
@@ -39,8 +39,8 @@ const Portfolio = (props: Props) => {
                   src="https://i.postimg.cc/fyV1KHSP/elegant-demo2.webp" // Imagen de referencia
                   alt="Trailer 2"
                   className="w-full h-24 object-cover rounded-md mb-2"
-                  height={100}
-                  width={100}
+                  height={500}
+                  width={500}
                 />
                 <h3 className="text-gray-300 text-sm">Sitio Web: Elegant Cannine</h3>
               </div>
@@ -52,8 +52,8 @@ const Portfolio = (props: Props) => {
                   src="https://i.postimg.cc/KjbmshFW/portfolio-demo1.webp" // Imagen de referencia
                   alt="Trailer 3"
                   className="w-full h-24 object-cover rounded-md mb-2"
-                  height={100}
-                  width={100}
+                  height={500}
+                  width={500}
                 />
                 <h3 className="text-gray-300 text-sm">Sitio Web: Portafolio</h3>
               </div>
@@ -71,8 +71,8 @@ const Portfolio = (props: Props) => {
                   src="https://i.postimg.cc/rsTQdQCW/manuelmolina-demo1.webp" // Imagen de referencia
                   alt="Continuar viendo 1"
                   className="w-16 h-16 object-cover rounded-lg"
-                  height={100}
-                  width={100}
+                  height={500}
+                  width={500}
                 />
                 <div className="flex flex-col">
                   <h3 className="text-gray-300 text-sm">Sitio Web: Manuel Molina Galería</h3>
@@ -84,8 +84,8 @@ const Portfolio = (props: Props) => {
                   src="https://i.postimg.cc/G2dXtXjD/visionpyme-demo1.webp" // Imagen de referencia
                   alt="Continuar viendo 2"
                   className="w-16 h-16 object-cover rounded-lg"
-                  height={100}
-                  width={100}
+                  height={500}
+                  width={500}
                 />
                 <div className="flex flex-col">
                   <h3 className="text-gray-300 text-sm">Aplicación Móbil: VisionPyme</h3>
@@ -102,8 +102,8 @@ const Portfolio = (props: Props) => {
             src="https://i.postimg.cc/J0pS3fhZ/android-demo1.webp" // Imagen de referencia
             alt="Contenido Principal"
             className="w-full h-60 object-cover rounded-lg mb-4"
-            height={100}
-            width={100}
+            height={500}
+            width={500}
           />
           <h2 className="text-white text-3xl font-bold mb-2">Android App: NutriSnap</h2>
           <p className="text-gray-400 mb-4">
@@ -138,8 +138,8 @@ const Portfolio = (props: Props) => {
                 src="https://i.postimg.cc/8C2xkdFQ/sitewizars-demo2.jpg" // Imagen de referencia
                 alt="Recomendación 1"
                 className="w-16 h-16 object-cover rounded-lg"
-                height={100}
-                width={100}
+                height={500}
+                width={500}
               />
               <div className="flex flex-col">
                 <h3 className="text-gray-300 text-sm">SiteWizard CMS</h3>
@@ -154,8 +154,8 @@ const Portfolio = (props: Props) => {
                 src="https://i.postimg.cc/4dcwWrNj/teckware-demo1.jpg" // Imagen de referencia
                 alt="Recomendación 2"
                 className="w-16 h-16 object-cover rounded-lg"
-                height={100}
-                width={100}
+                height={500}
+                width={500}
               />
               <div className="flex flex-col">
                 <h3 className="text-gray-300 text-sm">TeckWare.ls</h3>
@@ -170,8 +170,8 @@ const Portfolio = (props: Props) => {
                 src="https://i.postimg.cc/LXvhFsXP/prodmaxi-demo1.jpg" // Imagen de referencia
                 alt="Recomendación 3"
                 className="w-16 h-16 object-cover rounded-lg"
-                height={100}
-                width={100}
+                height={500}
+                width={500}
               />
               <div className="flex flex-col">
                 <h3 className="text-gray-300 text-sm">ProdMvxii</h3>
@@ -196,8 +196,8 @@ const Portfolio = (props: Props) => {
               src="https://i.postimg.cc/ryJwDzqR/sitewizard-demo1.webp"
               alt="Recomendación Grande 1"
               className="w-full h-40 object-cover rounded-lg mb-4"
-              height={100}
-              width={100}
+              height={500}
+              width={500}
             />
             <h3 className="text-white text-xl font-bold mb-2">SiteWizard CMS</h3>
             <p className="text-gray-400">
@@ -212,8 +212,8 @@ const Portfolio = (props: Props) => {
               src="https://i.postimg.cc/nLTtHS8s/teckware-demo2.webp"
               alt="Recomendación Grande 2"
               className="w-full h-40 object-cover rounded-lg mb-4"
-              height={100}
-              width={100}
+              height={500}
+              width={500}
             />
             <h3 className="text-white text-xl font-bold mb-2">Teckware</h3>
             <p className="text-gray-400">
@@ -228,8 +228,8 @@ const Portfolio = (props: Props) => {
               src="https://i.postimg.cc/jdRQfMBq/prodmaxii-demo2.webp"
               alt="Recomendación Grande 3"
               className="w-full h-40 object-cover rounded-lg mb-4"
-              height={100}
-              width={100}
+              height={500}
+              width={500}
             />
             <h3 className="text-white text-xl font-bold mb-2">ProdMvxii</h3>
             <p className="text-gray-400">

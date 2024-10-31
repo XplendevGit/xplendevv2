@@ -37,7 +37,7 @@ const CategoryMenu = (props: Props) => {
         </div>
         </Link>
 
-        {/* Tarjeta 2: Sitios Web Landing Pages Personalizados */}
+        {/* Tarjeta 2: Sitios Web Landing Pages Personalizados Wordpress */}
         <Link href={"https://www.webpay.cl/form-pay/210817"}>
         <div className="relative bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex items-center justify-between cursor-pointer transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
           <div className="mr-4">
@@ -49,6 +49,25 @@ const CategoryMenu = (props: Props) => {
           <Image
             src="https://i.postimg.cc/90bVG32Y/image-hero-2.webp" 
             alt="Landing Pages"
+            className="md:w-48 md:h-48 w-32 h-32 object-contain"
+            height={850}
+            width={850}
+          />
+        </div>
+        </Link>
+
+        {/* Tarjeta 3: Sitios Web Landing Pages Personalizados */}
+        <Link href={"https://www.webpay.cl/form-pay/223026"}>
+        <div className="relative bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex items-center justify-between cursor-pointer transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
+          <div className="mr-4">
+            <div className="text-sm text-gray-400 mb-2">Personalizado - Desde</div>
+            <div className="md:text-3xl text-lg font-bold text-[#C6FF00]"> $179.990</div>
+            <h2 className="text-white md:text-2xl font-bold mt-4">Sitio Web Profesional Personalizado</h2>
+          </div>
+
+          <Image
+            src="https://i.postimg.cc/Yq2C67Cn/nextjs-image.png" 
+            alt="Sitio Web Personalizado"
             className="md:w-48 md:h-48 w-32 h-32 object-contain"
             height={850}
             width={850}
