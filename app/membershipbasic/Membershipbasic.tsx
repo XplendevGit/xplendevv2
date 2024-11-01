@@ -16,7 +16,7 @@ const Membershipbasic = () => {
       <section className="grid grid-cols-1 gap-8 w-full max-w-xl">
 
         {/* Plan Details */}
-        <div className="bg-[#112240] border border-[#B6E4FF] rounded-lg p-8 text-center shadow-lg mx-auto flex flex-col">
+        <div className="bg-[#112240] border-[#B6E4FF] rounded-lg p-8 text-center shadow-lg mx-auto flex flex-col hover:border-[#C6FF00] transition-all duration-150 ease-in border">
           <h2 className="text-3xl text-[#C6FF00] font-bold mb-4">Plan Básico</h2>
           <p className="text-lg text-gray-400 mb-6">La solución perfecta para aquellos que buscan presencia online con un sitio administrable y funcional.</p>
 
@@ -71,14 +71,17 @@ const Membershipbasic = () => {
       </section>
 
       {/* Features Section */}
-      <section className="mt-16 w-full max-w-6xl text-center">
+      <section className="mt-16 w-full max-w-6xl text-center ">
         <h2 className="text-4xl text-[#B6E4FF] font-bold mb-6">¿Qué incluye la Membresía Básica?</h2>
-        <p className="text-lg text-gray-400 mb-12">Con nuestro plan básico, obtienes las herramientas necesarias para tener presencia online sin complicaciones.</p>
+        <p className="text-lg text-gray-400 mb-12">Con nuestro plan básico, obtienes las herramientas necesarias para tener presencia online sin complicaciones. <br />
+        <span className="text-xl">Una vez completado el pago de tu membresía, nos pondremos en contacto contigo para orientarte en los siguientes pasos del proceso. <br /></span>
+           <span className="text-2xl">Estamos Ansiosos de poder comenzar!</span>
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           {/* Feature 1 */}
-          <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
+          <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#C6FF00] transition-all duration-150 ease-in border">
             <Image
               src="https://img.icons8.com/color/64/000000/wordpress.png" // Icono nuevo para WordPress
               alt="WordPress"
@@ -92,7 +95,7 @@ const Membershipbasic = () => {
 
 
           {/* Feature 2 */}
-          <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
+          <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#C6FF00] transition-all duration-150 ease-in border">
             <Image
               src="https://img.icons8.com/color/64/000000/control-panel.png" // Icono nuevo para Sitio Administrable
               alt="Sitio Administrable"
@@ -107,7 +110,7 @@ const Membershipbasic = () => {
 
 
           {/* Feature 3 */}
-          <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
+          <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#C6FF00] transition-all duration-150 ease-in border">
             <Image
               src="https://img.icons8.com/color/64/000000/online-support.png" // Icono nuevo para Soporte Online
               alt="Soporte Online"

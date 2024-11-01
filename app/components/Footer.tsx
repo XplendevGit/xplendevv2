@@ -44,7 +44,7 @@ const Footer = (props: Props) => {
           <Link href="/resources" legacyBehavior>
             <a className="hover:text-white transition-all duration-300">APP</a>
           </Link>
-          <Link href="/blog" legacyBehavior>
+          <Link href="/acercade" legacyBehavior>
             <a className="hover:text-white transition-all duration-300">Acerca de</a>
           </Link>
         </div>

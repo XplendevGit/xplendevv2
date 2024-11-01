@@ -16,7 +16,7 @@ const Membershippremium = () => {
       <section className="grid grid-cols-1 gap-8 w-full max-w-xl">
 
         {/* Plan Details */}
-        <div className="bg-[#112240] border border-[#FF00FF] rounded-lg p-8 text-center shadow-lg mx-auto flex flex-col">
+        <div className="bg-[#112240] border-[#B6E4FF] rounded-lg p-8 text-center shadow-lg mx-auto flex flex-col hover:border-[#FF00FF] transition-all duration-150 ease-in border">
           <h2 className="text-3xl text-[#FF00FF] font-bold mb-4">Plan Premium</h2>
           <p className="text-lg text-gray-400 mb-6">Ideal para aquellos que buscan soluciones avanzadas como E-commerce o E-learning.</p>
 
@@ -73,12 +73,15 @@ const Membershippremium = () => {
       {/* Features Section */}
       <section className="mt-16 w-full max-w-6xl text-center">
         <h2 className="text-4xl text-[#FF00FF] font-bold mb-6">¿Qué incluye la Membresía Premium?</h2>
-        <p className="text-lg text-gray-400 mb-12">Con nuestro plan premium, obtienes soluciones avanzadas para sitios más complejos como tiendas en línea o plataformas de aprendizaje.</p>
+        <p className="text-lg text-gray-400 mb-12">Con nuestro plan premium, obtienes soluciones avanzadas para sitios más complejos como tiendas en línea o plataformas de aprendizaje. <br />
+        <span className="text-xl">Una vez completado el pago de tu membresía, nos pondremos en contacto contigo para orientarte en los siguientes pasos del proceso. <br /></span>
+           <span className="text-2xl">Estamos Ansiosos de poder comenzar!</span>
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           {/* Feature 1 */}
-          <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
+          <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#FF00FF] transition-all duration-150 ease-in border">
             <Image
               src="https://img.icons8.com/color/64/000000/shopping-cart.png" // Icono para E-commerce
               alt="E-commerce"
@@ -92,7 +95,7 @@ const Membershippremium = () => {
 
 
           {/* Feature 2 */}
-          <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
+          <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#FF00FF] transition-all duration-150 ease-in border">
             <Image
               src="https://img.icons8.com/color/64/000000/student-male.png" // Icono para E-learning
               alt="E-learning"
@@ -105,7 +108,7 @@ const Membershippremium = () => {
           </div>
 
           {/* Feature 3 */}
-          <div className="bg-[#112240] rounded-lg p-6 shadow-lg">
+          <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#FF00FF] transition-all duration-150 ease-in border">
             <Image
               src="https://img.icons8.com/color/64/000000/customer-support.png" // Icono para soporte especializado
               alt="Soporte Especializado"
