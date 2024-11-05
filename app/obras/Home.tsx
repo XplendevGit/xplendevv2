@@ -32,17 +32,17 @@ const Portfolio = (props: Props) => {
               </div>
               </Link>
 
-              <Link href={"https://elegant-cannine.vercel.app/"}>
+              <Link href={"https://lawyersv2.vercel.app/"}>
               <div 
               className="bg-[#243B55] rounded-lg p-3 mt-4 hover:bg-[#353B50] cursor-pointer transition-all duration-200">
                 <Image
-                  src="https://i.postimg.cc/fyV1KHSP/elegant-demo2.webp" // Imagen de referencia
+                  src="https://i.postimg.cc/N0L6sG3P/lawyer-img-1.png" // Imagen de referencia
                   alt="Trailer 2"
                   className="w-full h-24 object-cover rounded-md mb-2"
                   height={500}
                   width={500}
                 />
-                <h3 className="text-gray-300 text-sm">Sitio Web: Elegant Cannine</h3>
+                <h3 className="text-gray-300 text-sm">Sitio Web: Abogados</h3>
               </div>
               </Link>
 
