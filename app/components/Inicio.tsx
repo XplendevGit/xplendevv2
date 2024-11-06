@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {};
 
@@ -48,11 +49,14 @@ const Inicio = (props: Props) => {
 
             {/* Botones debajo del texto */}
             <div className="mt-8 flex space-x-4 justify-center items-center md:justify-start md:items-start">
+
+              <Link href={"/portfolio"}>
               <button
-              onClick={handleButtonClick} 
               className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:opacity-90 transition-all duration-200">
                 Sitios Web
               </button>
+              </Link>
+              
               <button 
               onClick={handleButtonClick2} 
               className="border border-gray-500 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:bg-gray-700 transition-all duration-200">
