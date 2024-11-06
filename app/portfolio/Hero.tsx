@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className="bg-gray-900 text-white">
-      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-6 py-12 lg:py-20 gap-12 lg:gap-24">
+      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-center px-6 py-12 lg:py-20 gap-12 lg:gap-24">
         {/* Left Content - Text and Buttons */}
-        <div className="flex flex-col items-start max-w-xl">
+        <div className="flex flex-col items-start max-w-xl text-center lg:text-left">
           <motion.h1
             className="text-4xl lg:text-6xl font-extrabold mb-4 leading-tight"
             initial={{ opacity: 0, x: -50 }}
@@ -23,11 +23,15 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.9, delay: 0.2 }}
           >
-            Presentamos <span className="text-[#57E174] font-bold">NutriSnap</span>, nuestra última aplicación diseñada para revolucionar la forma en que 
-            gestionas tu nutrición. Con inteligencia artificial, <span className="font-bold text-[#57E174]">NutriSnap </span> 
-            te ayuda a elegir los mejores alimentos según tus metas de salud y necesidades personales. 
-            Evalúa objetivos nutricionales, compara alimentos con IA y recibe recomendaciones personalizadas, 
-            incluso si tienes condiciones médicas específicas.
+            Presentamos{" "}
+            <span className="text-[#57E174] font-bold">NutriSnap</span>, nuestra
+            última aplicación diseñada para revolucionar la forma en que
+            gestionas tu nutrición. Con inteligencia artificial,{" "}
+            <span className="font-bold text-[#57E174]">NutriSnap </span>
+            te ayuda a elegir los mejores alimentos según tus metas de salud y
+            necesidades personales. Evalúa objetivos nutricionales, compara
+            alimentos con IA y recibe recomendaciones personalizadas, incluso
+            si tienes condiciones médicas específicas.
           </motion.p>
 
           {/* Buttons */}
@@ -54,7 +58,7 @@ const Hero = () => {
               </svg>
               Descargar App
             </motion.a>
-            
+
             <motion.a
               href="/membershipenterprise"
               className="border-2 border-gray-500 text-white font-bold py-3 px-6 rounded-lg flex items-center gap-2 hover:bg-gray-700"
@@ -82,16 +86,16 @@ const Hero = () => {
 
         {/* Right Content - Image */}
         <motion.div
-          className="relative w-full max-w-sm lg:max-w-md xl:max-w-lg"
+          className="relative w-full max-w-sm lg:max-w-md xl:max-w-lg flex justify-center"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
           <Image
-            src="https://i.postimg.cc/XJqbd0rH/nutrisnap_icon_1.png" // Usa la imagen que representa tu aplicación
+            src="https://i.postimg.cc/XJqbd0rH/nutrisnap_icon_1.png"
             alt="NutriSnap App Screenshot"
             className="rounded-2xl"
-            layout="intrinsic" // Mantiene el tamaño relativo de la imagen
+            layout="intrinsic"
             width={500}
             height={500}
           />
