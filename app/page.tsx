@@ -3,7 +3,6 @@ import Inicio from './components/Inicio'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Design from './components/Design'
-import Metodología from './components/Metodología'
 import Membership from './components/Membership'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -35,7 +34,7 @@ export default function Home() {
         <Contact/>
       </section>
 
-      <section className="">
+      <section className="footer">
         <Footer/>
       </section>
       </>

@@ -1,8 +1,10 @@
 import React from 'react'
-import Home from './Home'
+import Portfolio from './Portfolio'
 import Header from '../components/Header_2'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
+import Hero from './Hero'
+import Recomendations from './Recomendations'
 
 export default function Obras(){
   return (
@@ -11,7 +13,15 @@ export default function Obras(){
     <Header />
 
     <section className="" id="home">
-       <Home />
+       <Portfolio />
+      </section>
+
+      <section className="" id="hero">
+       <Hero />
+      </section>
+
+      <section className="" id="recomendations">
+       <Recomendations />
       </section>
     
     <section className="" id="contact">

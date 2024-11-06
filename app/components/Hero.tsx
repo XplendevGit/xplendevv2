@@ -76,7 +76,7 @@ const CategoryMenu = (props: Props) => {
         </Link>
 
         {/* Tarjeta 4: Conoce nuestros sitios web */}
-        <Link href={'/obras'}>
+        <Link href={'/portfolio'}>
         <div className="relative bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex items-center justify-between cursor-pointer transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
           <div className="mr-4">
             <div className="text-sm text-gray-400 mb-2">Explora</div>
