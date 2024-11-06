@@ -32,7 +32,7 @@ const Recommendations = () => {
       <div className="container mx-auto px-6 lg:px-12">
         {/* Header */}
         <motion.div
-          className="text-center mb-12"
+          className="md:text-center text-start mb-12"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -40,7 +40,7 @@ const Recommendations = () => {
           <h2 className="text-3xl lg:text-5xl font-extrabold mb-4">
             Sitios <span className="text-pink-500">Recomendados</span>
           </h2>
-          <p className="text-gray-300 text-lg lg:text-xl">
+          <p className="text-lg text-gray-400 lg:text-xl">
             Explora y conoce sitios profesionales para expandir tu eficiencia.
           </p>
         </motion.div>

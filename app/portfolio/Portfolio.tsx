@@ -78,7 +78,7 @@ const Portfolio = () => {
             duration: 0.7,
           }}
         >
-          <div className={`relative w-[320px] h-[500px]`}>
+          <div className={`relative w-[320px] h-[500px] justify-center items-center flex`}>
             {projects.map((project, index) => {
               const position =
                 (index - activeIndex + projects.length) % projects.length;
@@ -106,7 +106,7 @@ const Portfolio = () => {
               return (
                 <motion.div
                   key={index}
-                  className={`absolute w-[300px] h-[450px] rounded-2xl overflow-hidden border-[2px] bg-gray-800 ${
+                  className={`absolute w-[200px] h-[350px] md:w-[280px] md:h-[500px] rounded-2xl overflow-hidden border-[2px] bg-gray-800 ${
                     position === 0
                       ? "border-pink-500"
                       : position === 1
@@ -140,7 +140,7 @@ const Portfolio = () => {
                   <Image
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-top"
                     layout="fill"
                     draggable={false}
                   />

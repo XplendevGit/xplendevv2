@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="bg-gray-900 text-white">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-center px-6 py-12 lg:py-20 gap-12 lg:gap-24">
         {/* Left Content - Text and Buttons */}
-        <div className="flex flex-col items-start max-w-xl text-center lg:text-left">
+        <div className="flex flex-col items-start max-w-xl text-cente lg:text-left">
           <motion.h1
             className="text-4xl lg:text-6xl font-extrabold mb-4 leading-tight"
             initial={{ opacity: 0, x: -50 }}
@@ -18,7 +18,7 @@ const Hero = () => {
             <span className="text-pink-500">Para tu Negocio</span>
           </motion.h1>
           <motion.p
-            className="text-lg lg:text-xl text-gray-300 mb-6 leading-relaxed"
+            className="text-lg lg:text-xl text-gray-400 mb-6 leading-relaxed"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.9, delay: 0.2 }}
