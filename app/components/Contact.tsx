@@ -1,15 +1,46 @@
 "use client";
-import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-type Props = {};
+const Contact: React.FC = () => {
+  const [formData, setFormData] = useState({
+    nombre: "",
+    mail: "",
+    mensaje: "",
+  });
 
-const Contact = (props: Props) => {
-  const [message, setMessage] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [responseMessage, setResponseMessage] = useState("");
 
-  const handleClickSubmit = () => {
-    setMessage(true);
-    alert("Tu mensaje será enviado, te responderemos lo antes posible!. Se redireccionará la página automaticamente al presionar ACEPTAR");
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setResponseMessage("¡Mensaje enviado exitosamente!, Revisaremos tu Feedback.");
+        setFormData({ nombre: "", mail: "", mensaje: "" });
+      } else {
+        setResponseMessage("Error al enviar el mensaje. Inténtalo nuevamente.");
+      }
+    } catch (error) {
+      console.error("Error enviando el mensaje: ", error);
+      setResponseMessage("Error al enviar el mensaje. Inténtalo nuevamente.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -31,38 +62,45 @@ const Contact = (props: Props) => {
         {/* Formulario de contacto */}
         <div className="bg-[#1B1E32] p-8 rounded-lg shadow-lg flex flex-col justify-center w-full md:order-last border-[#1B1E32] border-2 hover:border-[#D43EFF] transition-all ease-in duration-150">
           <h2 className="text-white text-3xl md:text-4xl font-bold mb-6">Contáctanos</h2>
-          <form 
-            action="https://formsubmit.co/ca48646714845b36c95f666f850a0954" 
-            method="POST"
-            className="space-y-4">
+          <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"
               placeholder="Tu Nombre"
-              name="nombre" 
+              name="nombre"
+              value={formData.nombre}
+              onChange={handleChange}
               className="w-full py-3 px-4 rounded-md bg-[#243B55] text-gray-200 border border-gray-500 focus:outline-none focus:border-[#D43EFF] transition-all"
+              required
             />
             <input
               type="email"
               placeholder="Tu Correo"
               name="mail"
+              value={formData.mail}
+              onChange={handleChange}
               className="w-full py-3 px-4 rounded-md bg-[#243B55] text-gray-200 border border-gray-500 focus:outline-none focus:border-[#D43EFF] transition-all"
+              required
             />
             <textarea
               placeholder="Comparte tus pensamientos"
               name="mensaje"
+              value={formData.mensaje}
+              onChange={handleChange}
               rows={4}
               className="w-full py-3 px-4 rounded-md bg-[#243B55] text-gray-200 border border-gray-500 focus:outline-none focus:border-[#D43EFF] transition-all"
+              required
             />
             <button
               type="submit"
-              onClick={handleClickSubmit}
+              disabled={isSubmitting}
               className="w-full py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold hover:opacity-90 transition-all"
             >
-              Enviar Feedback
+              {isSubmitting ? "Enviando..." : "Enviar Feedback"}
             </button>
-            <input type="hidden" name="_next" value="https://xplendev.com/"/>
-            <input type="hidden" name="_captcha" value="false"/>
           </form>
+          {responseMessage && (
+            <p className="text-center text-white mt-4">{responseMessage}</p>
+          )}
         </div>
       </div>
     </div>
