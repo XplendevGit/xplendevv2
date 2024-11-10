@@ -128,7 +128,7 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Soporte Especializado</p>
+              <p className="text-gray-300">Soporte Especializado por 1 mes</p>
 
             </div>
           </div>
