@@ -23,7 +23,7 @@ const CategoryMenu = (props: Props) => {
         <div className="relative bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex items-center justify-between cursor-pointer transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
           <div className="mr-4">
             <div className="text-sm text-gray-400 mb-2">Administrable - Desde</div>
-            <div className="md:text-3xl text-lg font-bold text-[#C6FF00]">OFERTA $130.990</div>
+            <div className="md:text-3xl text-lg font-bold text-[#C6FF00]">OFERTA $159.990</div>
             <h2 className="text-white md:text-2xl font-bold mt-4">Landing Page Administrable Wordpress</h2>
           </div>
 
