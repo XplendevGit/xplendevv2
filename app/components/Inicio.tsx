@@ -7,33 +7,25 @@ import Link from "next/link";
 type Props = {};
 
 const Inicio = (props: Props) => {
-
-  const handleButtonClick = () => {
-    const membershipsSection = document.getElementById('hero');
-    if (membershipsSection) {
-      membershipsSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   const handleButtonClick2 = () => {
-    const membershipsSection = document.getElementById('app');
+    const membershipsSection = document.getElementById("app");
     if (membershipsSection) {
-      membershipsSection.scrollIntoView({ behavior: 'smooth' });
+      membershipsSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   return (
     <div className="min-h-screen h-auto w-full bg-gradient-to-t from-[#29F2CD] via-[#243B55] to-[#141E30] bg-cover bg-center relative flex justify-center items-center overflow-hidden pt-[90px] md:pt-0">
       {/* Contenedor principal */}
-      <div className="w-full h-full flex justify-center items-center px-6">
+      <div className="w-full h-full flex flex-wrap justify-center items-center px-6">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: [0.6, 0.05, 0.5, 0.95] }}
-          className="contenedor-inicio grid items-center max-w-[1240px] w-full"
+          className="contenedor-inicio grid items-center max-w-[1240px] w-full gap-10 md:grid-cols-2"
         >
           {/* Columna izquierda con el título y subtítulo */}
-          <div className="col-span-1 text-white">
+          <div className="text-center md:text-left">
             <h1 className="text-[#ffffff] text-3xl md:text-5xl font-bold mb-4 leading-tight">
               Desarrollo Completo de
               <span className="text-[#D43EFF]"> Sitios Web</span> y
@@ -48,32 +40,56 @@ const Inicio = (props: Props) => {
             </p>
 
             {/* Botones debajo del texto */}
-            <div className="mt-8 flex space-x-4 justify-center items-center md:justify-start md:items-start">
-
+            <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
               <Link href={"/portfolio"}>
-              <button
-              className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:opacity-90 transition-all duration-200">
-                Sitios Web
-              </button>
+                <button className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:opacity-90 transition-all duration-200">
+                  Sitios Web
+                </button>
               </Link>
-              
-              <button 
-              onClick={handleButtonClick2} 
-              className="border border-gray-500 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:bg-gray-700 transition-all duration-200">
+
+              <button
+                onClick={handleButtonClick2}
+                className="border border-gray-500 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:bg-gray-700 transition-all duration-200"
+              >
                 Aplicaciónes Android
               </button>
             </div>
           </div>
 
-          {/* Columna derecha con la imagen gráfica */}
-          <div className="col-span-1 flex justify-center md:justify-end items-center">
-            <Image
-              src="https://i.postimg.cc/Qxdqgtz7/image-portada-1-rtransparent.png" // Cambia la ruta según la ubicación de tu imagen
-              alt="Graphic Illustration"
-              className="w-[80%] md:w-[90%] mx-auto"
-              height={850}
-              width={850}
-            />
+          {/* Columna derecha con el círculo animado e imagen central */}
+          <div className="flex justify-center items-center relative">
+            <div className="relative z-1 flex items-center justify-center">
+              {/* Círculo dinámico */}
+              <motion.div
+                className="absolute w-[300px] h-[300px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] rounded-full bg-gradient-to-r from-[#D43EFF] via-[#C6FF00] to-[#243B55] blur-lg"
+                animate={{
+                  rotate: [0, 360],
+                  scale: [1, 1.2, 1],
+                  opacity: [0.8, 1, 0.8],
+                }}
+                transition={{
+                  duration: 6,
+                  repeat: Infinity,
+                  ease: "linear",
+                }}
+              ></motion.div>
+
+              {/* Imagen central */}
+              <motion.div
+                className="relative z-1 w-[380px] h-[380px] md:w-[400px] md:h-[400px] lg:w-[430px] lg:h-[430px] flex items-center justify-center"
+                initial={{ scale: 0.8, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 1 }}
+              >
+                <Image
+                  src="https://i.postimg.cc/gcq7ky4m/1-removebg-preview.png"
+                  alt="Imagen central"
+                  className="object-contain pt-4"
+                  width={550}
+                  height={550}
+                />
+              </motion.div>
+            </div>
           </div>
         </motion.div>
       </div>

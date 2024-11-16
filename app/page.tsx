@@ -6,10 +6,12 @@ import Design from './components/Design'
 import Membership from './components/Membership'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Whyus from './pages/Whyus'
 
 export default function Home() {
   return (
       <>
+
       <section className="" id="">
         <Header />
       </section>

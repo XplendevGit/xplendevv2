@@ -1,8 +1,9 @@
+// app/Portfolio.tsx
 "use client";
-import { motion, useDragControls, PanInfo } from "framer-motion";
+import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
+import XplendevCard from "../components/custom/XplendevCards";
 
 const Portfolio = () => {
   const projects = [
@@ -30,17 +31,16 @@ const Portfolio = () => {
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
-  const dragControls = useDragControls();
   const [focusMode, setFocusMode] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % projects.length);
-    }, 5000); // Rotate every 5 seconds
+    }, 5000);
     return () => clearInterval(interval);
   }, [projects.length]);
 
-  const handleDragEnd = (_: any, info: PanInfo) => {
+  const handleDragEnd = (_: any, info: any) => {
     const offsetX = info.offset.x;
 
     if (offsetX < -100) {
@@ -53,23 +53,19 @@ const Portfolio = () => {
   };
 
   const handleFocusMode = () => {
-    // Enable focus mode
     setFocusMode(true);
-
-    // Automatically disable focus mode after 2 seconds
     setTimeout(() => {
       setFocusMode(false);
-    }, 400); // Adjust duration as needed
+    }, 400);
   };
 
   return (
     <div className="bg-gradient-to-b from-black to-gray-900 min-h-screen text-white flex items-center justify-center">
       <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 lg:grid-cols-2 gap-10">
-        {/* Cards Section */}
         <motion.div
           className={`relative flex items-center justify-center`}
           animate={{
-            scale: focusMode ? 1.1 : 1, // Animate both increasing and decreasing scale
+            scale: focusMode ? 1.1 : 1,
           }}
           transition={{
             type: "spring",
@@ -78,94 +74,24 @@ const Portfolio = () => {
             duration: 0.7,
           }}
         >
-          <div className={`relative w-[320px] h-[500px] justify-center items-center flex`}>
+          <div className="relative w-[320px] h-[500px] justify-center items-center flex">
             {projects.map((project, index) => {
               const position =
                 (index - activeIndex + projects.length) % projects.length;
-
-              const zIndex = position === 0 ? 30 : position === 1 ? 20 : 10;
-
-              // Calculate rotation, translation, and scaling
-              const rotation =
-                position === 0
-                  ? "0deg"
-                  : position === 1
-                  ? "-5deg"
-                  : "-10deg";
-              const translateX =
-                position === 0 ? 0 : position === 1 ? -40 : -60;
-              const translateY =
-                position === 0 ? 0 : position === 1 ? 30 : 40;
-
-              // Shadow styles for cards
-              const shadow =
-                position === 0
-                  ? "0px 10px 20px rgba(255, 105, 180, 0.6)"
-                  : "0px 5px 15px rgba(0, 0, 0, 0.4)";
-
               return (
-                <motion.div
+                <XplendevCard
                   key={index}
-                  className={`absolute w-[200px] h-[350px] md:w-[280px] md:h-[500px] rounded-2xl overflow-hidden border-[2px] bg-gray-800 ${
-                    position === 0
-                      ? "border-pink-500"
-                      : position === 1
-                      ? "border-pink-500"
-                      : "border-pink-500"
-                  }`}
-                  style={{
-                    zIndex,
-                    boxShadow: shadow, // Apply shadow dynamically
-                  }}
-                  animate={{
-                    x: translateX,
-                    y: translateY,
-                    rotate: rotation,
-                    scale: position === 0 ? 1 : 0.9,
-                  }}
-                  transition={{
-                    type: "spring",
-                    damping: 20,
-                    stiffness: 100,
-                  }}
-                  drag="x"
-                  dragConstraints={{ left: 0, right: 0 }}
-                  dragControls={dragControls}
+                  project={project}
+                  position={position}
+                  activeIndex={activeIndex}
+                  totalProjects={projects.length}
                   onDragEnd={handleDragEnd}
-                  whileHover={{
-                    scale: 1.03, // Add hover effect
-                    boxShadow: "0px 12px 16px rgba(255, 105, 180, 0.8)", // Brighter shadow on hover
-                  }}
-                >
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-top"
-                    layout="fill"
-                    draggable={false}
-                  />
-                  <div className="absolute bottom-0 w-full p-4 bg-gradient-to-t from-black to-transparent text-center bg-[#233A54]/95 border-t-pink-500 border-t-2">
-                    <h3 className="text-lg font-bold text-white">
-                      {project.title}
-                    </h3>
-                    <p className="text-sm text-gray-300">{project.time}</p>
-                    <p className="text-pink-400 text-xs mt-1">{project.eth}</p>
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-2 inline-block bg-pink-500 hover:bg-pink-600 text-white text-sm font-bold py-2 px-4 rounded-lg shadow-lg"
-                    >
-                      Visitar Sitio
-                    </a>
-                  </div>
-                </motion.div>
+                />
               );
             })}
           </div>
         </motion.div>
 
-        {/* Text Section */}
         <div className="flex flex-col justify-center">
           <motion.h1
             className="text-4xl lg:text-5xl font-extrabold text-white mb-6"
