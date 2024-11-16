@@ -61,7 +61,7 @@ const Inicio = (props: Props) => {
             <div className="relative z-1 flex items-center justify-center">
               {/* Círculo dinámico */}
               <motion.div
-                className="absolute w-[300px] h-[300px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] rounded-full bg-gradient-to-r from-[#D43EFF] via-[#C6FF00] to-[#243B55] blur-lg"
+                className="absolute w-[260px] h-[260px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] rounded-full bg-gradient-to-r from-[#D43EFF] via-[#C6FF00] to-[#243B55] blur-lg"
                 animate={{
                   rotate: [0, 360],
                   scale: [1, 1.2, 1],
@@ -76,7 +76,7 @@ const Inicio = (props: Props) => {
 
               {/* Imagen central */}
               <motion.div
-                className="relative z-1 w-[380px] h-[380px] md:w-[400px] md:h-[400px] lg:w-[430px] lg:h-[430px] flex items-center justify-center"
+                className="relative z-1 w-[320px] h-[330px] md:w-[400px] md:h-[400px] lg:w-[430px] lg:h-[430px] flex items-center justify-center"
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 1 }}
