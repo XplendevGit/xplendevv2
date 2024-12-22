@@ -11,22 +11,22 @@ const Portfolio = () => {
       title: "Abogados",
       time: "Sitio Web",
       eth: "NextJS 14",
-      image: "https://i.postimg.cc/7hk8B9gp/law5.png",
+      image: "https://i.postimg.cc/DZMRbdFn/lawyersvv.webp",
       link: "https://lawyersv2.vercel.app/",
     },
     {
       title: "Horizon Property",
       time: "Sitio Web",
       eth: "NextJS 14",
-      image: "https://i.postimg.cc/rFF2xXdX/horizon1.png",
+      image: "https://i.postimg.cc/m2G8p6mK/horizon00.png",
       link: "https://horizon-property-webpage.vercel.app/",
     },
     {
-      title: "Portafolio Profesional",
+      title: "CMS Sitewizard",
       time: "Sitio Web",
       eth: "NextJS 14",
-      image: "https://i.postimg.cc/1t0YzQqj/portfolio1.png",
-      link: "https://portafolioluisrivera.vercel.app/",
+      image: "https://i.postimg.cc/wxnSqV0k/sitewizardprueba.png",
+      link: "https://sitewizardcontentstudio.vercel.app/",
     },
   ];
 
