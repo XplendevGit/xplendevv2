@@ -32,7 +32,7 @@ const Membership = (props: Props) => {
             <p className="text-gray-400 mb-6">
               Para uso personal y integración de nuevos sitios completos desde cero.
             </p>
-            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$179.990</div>
+            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$121.990</div>
 
           {/* Benefits */}
           <div className="text-left space-y-4 mb-6">
@@ -91,7 +91,7 @@ const Membership = (props: Props) => {
             <p className="text-gray-400 mb-6">
               Perfecto para profesionales y empresas que necesitan sitios avanzados.
             </p>
-            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$275.990</div>
+            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$227.390</div>
             
             {/* Beneficios Premium */}
             <div className="text-left space-y-4 mb-6">
