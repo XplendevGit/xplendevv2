@@ -1,5 +1,6 @@
 // pages/MembershipPremium.js
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Membershippremium = () => {
@@ -165,7 +166,7 @@ const Membershippremium = () => {
            <span className="text-2xl">Estamos Ansiosos de poder comenzar!</span>
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
           
           {/* Feature 1 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#D43EFF] transition-all duration-150 ease-in border">
@@ -190,7 +191,7 @@ const Membershippremium = () => {
               height={80}
               width={80}
             />
-            <h3 className="text-2xl text-[#D43EFF] font-semibold">Plataforma de E-learning</h3>
+            <h3 className="text-2xl text-[#D43EFF] font-semibold">Plataforma de <br className="" />E-learning</h3>
             <p className="text-gray-400 mt-4">Crea tu propio espacio de enseñanza en línea para cursos y formación.</p>
           </div>
 
@@ -208,20 +209,32 @@ const Membershippremium = () => {
           </div>
 
 
-          {/* Feature 4 */}
+          {/* Feature - Pasarelas de Pago Completas */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#D43EFF] transition-all duration-150 ease-in border">
             <Image
-              src="https://img.icons8.com/color/64/000000/customer-support.png" // Icono para soporte especializado
-              alt="Soporte Especializado"
+              src="https://cdn-icons-png.flaticon.com/512/1797/1797616.png" // Ícono de Pasarelas de Pago Completas
+              alt="Pasarelas de Pago Completas"
               className="w-16 h-16 mx-auto mb-4"
               height={80}
               width={80}
             />
-            <h3 className="text-2xl text-[#D43EFF] font-semibold">Soporte Especializado</h3>
-            <p className="text-gray-400 mt-4">Obtén soporte técnico especializado para garantizar el correcto funcionamiento de tu sitio.</p>
+            <h3 className="text-2xl text-[#D43EFF] font-semibold">Pasarelas de Pago Completas</h3>
+           <p className="text-gray-400 mt-4">
+              Integramos pasarelas de pago en tu sitio web, facilitando transacciones en línea de manera eficiente y confiable para tus clientes.
+            </p>
           </div>
-
         </div>
+
+        <div className="flex gap-8 w-full max-w-xl justify-center items-center mx-auto mt-12">
+              
+              <Link href={'https://www.webpay.cl/form-pay/210814'}>
+                <div className="bg-[#D43EFF] text-white py-2 px-4 rounded-full hover:opacity-90 transition-all text-center">
+                      Quiero mi Sitio Web!
+                </div>
+              </Link>
+             </div>
+
+             
       </section>
 
     </div>
