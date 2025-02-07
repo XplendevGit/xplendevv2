@@ -29,15 +29,16 @@ const Membership = (props: Props) => {
         <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#C6FF00] hover:shadow-2xl">
           <div>
             <h2 className="text-[#C6FF00] text-2xl font-bold mb-4">Sitio Básico</h2>
-            <p className="text-gray-400 mb-6">
+            <p className="text-gray-400 mb-6 lg:text-base text-sm">
               Para uso personal y integración de nuevos sitios completos desde cero.
             </p>
-            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$121.990</div>
+            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$121.990</div>
 
-          {/* Benefits */}
+          {/* Beneficios */}
           <div className="text-left space-y-4 mb-6">
-            <div className="flex items-center">
 
+            {/* Tipo de Sitio */}
+            <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/fluent/48/000000/monitor.png" 
                 alt="Landing Page" 
@@ -45,11 +46,12 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80}
               />
-              <p className="text-gray-300">Landing Page / Portafolio Web</p>
+              <p className="text-gray-300 lg:text-base text-xs">Landing Page / Portafolio Web</p>
 
             </div>
-            <div className="flex items-center">
 
+           {/* Administrador */}
+            <div className="flex items-center">
               <Image
                 src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" 
                 alt="Admin Site" 
@@ -57,10 +59,38 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Sitio Administrable</p>
+              <p className="text-gray-300 lg:text-base text-xs">Sitio Administrable</p>
             </div>
 
+             {/* Dominio */}
             <div className="flex items-center">
+              <Image
+                src="https://img.icons8.com/color/48/000000/domain.png" 
+                alt="Domain" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Dominio.com Gratis por 1 año</p>
+
+            </div>
+
+           {/* Hosting */}
+           <div className="flex items-center">
+
+              <Image
+                src="https://img.icons8.com/color/48/000000/server.png" 
+                alt="Server" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Hosting (3GB SSD) Gratis por 1 año</p>
+
+            </div>
+
+           {/* Soporte */}
+           <div className="flex items-center">
 
               <Image
                 src="https://img.icons8.com/fluent/48/000000/high-importance.png" 
@@ -69,7 +99,7 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80} 
                 />
-              <p className="text-gray-300">Soporte técnico por 1 mes</p>
+              <p className="text-gray-300 lg:text-base text-xs">Soporte técnico por 1 mes</p>
 
             </div>
           </div>
@@ -88,13 +118,15 @@ const Membership = (props: Props) => {
         <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#D43EFF] hover:shadow-2xl">
           <div>
             <h2 className="text-[#D43EFF] text-2xl font-bold mb-4">Sitio Premium</h2>
-            <p className="text-gray-400 mb-6">
+            <p className="text-gray-400 mb-6 lg:text-base text-sm">
               Perfecto para profesionales y empresas que necesitan sitios avanzados.
             </p>
-            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$227.390</div>
+            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$227.390</div>
             
             {/* Beneficios Premium */}
             <div className="text-left space-y-4 mb-6">
+
+          {/* Tipo de Sitio */}   
             <div className="flex items-center">
 
               <Image
@@ -104,9 +136,11 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">E-commerce / E-learning</p>
+              <p className="text-gray-300 lg:text-base text-xs">E-commerce / E-learning</p>
 
             </div>
+
+            {/* Administrador */}
             <div className="flex items-center">
 
               <Image
@@ -116,9 +150,38 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Sitio Administrable</p>
+              <p className="text-gray-300 lg:text-base text-xs">Sitio Administrable</p>
 
             </div>
+
+             {/* Dominio */}
+             <div className="flex items-center">
+              <Image
+                src="https://img.icons8.com/color/48/000000/domain.png" 
+                alt="Domain" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Dominio.com Gratis por 1 año</p>
+
+            </div>
+
+           {/* Hosting */}
+           <div className="flex items-center">
+
+              <Image
+                src="https://img.icons8.com/color/48/000000/server.png" 
+                alt="Server" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Hosting (10GB SSD) Gratis por 1 año</p>
+
+            </div>
+
+           {/* Soporte*/}
             <div className="flex items-center">
 
               <Image
@@ -128,12 +191,13 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Soporte Especializado por 1 mes</p>
+              <p className="text-gray-300 lg:text-base text-xs">Soporte Especializado por 1 mes</p>
 
             </div>
           </div>
           </div>
 
+         {/* Botón */}   
           <Link href={'/membershippremium'}>
           <div className="bg-[#D43EFF] text-white py-2 px-4 rounded-full hover:opacity-90 transition-all text-center">
             Comenzar
@@ -146,15 +210,16 @@ const Membership = (props: Props) => {
         <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#00D4FF] hover:shadow-2xl">
           <div>
             <h2 className="text-[#00D4FF] text-2xl font-bold mb-4">Enterprise App</h2>
-            <p className="text-gray-400 mb-6">
+            <p className="text-gray-400 mb-6 md:text-base text-sm">
             Perfecto para toda empresa que necesite una aplicación móvil personalizada.
             </p>
-            <div className="md:text-6xl text-4xl font-bold text-white mb-4">$375.990</div>
+            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$375.990</div>
 
           {/* Beneficios Enteprise */}
           <div className="text-left space-y-4 mb-6">
-            <div className="flex items-center">
 
+           {/* Tipo de Servicio */}
+            <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/fluent/48/000000/android-os.png" 
                 alt="App iOS/Android" 
@@ -162,9 +227,11 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">App iOS / Android</p>
+              <p className="text-gray-300 lg:text-base text-xs">App Personalizada Android</p>
 
             </div>
+
+            {/* Despliegue */}
             <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/ios-filled/50/00BFFF/cloud.png" 
@@ -173,8 +240,22 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Despliegue Completo</p>
+              <p className="text-gray-300 lg:text-base text-xs">Despliegue Completo</p>
             </div>
+
+            {/* Descargable desde Google Play */}
+            <div className="flex items-center">
+              <Image 
+                src="https://img.icons8.com/color/48/000000/google-play.png" 
+                alt="Google Play" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Descargable desde Google Play</p>
+            </div>
+
+            {/* Soporte */}
             <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
@@ -183,7 +264,7 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80} 
                 />
-              <p className="text-gray-300">Soporte Especializado</p>
+              <p className="text-gray-300 lg:text-base text-xs">Soporte Especializado</p>
             </div>
           </div>
           </div>

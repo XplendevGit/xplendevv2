@@ -21,7 +21,7 @@ const Membershipbasic = () => {
           <p className="text-lg text-gray-400 mb-6">La solución perfecta para aquellos que buscan presencia online con un sitio administrable y funcional.</p>
 
           {/* Pricing */}
-          <div className="text-[#C6FF00] text-5xl font-bold mb-4">$179.990</div>
+          <div className="text-[#C6FF00] text-5xl font-bold mb-4">$121.990</div>
           <p className="text-gray-400 mb-6">Pago Único</p>
 
           {/* Benefits */}
@@ -36,6 +36,8 @@ const Membershipbasic = () => {
                 />
               <p className="text-gray-300">Landing Page / Portafolio Web</p>
             </div>
+
+
             <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/fluent/48/000000/administrative-tools.png" 
@@ -46,6 +48,35 @@ const Membershipbasic = () => {
                 />
               <p className="text-gray-300">Sitio Administrable</p>
             </div>
+
+             {/* Dominio */}
+            <div className="flex items-center">
+              <Image
+                src="https://img.icons8.com/color/48/000000/domain.png" 
+                alt="Domain" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Dominio.com Gratis por 1 año</p>
+
+            </div>
+
+           {/* Hosting */}
+           <div className="flex items-center">
+
+              <Image
+                src="https://img.icons8.com/color/48/000000/server.png" 
+                alt="Server" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Hosting (3GB SSD) Gratis por 1 año</p>
+
+            </div>
+
+
             <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/fluent/48/000000/high-importance.png" 
@@ -54,7 +85,7 @@ const Membershipbasic = () => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Soporte técnico</p>
+              <p className="text-gray-300">Soporte Técnico por 1 mes</p>
             </div>
           </div>
 
@@ -78,19 +109,19 @@ const Membershipbasic = () => {
            <span className="text-2xl">Estamos Ansiosos de poder comenzar!</span>
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-8 md:gap-4">
           
           {/* Feature 1 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#C6FF00] transition-all duration-150 ease-in border">
             <Image
-              src="https://img.icons8.com/color/64/000000/wordpress.png" // Icono nuevo para WordPress
-              alt="WordPress"
+              src="https://img.icons8.com/color/48/000000/server.png" // Icono nuevo para WordPress
+              alt="Server"
               className="w-16 h-16 mx-auto mb-4"
               height={80}
               width={80}
             />
-            <h3 className="text-2xl text-[#B6E4FF] font-semibold">Implementación con WordPress</h3>
-            <p className="text-gray-400 mt-4">Tu sitio web será construido en WordPress, la plataforma de gestión de contenido más popular y flexible.</p>
+            <h3 className="text-2xl text-[#B6E4FF] font-semibold">Hosting + Dominio.com</h3>
+            <p className="text-gray-400 mt-4">Construiremos tu sitio web con Dominio.com y Hosting GRATIS por 1 año. Asegurando la disponibilidad de tu sitio 24/7.</p>
           </div>
 
 
@@ -122,6 +153,20 @@ const Membershipbasic = () => {
             <p className="text-gray-400 mt-4">Disfruta de soporte técnico online durante el primer mes para resolver cualquier duda o inconveniente que surja.</p>
           </div>
 
+          {/* Feature 4 - Documentación del Sitio */}
+          <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#C6FF00] transition-all duration-150 ease-in border">
+            <Image
+              src="https://img.icons8.com/fluency/48/000000/document.png" // Ícono de Documentación del Sitio
+              alt="Documentación del Sitio"
+              className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
+            />
+            <h3 className="text-2xl text-[#B6E4FF] font-semibold">Documentación del Sitio</h3>
+            <p className="text-gray-400 mt-4">
+              Recibe un manual completo que detalla el funcionamiento de tu sitio web, junto con consejos útiles para su administración.
+            </p>
+          </div>
 
         </div>
       </section>
