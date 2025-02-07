@@ -34,7 +34,7 @@ const Membershipbasic = () => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Landing Page / Portafolio Web</p>
+              <p className="text-gray-300 lg:text-base text-xs">Landing Page / Portafolio Web</p>
             </div>
 
 
@@ -46,7 +46,7 @@ const Membershipbasic = () => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Sitio Administrable</p>
+              <p className="text-gray-300 lg:text-base text-xs">Sitio Administrable</p>
             </div>
 
              {/* Dominio */}
@@ -76,7 +76,35 @@ const Membershipbasic = () => {
 
             </div>
 
+          {/* Correos Corporativos Ilimitados*/}
+           <div className="flex items-center">
 
+              <Image
+                src="https://img.icons8.com/color/48/000000/email.png" 
+                alt="Server" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Correos Corporativos Ilimitados</p>
+
+            </div>
+
+            {/* Optimización SEO */}
+           <div className="flex items-center">
+
+              <Image
+                src="https://img.icons8.com/color/48/000000/search--v1.png" 
+                alt="Optimization Seo" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Optimización SEO Básica para Motores de Búsqueda</p>
+
+            </div>
+
+            {/* Soporte Tecnico */}
             <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/fluent/48/000000/high-importance.png" 
@@ -85,7 +113,7 @@ const Membershipbasic = () => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Soporte Técnico por 1 mes</p>
+              <p className="text-gray-300 lg:text-base text-xs">Soporte Técnico por 1 mes</p>
             </div>
           </div>
 

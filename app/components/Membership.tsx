@@ -108,7 +108,7 @@ const Membership = (props: Props) => {
 
           <Link href={'/membershipbasic'}>
           <div className="bg-transparent border border-[#C6FF00] text-[#C6FF00] py-2 px-4 rounded-full hover:bg-[#C6FF00] hover:text-black transition-all text-center">
-            Comenzar
+            Conocer Más
           </div>
           </Link>
 
@@ -200,7 +200,7 @@ const Membership = (props: Props) => {
          {/* Botón */}   
           <Link href={'/membershippremium'}>
           <div className="bg-[#D43EFF] text-white py-2 px-4 rounded-full hover:opacity-90 transition-all text-center">
-            Comenzar
+             Conocer Más
           </div>
           </Link>
 
@@ -271,7 +271,7 @@ const Membership = (props: Props) => {
 
           <Link href={'/membershipenterprise'}>
           <div className="bg-transparent border border-[#00D4FF] text-[#00D4FF] py-2 px-4 rounded-full hover:bg-[#00D4FF] hover:text-black transition-all text-center">
-            Comenzar
+             Conocer Más
           </div>
           </Link>
 
