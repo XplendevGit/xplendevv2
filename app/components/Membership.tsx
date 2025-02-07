@@ -12,7 +12,7 @@ type Props = {};
 
 const Membership = (props: Props) => {
   return (
-    <div className="min-h-screen h-auto w-full bg-gradient-to-b from-[#243B55] to-[#141E30] transition-all ease-in duration-200 py-12 px-6 pt-[80px] md:pt-0 items-center justify-center flex flex-col">
+    <div className="min-h-screen h-auto w-full bg-gradient-to-b from-[#243B55] to-[#141E30] transition-all ease-in duration-200 py-12 px-6 pt-[80px]items-center justify-center flex flex-col">
       {/* Título del Menú centrado */}
       <div className="flex flex-col items-center justify-center mb-8 space-y-4">
         <h1 className="text-white text-4xl md:text-5xl font-bold text-center">
@@ -30,12 +30,12 @@ const Membership = (props: Props) => {
           <div>
             <h2 className="text-[#C6FF00] text-2xl font-bold mb-4">Sitio Básico</h2>
             <p className="text-gray-400 mb-6 lg:text-base text-sm">
-              Para uso personal y integración de nuevos sitios completos desde cero.
+              Para uso profesional y integración de nuevos sitios completos desde cero.
             </p>
-            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$121.990</div>
+            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$159.990</div>
 
           {/* Beneficios */}
-          <div className="text-left space-y-4 mb-6">
+          <div className="text-left space-y-1 md:space-y-3 xl:space-y-4 mb-6">
 
             {/* Tipo de Sitio */}
             <div className="flex items-center">
@@ -89,6 +89,20 @@ const Membership = (props: Props) => {
 
             </div>
 
+          {/* Correos Corporativos Ilimitados*/}
+           <div className="flex items-center">
+
+              <Image
+                src="https://img.icons8.com/color/48/000000/email.png" 
+                alt="Server" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Correos Corporativos Ilimitados</p>
+
+            </div>
+
            {/* Soporte */}
            <div className="flex items-center">
 
@@ -121,10 +135,10 @@ const Membership = (props: Props) => {
             <p className="text-gray-400 mb-6 lg:text-base text-sm">
               Perfecto para profesionales y empresas que necesitan sitios avanzados.
             </p>
-            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$227.390</div>
+            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$247.390</div>
             
-            {/* Beneficios Premium */}
-            <div className="text-left space-y-4 mb-6">
+            {/* Container Beneficios Premium */}
+            <div className="text-left mb-6 space-y-1 md:space-y-3 xl:space-y-4">
 
           {/* Tipo de Sitio */}   
             <div className="flex items-center">
@@ -181,9 +195,32 @@ const Membership = (props: Props) => {
 
             </div>
 
+          {/* Correos Corporativos Ilimitados*/}
+            <div className="flex items-center">
+            <Image
+                src="https://img.icons8.com/color/48/000000/email.png" 
+                alt="Server" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+               <p className="text-gray-300 lg:text-base text-xs">Correos Corporativos Ilimitados</p>
+            </div>
+
+           {/* Tienda y Carrito de Compras */}
+            <div className="flex items-center">
+              <Image 
+                src="https://img.icons8.com/color/48/000000/shopping-cart-loaded.png" 
+                alt="Online Shop" 
+                className="w-8 h-8 mr-3" 
+                height={80}
+                width={80}
+                />
+              <p className="text-gray-300">Tienda y Carrito de Compras</p>
+            </div>
+
            {/* Soporte*/}
             <div className="flex items-center">
-
               <Image
                 src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
                 alt="Soporte Especializado" 
@@ -192,7 +229,6 @@ const Membership = (props: Props) => {
                 width={80}
                 />
               <p className="text-gray-300 lg:text-base text-xs">Soporte Especializado por 1 mes</p>
-
             </div>
           </div>
           </div>
@@ -206,7 +242,7 @@ const Membership = (props: Props) => {
 
         </div>
 
-        {/* Plan Enterprise */}
+        {/* Contenedor Principal Plan Enterprise */}
         <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#00D4FF] hover:shadow-2xl">
           <div>
             <h2 className="text-[#00D4FF] text-2xl font-bold mb-4">Enterprise App</h2>
@@ -215,8 +251,8 @@ const Membership = (props: Props) => {
             </p>
             <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$375.990</div>
 
-          {/* Beneficios Enteprise */}
-          <div className="text-left space-y-4 mb-6">
+          {/* Contenedor Hijo Beneficios Enteprise */}
+          <div className="text-left space-y-1 md:space-y-3 xl:space-y-4 mb-6">
 
            {/* Tipo de Servicio */}
             <div className="flex items-center">

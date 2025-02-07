@@ -1,5 +1,6 @@
 // pages/MembershipLanding.js
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Membershipbasic = () => {
@@ -21,11 +22,11 @@ const Membershipbasic = () => {
           <p className="text-lg text-gray-400 mb-6">La solución perfecta para aquellos que buscan presencia online con un sitio administrable y funcional.</p>
 
           {/* Pricing */}
-          <div className="text-[#C6FF00] text-5xl font-bold mb-4">$121.990</div>
+          <div className="text-[#C6FF00] text-5xl font-bold mb-4">$159.990</div>
           <p className="text-gray-400 mb-6">Pago Único</p>
 
           {/* Benefits */}
-          <div className="text-left space-y-4 mb-6">
+          <div className="text-left space-y-2 md:space-y-3 xl:space-y-4 mb-6">
             <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/fluent/48/000000/monitor.png" 
@@ -76,6 +77,20 @@ const Membershipbasic = () => {
 
             </div>
 
+            {/* Sitio Completo */}
+            <div className="flex items-center">
+              <Image
+                src="https://img.icons8.com/color/48/000000/network.png" // Ícono de redes sociales
+                alt="Redes Sociales"
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80}
+              />
+              <p className="text-gray-300 lg:text-base text-xs">
+                Sitio Completo (Formularios de Contacto, Enlaces a Redes Sociales)
+              </p>
+            </div>
+
           {/* Correos Corporativos Ilimitados*/}
            <div className="flex items-center">
 
@@ -101,6 +116,20 @@ const Membershipbasic = () => {
                 width={80} 
                 />
               <p className="text-gray-300 lg:text-base text-xs">Optimización SEO Básica para Motores de Búsqueda</p>
+
+            </div>
+
+            {/* Optimización SEO */}
+           <div className="flex items-center">
+
+              <Image
+                src="https://img.icons8.com/color/48/000000/document.png" 
+                alt="Optimization Seo" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Documentación Completa del Sitio</p>
 
             </div>
 
@@ -195,8 +224,17 @@ const Membershipbasic = () => {
               Recibe un manual completo que detalla el funcionamiento de tu sitio web, junto con consejos útiles para su administración.
             </p>
           </div>
-
         </div>
+
+
+        <div className="flex gap-8 w-full max-w-xl justify-center items-center mx-auto mt-12">
+              
+        <Link href={'https://www.webpay.cl/form-pay/210814'}>
+          <div className="bg-transparent border border-[#C6FF00] text-[#C6FF00] py-2 px-4 font-semibold rounded-full hover:bg-[#C6FF00] hover:text-black transition-all text-center">
+                Quiero mi Sitio Web!
+          </div>
+        </Link>
+       </div>
       </section>
 
     </div>
