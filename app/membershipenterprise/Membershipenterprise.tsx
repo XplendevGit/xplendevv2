@@ -1,5 +1,6 @@
 // pages/MembershipEnterprise.js
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const MembershipEnterprise = () => {
@@ -25,17 +26,22 @@ const MembershipEnterprise = () => {
           <p className="text-gray-400 mb-6">Pago Único</p>
 
           {/* Benefits */}
-          <div className="text-left space-y-4 mb-6">
+<div className="text-left space-y-1 md:space-y-3 xl:space-y-4 mb-6">
+
+           {/* Tipo de Servicio */}
             <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/fluent/48/000000/android-os.png" 
                 alt="App iOS/Android" 
                 className="w-8 h-8 mr-3" 
-                height={180}
-                width={180}
+                height={80}
+                width={80}
                 />
-              <p className="text-gray-300">App iOS / Android</p>
+              <p className="text-gray-300 lg:text-base text-xs">App Personalizada Android</p>
+
             </div>
+
+            {/* Despliegue */}
             <div className="flex items-center">
               <Image 
                 src="https://img.icons8.com/ios-filled/50/00BFFF/cloud.png" 
@@ -44,17 +50,31 @@ const MembershipEnterprise = () => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Despliegue Completo</p>
+              <p className="text-gray-300 lg:text-base text-xs">Despliegue Completo</p>
             </div>
+
+            {/* Descargable desde Google Play */}
             <div className="flex items-center">
               <Image 
-                src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
-                alt="Soporte Especializado" 
+                src="https://img.icons8.com/color/48/000000/google-play.png" 
+                alt="Google Play" 
                 className="w-8 h-8 mr-3" 
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Soporte Especializado</p>
+              <p className="text-gray-300 lg:text-base text-xs">Descargable desde Google Play</p>
+            </div>
+
+            {/* Soporte */}
+            <div className="flex items-center">
+              <Image 
+                src="https://img.icons8.com/fluent/48/000000/customer-support.png" 
+                alt="Soporte Especializado" 
+                className="w-8 h-8 mr-3"
+                height={80}
+                width={80} 
+                />
+              <p className="text-gray-300 lg:text-base text-xs">Soporte Especializado</p>
             </div>
           </div>
 
@@ -82,7 +102,7 @@ const MembershipEnterprise = () => {
             
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-8">
           
           {/* Feature 1 */}
           <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#00BFFF] transition-all duration-150 ease-in border">
@@ -93,8 +113,8 @@ const MembershipEnterprise = () => {
               height={80}
               width={80}
             />
-            <h3 className="text-2xl text-[#00BFFF] font-semibold">App iOS / Android</h3>
-            <p className="text-gray-400 mt-4">Desarrollo de una aplicación nativa tanto para iOS como para Android.</p>
+            <h3 className="text-2xl text-[#00BFFF] font-semibold">APP Android</h3>
+            <p className="text-gray-400 mt-4">Desarrollo de una aplicación nativa completamente personalizada, para dispositivos Android.</p>
           </div>
 
           {/* Feature 2 */}
@@ -123,7 +143,32 @@ const MembershipEnterprise = () => {
             <p className="text-gray-400 mt-4">Obtén soporte técnico especializado durante el desarrollo y posterior al lanzamiento.</p>
           </div>
 
+          {/* Feature - Descargable desde Google Play */}
+          <div className="bg-[#112240] rounded-lg p-6 shadow-lg border-[#112240] hover:border-[#00BFFF] transition-all duration-150 ease-in border">
+            <Image
+              src="https://cdn-icons-png.flaticon.com/512/888/888857.png" // Ícono de Google Play
+              alt="Descargable desde Google Play"
+              className="w-16 h-16 mx-auto mb-4"
+              height={80}
+              width={80}
+            />
+            <h3 className="text-2xl text-[#00BFFF] font-semibold">Google PlayStore</h3>
+           <p className="text-gray-400 mt-4">
+              Tu aplicación estará disponible para su descarga en Google Play Store, para sistemas operativos Android.
+            </p>
+          </div>
+
         </div>
+
+        <div className="flex gap-8 w-full max-w-xl justify-center items-center mx-auto mt-12">
+              
+              <Link href={'https://www.webpay.cl/form-pay/210814'}>
+                <div className="bg-transparent border border-[#00D4FF] text-[#00D4FF] py-2 px-4 rounded-full hover:bg-[#00D4FF] hover:text-black transition-all text-center font-bold">
+                      Quiero mi Sitio Web!
+                </div>
+              </Link>
+        </div>
+
       </section>
 
     </div>

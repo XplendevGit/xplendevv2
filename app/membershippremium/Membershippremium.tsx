@@ -232,11 +232,9 @@ const Membershippremium = () => {
                       Quiero mi Sitio Web!
                 </div>
               </Link>
-             </div>
-
-             
+        </div>
+            
       </section>
-
     </div>
   );
 };

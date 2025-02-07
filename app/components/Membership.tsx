@@ -135,7 +135,7 @@ const Membership = (props: Props) => {
             <p className="text-gray-400 mb-6 lg:text-base text-sm">
               Perfecto para profesionales y empresas que necesitan sitios avanzados.
             </p>
-            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$247.390</div>
+            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$257.390</div>
             
             {/* Container Beneficios Premium */}
             <div className="text-left mb-6 space-y-1 md:space-y-3 xl:space-y-4">
