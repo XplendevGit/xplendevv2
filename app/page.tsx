@@ -7,6 +7,7 @@ import Membership from './components/Membership'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Whyus from './pages/Whyus'
+import PromocionEbook from './components/PromocionEbook'
 
 export default function Home() {
   return (
@@ -30,6 +31,10 @@ export default function Home() {
 
       <section className="" id="memberships">
         <Membership/>
+      </section>
+
+      <section className="" id="ebook">
+        <PromocionEbook />
       </section>
 
       <section className="" id="contact">
