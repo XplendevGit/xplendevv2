@@ -39,6 +39,13 @@ function Header({}: Props) {
     }
   };
 
+  const handleButtonClickEbook = () => {
+    const membershipsSection = document.getElementById('ebook');
+    if (membershipsSection) {
+      membershipsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const handleButtonClick2 = () => {
     const membershipsSection = document.getElementById('contact');
     if (membershipsSection) {
@@ -116,7 +123,15 @@ useEffect(() => {
                 <button type="button"
                         className={tamañoTexto}
                         onClick={handleButtonClick}
-                        data-te-ripple-init>Planes de Contratación
+                        data-te-ripple-init>Membersías
+                        </button>
+                </li>
+
+                <li className="p-4">
+                <button type="button"
+                        className={tamañoTexto}
+                        onClick={handleButtonClickEbook}
+                        data-te-ripple-init>Descargar Ebook
                         </button>
                 </li>
 
@@ -173,6 +188,12 @@ useEffect(() => {
                 <li onClick={handleNav} className="font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
                 <button onClick={handleButtonClick}>
                   Membersías
+                </button>
+                </li>
+
+                <li onClick={handleNav} className="font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
+                <button onClick={handleButtonClickEbook}>
+                  Descargar Ebook
                 </button>
                 </li>
 

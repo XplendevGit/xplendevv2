@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const PromocionEbook = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#141E30] via-[#243B55] to-[#112240] flex flex-col items-center py-16 px-6 pt-32">
+    <div className="min-h-screen bg-gradient-to-b from-[#141E30] via-[#243B55] to-[#112240] flex flex-col items-center md:justify-center py-16 px-6 pt-32">
       {/* Contenedor principal con límite de ancho */}
       <div className="max-w-[1240px] w-full px-6">
         
