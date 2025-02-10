@@ -61,7 +61,7 @@ const LandingEbook = () => {
           transition={{ duration: 0.8 }}
           className="mb-12 md:text-center"
         >
-          <h1 className="text-4xl md:text-5xl font-bold font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Claves para un <span className="text-indigo-400 font-semibold">Sitio Web</span> Exitoso
           </h1>
           <p className="text-base lg:text-lg text-gray-300">
