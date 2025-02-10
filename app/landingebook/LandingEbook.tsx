@@ -11,10 +11,10 @@ const LandingEbook = () => {
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-center mb-12"
+        className="mb-12"
       >
-        <h1 className="text-4xl font-bold text-white mb-4">Sharing Lessons Learned</h1>
-        <p className="text-lg text-gray-300">From building a startup. Our own passion journey, weve started and established it to play this school in our latest thinking and move on to sharing it.</p>
+        <h1 className="lg:text-4xl text-2xl md:text-3xl font-bold text-white mb-4 text-center">Claves para un Sitio Web Exitoso</h1>
+        <p className="text-base lg:text-lg text-gray-300">Descubre todo lo que necesitas para planificar, desarrollar y mantener un sitio web profesional. Desde la elección de tecnologías hasta la optimización y seguridad.</p>
       </motion.header>
 
       {/* Content Section */}
@@ -27,26 +27,26 @@ const LandingEbook = () => {
         {/* Image Section */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
           <Image
-            src="/default-image.jpg" // Cambia esta ruta por la imagen que desees
+            src="https://i.postimg.cc/Z5qT93np/Imagen-Ebook-SW.png" // Cambia esta ruta por la imagen que desees
             alt="Startup Lessons"
             width={600}
             height={400}
-            className="rounded-lg shadow-lg"
+            style={{ filter: "drop-shadow(20px 15px 15px rgba(0, 0, 0, 0.3))" }}
           />
         </div>
 
         {/* Text Section */}
         <div className="w-full md:w-1/2 md:pl-8">
-          <h2 className="text-2xl font-bold text-white mb-4">Whats Inside</h2>
+          <h2 className="text-2xl font-bold text-white mb-4">Descarga nuesto Ebook y Aprende Sobre:</h2>
           <ul className="space-y-4">
             <li className="text-gray-300">
-              <span className="font-semibold text-indigo-400">The freedom and time:</span> All between software and customers are behind every facade and early.
+              <span className="font-semibold text-indigo-400">Planificación y Mantenimiento</span> Desde la idea inicial hasta el soporte post-lanzamiento.
             </li>
             <li className="text-gray-300">
-              <span className="font-semibold text-indigo-400">Way you should build products:</span> Based on first-hand experience.
+              <span className="font-semibold text-indigo-400">WordPress y Next.js</span> Guía para elegir y desarrollar en ambas tecnologías.
             </li>
             <li className="text-gray-300">
-              <span className="font-semibold text-indigo-400">How to find your first customers:</span> A founders take on making your first steps.
+              <span className="font-semibold text-indigo-400">SEO y Optimización</span> Ejemplos y estrategias clave para velocidad y posicionamiento.
             </li>
           </ul>
         </div>
@@ -59,6 +59,12 @@ const LandingEbook = () => {
         transition={{ duration: 0.8, delay: 0.4 }}
         className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md mt-16"
       >
+
+         <div className="w-auto h-auto text-center pb-12">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">¡Descarga tu Ebook Gratis!</h2>
+          <p className="text-gray-600">Ingresa tus datos para recibir el Ebook en tu correo electrónico.</p>
+         </div>
+
         <form className="space-y-6">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nombre Completo</label>
