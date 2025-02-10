@@ -15,10 +15,10 @@ const PromocionEbook = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="mb-12 text-center"
+          className="mb-12 md:text-center"
         >
-          <h1 className="lg:text-4xl text-2xl md:text-3xl font-bold text-white mb-4">
-            Claves para un Sitio Web Exitoso
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Claves para un <span className="text-indigo-400 font-semibold">Sitio Web</span> Exitoso
           </h1>
           <p className="text-base lg:text-lg text-gray-300">
             Descarga nuestro <span className="text-indigo-400 font-semibold">Ebook GRATUITO</span> y descubre todo lo que necesitas para planificar, 
