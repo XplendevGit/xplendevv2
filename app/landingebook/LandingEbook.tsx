@@ -1,9 +1,53 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const LandingEbook = () => {
+
+  const [formData, setFormData] = useState({
+    nombre: "",
+    email: "",
+    phone: "",
+    country: "",
+    website: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [downloadLink, setDownloadLink] = useState("");
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("/api/download-ebook", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setDownloadLink(result.downloadUrl); // URL del Ebook
+      } else {
+        alert("Error al procesar la solicitud. Inténtalo nuevamente.");
+      }
+    } catch (error) {
+      console.error("Error en el formulario:", error);
+      alert("Ocurrió un error. Inténtalo de nuevo.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#141E30] via-[#243B55] to-[#112240] flex flex-col items-center py-16 px-6 pt-32">
       {/* Header */}
@@ -53,76 +97,27 @@ const LandingEbook = () => {
       </motion.div>
 
       {/* Formulario de Captura */}
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.4 }}
-        className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md mt-16"
-      >
 
-         <div className="w-auto h-auto text-center pb-12">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">¡Descarga tu Ebook Gratis!</h2>
-          <p className="text-gray-600">Ingresa tus datos para recibir el Ebook en tu correo electrónico.</p>
-         </div>
+         <div className="min-h-screen flex flex-col items-center  justify-center py-16 px-6 pt-32">
 
-        <form className="space-y-6">
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nombre Completo</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-            />
-          </div>
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Correo Electrónico</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-            />
-          </div>
-          <div>
-            <label htmlFor="phone" className="block text-sm font-medium text-gray-700">Teléfono</label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-            />
-          </div>
-          <div>
-            <label htmlFor="country" className="block text-sm font-medium text-gray-700">País</label>
-            <input
-              type="text"
-              id="country"
-              name="country"
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-            />
-          </div>
-          <div>
-            <label htmlFor="website" className="block text-sm font-medium text-gray-700">Sitio Web (opcional)</label>
-            <input
-              type="url"
-              id="website"
-              name="website"
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-            />
-          </div>
-          <div>
-            <button
-              type="submit"
-              className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            >
-              ¡Quiero Mi Ebook Gratis!
-            </button>
-          </div>
+      <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h2 className="text-xl md:text-2xl text-center font-bold text-gray-800 mb-4">¡Descarga tu Ebook Gratis!</h2>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <input type="text" name="nombre" placeholder="Tu Nombre" required value={formData.nombre} onChange={handleChange} className="w-full text-sm md:text-base px-3 py-2 border rounded-md"/>
+          <input type="email" name="email" placeholder="Correo Electrónico" required value={formData.email} onChange={handleChange} className="w-full text-sm md:text-base px-3 py-2 border rounded-md"/>
+          <input type="tel" name="phone" placeholder="Teléfono" value={formData.phone} onChange={handleChange} className="w-full text-sm md:text-base px-3 py-2 border rounded-md"/>
+          <input type="text" name="country" placeholder="País" value={formData.country} onChange={handleChange} className="w-full text-sm md:text-base px-3 py-2 border rounded-md"/>
+          <input type="text" name="website" placeholder="Sitio Web (opcional)" value={formData.website} onChange={handleChange} className="w-full px-3 py-2 border rounded-md"/>
+          <button type="submit" className="w-full bg-indigo-600 text-white py-2 rounded-md font-semibold">{isSubmitting ? "Procesando..." : "Descargar Ebook"}</button>
         </form>
+
+        {downloadLink && (
+          <div className="mt-4 text-center">
+            <a href={downloadLink} target="_blank" rel="noopener noreferrer" className="text-indigo-500 font-bold">📥 Descargar Ebook</a>
+          </div>
+        )}
       </motion.div>
+    </div>
     </div>
   );
 };

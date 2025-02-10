@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { sendEmail } from "../../utils/mailer";
 
-const DOWNLOAD_URL = "https://tu-servidor.com/ebook.pdf"; // URL del Ebook
+const DOWNLOAD_URL = "https://drive.google.com/file/d/1_c3APepe-IvEvxBrgoYhDsKwDUlCOugw/view?usp=sharing"; // URL del Ebook
 
 interface ResponseData {
   success: boolean;
