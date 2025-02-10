@@ -120,7 +120,7 @@ const LandingEbook = () => {
             <input type="email" name="email" placeholder="Correo Electrónico" required value={formData.email} onChange={handleChange} className="w-full text-sm md:text-base px-3 py-2 border rounded-md"/>
             <input type="tel" name="phone" placeholder="Teléfono" value={formData.phone} onChange={handleChange} className="w-full text-sm md:text-base px-3 py-2 border rounded-md"/>
             <input type="text" name="country" placeholder="País" value={formData.country} onChange={handleChange} className="w-full text-sm md:text-base px-3 py-2 border rounded-md"/>
-            <input type="text" name="website" placeholder="Sitio Web (opcional)" value={formData.website} onChange={handleChange} className="w-full px-3 py-2 border rounded-md"/>
+            <input type="text" name="website" placeholder="Sitio Web (opcional)" value={formData.website} onChange={handleChange} className="w-full text-sm md:text-base px-3 py-2 border rounded-md"/>
             <button type="submit" className="w-full bg-indigo-600 text-white py-2 rounded-md font-semibold hover:bg-indigo-700 transition-all duration-200">
               {isSubmitting ? "Procesando..." : "Descargar Ebook"}
             </button>
