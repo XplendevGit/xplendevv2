@@ -312,6 +312,83 @@ const Membership = (props: Props) => {
           </Link>
 
         </div>
+
+        {/* Plan ChatBot AI Pro */}
+        <div className="bg-[#1B1E32] rounded-lg overflow-hidden shadow-lg p-6 flex flex-col justify-between transition-all duration-400 hover:scale-105 border border-[#353B50] hover:border-[#FF6F00] hover:shadow-2xl">
+          <div>
+            <h2 className="text-[#FF6F00] text-2xl font-bold mb-4">ChatBot AI Pro</h2>
+            <p className="text-gray-400 mb-6 md:text-base text-sm">
+              Automatiza la atención de tu negocio 27/7 con un ChatBot AI inteligente completamente personalizado para Web o WhatsApp.
+            </p>
+            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$375.990</div>
+
+            {/* Contenedor Beneficios ChatBot AI Pro */}
+            <div className="text-left space-y-1 md:space-y-3 xl:space-y-4 mb-6">
+              {/* Plataforma */}
+              <div className="flex items-center">
+                <Image 
+                  src="https://img.icons8.com/fluency/48/000000/chatbot.png" 
+                  alt="ChatBot AI" 
+                  className="w-8 h-8 mr-3" 
+                  height={80} width={80}
+                />
+                <p className="text-gray-300 lg:text-base text-xs">ChatBot AI para Web o WhatsApp</p>
+              </div>
+
+              {/* Integraciones */}
+              <div className="flex items-center">
+                <Image 
+                  src="https://img.icons8.com/color/48/000000/google-calendar--v1.png" 
+                  alt="Integraciones" 
+                  className="w-8 h-8 mr-3" 
+                  height={80} width={80}
+                />
+                <p className="text-gray-300 lg:text-base text-xs">Integración con Google Calendar y Gmail</p>
+              </div>
+
+              {/* Flujos */}
+              <div className="flex items-center">
+                <Image 
+                  src="https://img.icons8.com/color/48/000000/flow-chart.png" 
+                  alt="Flujos" 
+                  className="w-8 h-8 mr-3" 
+                  height={80} width={80}
+                />
+                <p className="text-gray-300 lg:text-base text-xs">Flujos conversacionales (hasta 10 escenarios)</p>
+              </div>
+
+              {/* Reportes */}
+              <div className="flex items-center">
+                <Image 
+                  src="https://img.icons8.com/color/48/000000/bar-chart.png" 
+                  alt="Reportes" 
+                  className="w-8 h-8 mr-3" 
+                  height={80} width={80}
+                />
+                <p className="text-gray-300 lg:text-base text-xs">Reportes básicos de interacciones</p>
+              </div>
+
+              {/* Limitaciones */}
+              <div className="flex items-center">
+                <Image 
+                  src="https://img.icons8.com/color/48/000000/stopwatch.png" 
+                  alt="Límite" 
+                  className="w-8 h-8 mr-3" 
+                  height={80} width={80}
+                />
+                <p className="text-gray-300 lg:text-base text-xs">Hasta 1.000 mensajes/mes (Make/Botpress)</p>
+              </div>
+            </div>
+          </div>
+
+          <Link href={'/landingchatbot'}>
+            <div className="bg-transparent border border-[#FF6F00] text-[#FF6F00] py-2 px-4 rounded-full hover:bg-[#FF6F00] hover:text-black transition-all text-center">
+              Conocer Más
+            </div>
+          </Link>
+        </div>
+
+        
       </div>
     </div>
   );

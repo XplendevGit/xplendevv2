@@ -2,6 +2,7 @@
 import Inicio from './components/Inicio'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import HeroChatbot from './components/Hero/HeroChatbot'
 import Design from './components/Design'
 import Membership from './components/Membership'
 import Contact from './components/Contact'
@@ -26,7 +27,7 @@ export default function Home() {
       </section>
 
       <section className="" id="app">
-        <Design/>
+        <HeroChatbot/>
       </section>
 
       <section className="" id="memberships">
