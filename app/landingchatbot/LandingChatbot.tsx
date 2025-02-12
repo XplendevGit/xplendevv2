@@ -97,6 +97,65 @@ const LandingChatbot = () => {
           <p className="text-gray-300 mt-2">Xelisse, nuestra IA, está disponible 24/7 para atender a tus clientes.</p>
         </motion.div>
       </motion.section>
+      <section className="max-w-7xl mx-auto px-6 py-20 relative flex flex-col md:flex-row items-center justify-between">
+      
+      {/* Contenedor Izquierdo - Imágenes en lugar de cajas de texto */}
+      <motion.div 
+        initial={{ opacity: 0, x: -50 }} 
+        animate={{ opacity: 1, x: 0 }} 
+        transition={{ duration: 0.8 }}
+        className="relative w-full md:w-1/2 flex flex-col items-center md:items-start gap-6"
+      >
+        {/* Imagen de Botpress */}
+        <motion.div whileHover={{ scale: 1.05 }} className="w-[80%]">
+          <Image 
+            src="https://i.postimg.cc/hjSqGC3W/make.jpg" 
+            width={400} 
+            height={200} 
+            className="rounded-2xl shadow-lg"
+            alt="Botpress - Plataforma AI"
+          />
+        </motion.div>
+
+        {/* Imagen de Make */}
+        <motion.div whileHover={{ scale: 1.05 }} className="w-[80%]">
+          <Image 
+            src="https://i.postimg.cc/8CyVjd87/botpress.png" 
+            width={400} 
+            height={200} 
+            className="rounded-2xl shadow-lg"
+            alt="Make - Automatización Inteligente"
+          />
+        </motion.div>
+      </motion.div>
+
+      {/* Contenedor Derecho - Texto Testimonio */}
+      <motion.div 
+        initial={{ opacity: 0, x: 50 }} 
+        animate={{ opacity: 1, x: 0 }} 
+        transition={{ duration: 0.8 }}
+        className="w-full md:w-1/2 mt-12 md:mt-0 text-center md:text-left"
+      >
+        <h2 className="text-4xl md:text-5xl font-bold text-white">
+          Potencia tu <span className="text-[#FF6F00]">Chatbot AI</span> con Plataformas Profesionales
+        </h2>
+        <p className="text-gray-300 mt-4 text-lg">
+          Implementamos tecnologías avanzadas como <strong>Botpress</strong> y <strong>Make</strong> para automatizar tareas, 
+          agendar reuniones con Google Calendar y enviar notificaciones por correo en tiempo real con AI de manera profesional.
+        </p>
+
+        {/* Cita del Testimonio */}
+        <motion.div 
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#1B1E32] p-6 rounded-2xl shadow-lg mt-6"
+        >
+          <p className="text-gray-300 text-lg italic">
+            “Gracias a Xplendev y su integración con AI, automatizamos nuestros procesos y mejoramos la satisfacción del cliente.”
+          </p>
+          <h4 className="text-[#FF6F00] font-semibold mt-2">Mario Felipe, CEO de TeckWare</h4>
+        </motion.div>
+      </motion.div>
+    </section>
 
       {/* Sección de Xelisse */}
       <motion.section 
