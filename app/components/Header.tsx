@@ -116,7 +116,7 @@ useEffect(() => {
                 <button type="button"
                         className={tamañoTexto}
                         onClick={handleButtonClick0}
-                        data-te-ripple-init>Aplicación Móvil</button>
+                        data-te-ripple-init>ChatBot AI</button>
                 </li>
 
                 <li className="p-4">
@@ -181,7 +181,7 @@ useEffect(() => {
 
                 <li onClick={handleNav} className=" font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
                 <button onClick={handleButtonClick0}>
-                  Aplicaciónes Móviles
+                  ChatBot AI
                 </button>
                 </li>
 
