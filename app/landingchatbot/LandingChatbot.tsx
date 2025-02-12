@@ -94,7 +94,7 @@ const LandingChatbot = () => {
         >
           <Image src="/images/Hero/inteligencia-artificial.png" width={60} height={60} alt="Soporte" />
           <h3 className="text-2xl font-semibold mt-4">Soporte Personalizado AI</h3>
-          <p className="text-gray-300 mt-2">Xelisse, nuestra IA, está disponible 24/7 para atender a tus clientes.</p>
+          <p className="text-gray-300 mt-2">Integra tu propio asistente AI para atender a tus clientes con respuestas personalizadas.</p>
         </motion.div>
       </motion.section>
       <section className="max-w-7xl mx-auto px-6 py-20 relative flex flex-col md:flex-row items-center justify-between">
