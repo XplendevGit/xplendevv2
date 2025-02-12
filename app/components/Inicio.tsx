@@ -8,7 +8,7 @@ type Props = {};
 
 const Inicio = (props: Props) => {
   const handleButtonClick2 = () => {
-    const membershipsSection = document.getElementById("app");
+    const membershipsSection = document.getElementById("memberships");
     if (membershipsSection) {
       membershipsSection.scrollIntoView({ behavior: "smooth" });
     }
@@ -28,15 +28,13 @@ const Inicio = (props: Props) => {
           <div className="text-center md:text-left">
             <h1 className="text-[#ffffff] text-3xl md:text-5xl font-bold mb-4 leading-tight">
               Desarrollo Completo de
-              <span className="text-[#D43EFF]"> Sitios Web</span> y
+              <span className="text-[#D43EFF]"> Sitios Web</span>,
               <span className="text-[#C6FF00]"> Aplicaciones Móviles </span>
+              <span className="text-white"> y </span>
+              <span className="text-[#FF6F00]"> ChatBotAI </span> 
             </h1>
             <p className="text-gray-400 text-base md:text-lg leading-relaxed">
-              Desarrollamos sitios web y aplicaciones móviles avanzadas que
-              empoderan a las empresas para innovar y crecer. Nuestro enfoque
-              basado en la tecnología garantiza que tu presencia digital no solo
-              sea atractiva, sino también altamente funcional, segura y
-              administrable.
+            Impulsamos tu negocio con sitios web y aplicaciones móviles de alto nivel, diseñados para innovar y escalar. Integramos ChatBots AI personalizados que optimizan la interacción con tus clientes, garantizando una presencia digital impactante, segura y optimizada para conversión.
             </p>
 
             {/* Botones debajo del texto */}
