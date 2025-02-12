@@ -216,7 +216,7 @@ const Membership = (props: Props) => {
                 height={80}
                 width={80}
                 />
-              <p className="text-gray-300">Tienda y Carrito de Compras</p>
+              <p className="text-gray-300 lg:text-base text-xs">Tienda y Carrito de Compras</p>
             </div>
 
 {/* Academia Online */}
@@ -227,7 +227,7 @@ const Membership = (props: Props) => {
                   height={80}
                   width={80} 
                   alt={'academia'}  />
-  <p className="text-gray-300">Academia Online</p>
+  <p className="text-gray-300 lg:text-base text-xs">Academia Online</p>
 </div>
 
 
