@@ -219,6 +219,18 @@ const Membership = (props: Props) => {
               <p className="text-gray-300">Tienda y Carrito de Compras</p>
             </div>
 
+{/* Academia Online */}
+<div className="flex items-center">
+  <Image 
+                  src="/images/Hero/educacion.png"
+                  className="w-8 h-8 mr-3"
+                  height={80}
+                  width={80} 
+                  alt={'academia'}  />
+  <p className="text-gray-300">Academia Online</p>
+</div>
+
+
            {/* Soporte*/}
             <div className="flex items-center">
               <Image
