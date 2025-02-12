@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
+import Image from "next/image";
 
 declare global {
   interface Window {
@@ -10,6 +10,7 @@ declare global {
 
 const Chatbot = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
+  const [isBotLoaded, setIsBotLoaded] = useState(false); // Para verificar que Botpress está listo
 
   useEffect(() => {
     const script = document.createElement("script");
@@ -17,7 +18,7 @@ const Chatbot = () => {
     script.async = true;
     script.onload = () => {
       console.log("✅ Botpress WebChat script cargado.");
-      
+
       const botScript = document.createElement("script");
       botScript.src = "https://files.bpcontent.cloud/2025/02/11/07/20250211073314-9PIEZBC1.js";
       botScript.async = true;
@@ -31,11 +32,16 @@ const Chatbot = () => {
             host: "https://cdn.botpress.cloud/webchat/v2",
             messagingUrl: "https://messaging.botpress.cloud",
             botName: "Xelisse",
-            avatarUrl: "https://your-avatar-url.png",
+            avatarUrl: "https://i.postimg.cc/qRTrnDtv/XElisse-Ai.png",
             showCloseButton: true,
             layoutWidth: "400px",
             layoutHeight: "500px",
+            stylesheetOptions: {
+              avatarUrl: "https://i.postimg.cc/qRTrnDtv/XElisse-Ai.png",
+            },
           });
+
+          setIsBotLoaded(true); // Confirmamos que Botpress está listo
         } else {
           console.error("❌ Botpress WebChat no está disponible.");
         }
@@ -45,9 +51,23 @@ const Chatbot = () => {
     };
 
     document.body.appendChild(script);
+
+    // Ocultar el botón flotante de Botpress después de 3 segundos
+    setTimeout(() => {
+      const botpressButton = document.querySelector(".bpFabContainer") as HTMLElement;
+      if (botpressButton) {
+        botpressButton.style.display = "none";
+      }
+    }, 3000);
   }, []);
 
+  // ✅ Función para alternar el chat manualmente
   const toggleChat = () => {
+    if (!isBotLoaded) {
+      console.warn("⚠️ Botpress aún no está listo. Espera unos segundos...");
+      return;
+    }
+
     setIsChatOpen((prev) => !prev);
     console.log(`🟢 Toggle Chat: ${!isChatOpen}`);
 
@@ -63,8 +83,19 @@ const Chatbot = () => {
 
   return (
     <>
-      {/* Botón flotante en color verde */}
-
+      {/* Botón flotante personalizado con imagen de Xelisse */}
+      <button
+        onClick={toggleChat}
+        className="fixed bottom-5 right-5 bg-[#28ECC9] rounded-full shadow-lg p-3 transition-all duration-300 hover:scale-105 z-50"
+      >
+        <Image
+          src="https://i.postimg.cc/qRTrnDtv/XElisse-Ai.png"
+          alt="Chatbot Xelisse"
+          width={50}
+          height={50}
+          className="w-12 h-12 rounded-full"
+        />
+      </button>
     </>
   );
 };

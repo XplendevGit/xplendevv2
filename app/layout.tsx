@@ -20,7 +20,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
         />
-        {/* Script de Metricool */}
+
+        {/* Script de Metricool - Seguimiento de Analíticas */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -34,7 +35,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 b.appendChild(c);
               }
               loadScript(function(){
-                beTracker.t({hash:"de38f1094602e400e52e7a85a6a20aff"});
+                if (window.beTracker) {
+                  beTracker.t({hash:"de38f1094602e400e52e7a85a6a20aff"});
+                }
               });
             `,
           }}
@@ -43,6 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={inter.className}>
         <main className="mx-w-4xl mx-auto">
           {children}
+          {/* Chatbot Xelisse integrado */}
           <Chatbot />
         </main>
       </body>
