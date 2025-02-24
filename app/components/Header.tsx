@@ -131,7 +131,7 @@ useEffect(() => {
                 <button type="button"
                         className={tamañoTexto}
                         onClick={handleButtonClickEbook}
-                        data-te-ripple-init>Descargar Ebook
+                        data-te-ripple-init>Contenido Descargable
                         </button>
                 </li>
 
@@ -193,7 +193,7 @@ useEffect(() => {
 
                 <li onClick={handleNav} className="font-kanit hover:text-[#29F2CD] transition duration-150 ease-in-out">
                 <button onClick={handleButtonClickEbook}>
-                  Descargar Ebook
+                  Contenido Descargable
                 </button>
                 </li>
 

@@ -261,7 +261,7 @@ const Membership = (props: Props) => {
             <p className="text-gray-400 mb-6 md:text-base text-sm">
             Perfecto para toda empresa que necesite una aplicación móvil personalizada.
             </p>
-            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$375.990</div>
+            <div className="lg:text-6xl text-4xl font-bold text-white mb-4">$769.990</div>
 
           {/* Contenedor Hijo Beneficios Enteprise */}
           <div className="text-left space-y-1 md:space-y-3 xl:space-y-4 mb-6">

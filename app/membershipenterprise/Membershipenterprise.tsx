@@ -22,7 +22,7 @@ const MembershipEnterprise = () => {
           <p className="text-lg text-gray-400 mb-6">Ideal para empresas que necesitan una app móvil personalizada, con soporte especializado y despliegue completo.</p>
 
           {/* Pricing */}
-          <div className="text-[#00BFFF] text-5xl font-bold mb-4">$375.990</div>
+          <div className="text-[#00BFFF] text-5xl font-bold mb-4">$769.990</div>
           <p className="text-gray-400 mb-6">Pago Único</p>
 
           {/* Benefits */}
