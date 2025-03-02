@@ -317,7 +317,7 @@ const Membership = (props: Props) => {
           </div>
           </div>
 
-          <Link href={'/membershipenterprise'}>
+          <Link href={'/landingaplicaciones'}>
           <div className="bg-transparent border border-[#00D4FF] text-[#00D4FF] py-2 px-4 rounded-full hover:bg-[#00D4FF] hover:text-black transition-all text-center">
              Conocer Más
           </div>

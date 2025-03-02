@@ -148,7 +148,7 @@ const Membershippremium = () => {
 
           {/* Payment Button */}
           <a
-            href="https://www.webpay.cl/form-pay/210817"
+            href="https://wa.link/fw42if"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-[#D43EFF] border-[#D43EFF] border-2 font-semibold py-2 px-8 rounded-full hover:bg-[#D43EFF] hover:text-white"
@@ -227,11 +227,11 @@ const Membershippremium = () => {
 
         <div className="flex gap-8 w-full max-w-xl justify-center items-center mx-auto mt-12">
               
-              <Link href={'https://www.webpay.cl/form-pay/210814'}>
-                <div className="bg-[#D43EFF] text-white py-2 px-4 rounded-full hover:opacity-90 transition-all text-center">
+                <a
+                href="https://wa.link/fw42if" 
+                className="bg-[#D43EFF] text-white py-2 px-4 rounded-full hover:opacity-90 transition-all text-center">
                       Quiero mi Sitio Web!
-                </div>
-              </Link>
+                </a>
         </div>
             
       </section>

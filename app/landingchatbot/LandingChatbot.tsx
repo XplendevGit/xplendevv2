@@ -33,9 +33,8 @@ const LandingChatbot = () => {
             Automatiza la atención al cliente y aumenta la eficiencia con nuestro chatbot integrado en Web y WhatsApp. Completamente personalizado para tu negocio.
           </p>
           <div className="flex justify-center md:justify-start">
-            <Link href="">
+            <Link href="https://wa.link/slc494">
               <motion.button
-                onClick={handleButtonClickSolicita} 
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 className="relative group mt-4 mx-auto px-8 py-3 rounded-full font-semibold text-white text-lg cursor-pointer transition-all duration-300 bg-gradient-to-r from-[#FF6F00] to-[#FF3D00] shadow-[0_4px_15px_rgba(255,111,0,0.5)] hover:shadow-[0_6px_20px_rgba(255,61,0,0.6)]"

@@ -148,7 +148,7 @@ const Membershipbasic = () => {
 
           {/* Payment Button */}
           <a
-            href="https://www.webpay.cl/form-pay/210814"
+            href="https://wa.link/j5a714"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-[#C6FF00] border-[#C6FF00] border-2 font-semibold py-2 px-8 rounded-full hover:bg-[#C6FF00] hover:text-[#000000]"
@@ -229,7 +229,7 @@ const Membershipbasic = () => {
 
         <div className="flex gap-8 w-full max-w-xl justify-center items-center mx-auto mt-12">
               
-        <Link href={'https://www.webpay.cl/form-pay/210814'}>
+        <Link href={'https://wa.link/j5a714'}>
           <div className="bg-transparent border border-[#C6FF00] text-[#C6FF00] py-2 px-4 font-semibold rounded-full hover:bg-[#C6FF00] hover:text-black transition-all text-center">
                 Quiero mi Sitio Web!
           </div>
