@@ -7,7 +7,15 @@ import Link from "next/link";
 type Props = {};
 
 const Inicio = (props: Props) => {
+
   const handleButtonClick2 = () => {
+    const membershipsSection = document.getElementById("app");
+    if (membershipsSection) {
+      membershipsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleButtonClickMemberships = () => {
     const membershipsSection = document.getElementById("memberships");
     if (membershipsSection) {
       membershipsSection.scrollIntoView({ behavior: "smooth" });
@@ -39,18 +47,20 @@ const Inicio = (props: Props) => {
 
             {/* Botones debajo del texto */}
             <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
-              <Link href={"/portfolio"}>
-                <button className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:opacity-90 transition-all duration-200">
-                  Sitios Web
+
+                <button 
+                onClick={handleButtonClickMemberships}
+                className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:opacity-90 transition-all duration-200">
+                  Sitios & Aplicaciónes
                 </button>
-              </Link>
 
               <button
                 onClick={handleButtonClick2}
                 className="border border-gray-500 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:bg-gray-700 transition-all duration-200"
               >
-                Aplicaciónes Android
+                ChatBot AI
               </button>
+
             </div>
           </div>
 
@@ -80,9 +90,9 @@ const Inicio = (props: Props) => {
                 transition={{ duration: 1 }}
               >
                 <Image
-                  src="https://i.postimg.cc/gcq7ky4m/1-removebg-preview.png"
+                  src="https://i.postimg.cc/B6dyknK5/portada-03-Photo.png"
                   alt="Imagen central"
-                  className="object-contain pt-4"
+                  className="object-contain"
                   width={550}
                   height={550}
                 />

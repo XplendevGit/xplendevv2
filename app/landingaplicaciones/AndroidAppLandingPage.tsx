@@ -24,9 +24,9 @@ const AndroidAppLandingPage = () => {
             Desarrollamos aplicaciones móviles personalizadas para Android, adaptadas a las necesidades de tu empresa.
           </p>
           <div className="flex justify-center md:justify-start gap-4">
-            <Link href="https://wa.link/5lvksx">
+            <Link href="https://mpago.la/1VFuHfB">
               <button className="bg-[#FF6B6B] text-white py-3 px-6 rounded-full font-semibold shadow-md hover:bg-[#E63946] transition-all">
-                ¡Quiero mi Aplicación!
+                Contratar Ahora
               </button>
             </Link>
             <Link href="#features">

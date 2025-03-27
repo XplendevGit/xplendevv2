@@ -1,14 +1,12 @@
 
 import Inicio from './components/Inicio'
 import Header from './components/Header'
-import Hero from './components/Hero'
 import HeroChatbot from './components/Hero/HeroChatbot'
-import Design from './components/Design'
 import Membership from './components/Membership'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Whyus from './pages/Whyus'
 import PromocionEbook from './components/PromocionEbook'
+import OurServices from './components/OurServices'
 
 export default function Home() {
   return (
@@ -23,7 +21,7 @@ export default function Home() {
       </section>
       
       <section className="" id="hero">
-        <Hero/>
+        <OurServices/>
       </section>
 
       <section className="" id="app">

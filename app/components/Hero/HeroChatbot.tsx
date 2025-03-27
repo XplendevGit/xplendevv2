@@ -7,7 +7,7 @@ type Props = {}
 
 const HeroChatbot = (props: Props) => {
     return (
-        <div className="bg-gradient-to-b from-[#141E30] to-[#243B55] min-h-screen w-full text-white px-6 py-12">
+        <div className="bg-gradient-to-b from-[#29F2CD] via-[#243B55] to-[#29F2CD] min-h-screen w-full text-white px-6 py-12">
     {/* Hero Section */}
     <section className="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center text-center md:text-left">
       {/* Contenido del Hero */}
