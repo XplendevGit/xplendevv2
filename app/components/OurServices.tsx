@@ -4,6 +4,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const OurServices = () => {
+
+  const handleButtonClickSite = () => {
+    const membershipsSection = document.getElementById("memberships");
+    if (membershipsSection) {
+      membershipsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   return (
     <section className="w-full py-16 px-6 md:px-12 lg:px-24 bg-gradient-to-b from-[#141E30] to-[#243B55] text-white">
       {/* Contenedor principal */}
@@ -46,7 +55,12 @@ const OurServices = () => {
               🔹 Apps iOS y Android con React Native & Expo <br />
               🔹 Chatbots Automatizados con IA y Botpress <br /> <br />
               
-              🚀 Tu empresa lista para la nueva era digital.
+              
+              <button 
+                onClick={handleButtonClickSite}
+                className="bg-gradient-to-r from-purple-600 to-purple-400 text-white font-bold py-2 px-4 md:px-6 md:py-3 rounded-full hover:opacity-90 transition-all duration-200 md:mx-0 mx-auto block md:mt-0 mb-6">
+                  Contratar Servicios
+                </button>
             </p>
           </div>
           <div className="w-40 h-40 md:w-48 md:h-48 mt-4 md:mt-0 mx-auto">
