@@ -924,3 +924,55 @@ html, body {
                       }
                     }
 
+
+@keyframes shine {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.popular-badge {
+  position: relative;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  background: linear-gradient(
+    90deg,
+    #facc15 0%,
+    #facc15 40%,
+    #fff176 50%,
+    #facc15 60%,
+    #facc15 100%
+  );
+  background-size: 200% auto;
+  color: black;
+  animation: shine 2.5s linear infinite, pulse-soft 2s ease-in-out infinite;
+  box-shadow: 0 0 10px rgba(255, 193, 7, 0.4);
+}
+
+.professional-badge {
+  position: relative;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  background-color: #374151; /* Tailwind slate-700 */
+  color: #e5e7eb; /* Tailwind gray-200 */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  opacity: 0.95;
+}

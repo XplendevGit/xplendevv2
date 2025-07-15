@@ -3,8 +3,8 @@ import Link from "next/link";
 import React from "react";
 import { memberships } from "../data/memberships";
 
-const Membershipbasic = () => {
-  const plan = memberships.find(p => p.name === "Sitio Inicial");
+const Membershipbelearning = () => {
+  const plan = memberships.find(p => p.name === "E-learning Pro");
   if (!plan) return <div className="text-white">Plan no encontrado.</div>;
 
   return (
@@ -53,10 +53,9 @@ const Membershipbasic = () => {
 
       {/* Resumen del plan */}
       <section className="mt-16 w-full max-w-6xl text-center">
-        <h2 className="text-4xl text-[#B6E4FF] font-bold mb-6">¿Qué incluye la {plan.name}?
-        </h2>
+        <h2 className="text-4xl text-[#B6E4FF] font-bold mb-6">¿Qué incluye la {plan.name}?</h2>
         <p className="text-lg text-gray-400 mb-12">
-          Con nuestro plan, obtienes las herramientas necesarias para tener presencia online sin complicaciones.<br />
+          Con nuestro plan, obtienes todo lo necesario para construir tu propia plataforma de aprendizaje online de forma profesional.<br />
           <span className="text-xl">
             Una vez completado el pago de tu membresía, nos pondremos en contacto contigo para orientarte en los siguientes pasos.<br />
           </span>
@@ -84,7 +83,7 @@ const Membershipbasic = () => {
         <div className="flex gap-8 w-full max-w-xl justify-center items-center mx-auto mt-12">
           <a href={plan.paymentLink}>
             <div className={`bg-transparent border border-[${plan.color}] text-[${plan.color}] py-2 px-4 font-semibold rounded-full hover:bg-[${plan.color}] hover:text-black transition-all text-center`}>
-              Quiero mi Sitio Web!
+              Quiero mi Plataforma E-learning!
             </div>
           </a>
         </div>
@@ -93,4 +92,4 @@ const Membershipbasic = () => {
   );
 };
 
-export default Membershipbasic;
+export default Membershipbelearning;

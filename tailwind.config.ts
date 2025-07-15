@@ -6,6 +6,23 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+    safelist: [
+    'text-[#32DC7E]',
+    'border-[#32DC7E]',
+    'hover:border-[#32DC7E]',
+    'text-[#00D4FF]',
+    'border-[#00D4FF]',
+    'hover:border-[#00D4FF]',
+    'text-[#FF6F00]',
+    'border-[#FF6F00]',
+    'hover:border-[#FF6F00]',
+    'text-[#D43EFF]',
+    'border-[#D43EFF]',
+    'hover:border-[#D43EFF]',
+    'text-[#C6FF00]',
+    'border-[#C6FF00]',
+    'hover:border-[#C6FF00]'
+  ],
   theme: {
     extend: {
       fontFamily: {
