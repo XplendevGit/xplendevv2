@@ -15,7 +15,7 @@ const MembershipCard = ({ plan }: Props) => {
       <div>
       {plan.isPopular ? (
         <div className="popular-badge shadow mb-2">
-          🔥 Popular
+          🔥 Plan Popular
         </div>
       ) : (
         <div className="professional-badge mb-2">
