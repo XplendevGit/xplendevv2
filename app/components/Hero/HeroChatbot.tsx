@@ -31,9 +31,9 @@ const HeroChatbot = (props: Props) => {
       {/* Imagen del Chatbot */}
       <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
         <Image 
-          src="https://i.postimg.cc/yxc0G5fS/xplendevbot-Photoroom.png" 
-          width={500} 
-          height={500} 
+          src="https://i.postimg.cc/d0jXwyqN/xelisse.png" 
+          width={1024} 
+          height={1024} 
           alt="Chatbot AI" 
           className="w-[80%] md:w-[500px] h-auto drop-shadow-[35px_25px_10px_rgba(0,0,0,0.25)]"
         />
