@@ -49,11 +49,11 @@ const Contact: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1240px] mx-auto items-center">
         
         {/* Sección de información de contacto */}
-        <div className="text-white flex flex-col justify-center items-center md:items-start">
-          <h2 className="text-4xl md:text-5xl font-bold text-center md:text-left">
+        <div className="text-white flex flex-col justify-center md:items-start">
+          <h2 className="text-4xl md:text-5xl font-bold md:text-left">
             Contacta con <span className="text-[#C6FF00] md:text-[#D43EFF]">Nosotros</span>
           </h2>
-          <p className="text-white md:text-gray-400 text-lg md:text-xl mt-6 text-center md:text-left">
+          <p className="text-white md:text-gray-400 text-lg md:text-xl mt-6 md:text-left">
             Es muy importante para nosotros mantenernos en contacto contigo. Siempre estaremos
             listos para responder a cualquier pregunta que te interese. ¡Escríbenos!
           </p>

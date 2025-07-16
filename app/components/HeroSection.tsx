@@ -56,7 +56,7 @@ const HeroSection = () => {
             <div className="flex items-start gap-4">
               <Image
                 src="https://cdn-icons-png.flaticon.com/512/190/190411.png"
-                alt="Solución"
+                alt="Crecimiento"
                 width={40}
                 height={40}
               />
@@ -70,13 +70,13 @@ const HeroSection = () => {
             <div className="flex items-start gap-4">
               <Image
                 src="https://cdn-icons-png.flaticon.com/512/190/190411.png"
-                alt="Crecimiento"
+                alt="Soporte"
                 width={40}
                 height={40}
               />
               <div>
-                <h3 className="text-lg font-semibold text-white">Inteligencia Artificial Automatizada</h3>
-                <p className="text-gray-400 text-sm">Chatbots para WhatsApp & Web, Flujos de conversación personalizados, Análisis de datos y métricas avanzadas.</p>
+                <h3 className="text-lg font-semibold text-white">Documentación e Inducción</h3>
+                <p className="text-gray-400 text-sm">La documentación de tu sitio es importante tanto para clientes nuevos o avanzados. Te entregamos guías específicas sobre tu producto dpendiendo de tu nivel de experiencia técnica</p>
               </div>
             </div>
           </div>

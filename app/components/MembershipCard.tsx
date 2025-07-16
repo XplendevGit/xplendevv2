@@ -24,7 +24,7 @@ const MembershipCard = ({ plan }: Props) => {
       )}
 
       {plan.logo && (
-        <div className="w-[64px] h-[64px] mb-3">
+        <div className="w-[64px] h-[64px] mb-3 mt-3">
           <Image
             src={plan.logo}
             alt={`Logo de ${plan.name}`}
@@ -36,7 +36,7 @@ const MembershipCard = ({ plan }: Props) => {
       )}
 
         <h2 className={`text-[${plan.color}] text-2xl font-bold mb-4`}>{plan.name}</h2>
-        <p className="text-gray-400 mb-6 text-sm md:text-base">{plan.description}</p>
+        <p className="text-gray-400 mb-6 text-lg">{plan.description}</p>
         <div className="text-white font-bold text-4xl lg:text-6xl mb-4">{plan.price}</div>
         <div className="text-left space-y-3 mb-6">
           {plan.benefits.map((benefit, i) => (
@@ -48,7 +48,7 @@ const MembershipCard = ({ plan }: Props) => {
                 height={80}
                 className="w-8 h-8 mr-3"
               />
-              <p className="text-gray-300 text-xs md:text-base">{benefit.label}</p>
+              <p className="text-gray-300 text-base">{benefit.label}</p>
             </div>
           ))}
         </div>

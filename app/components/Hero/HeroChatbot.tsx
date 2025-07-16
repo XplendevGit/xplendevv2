@@ -7,9 +7,9 @@ type Props = {}
 
 const HeroChatbot = (props: Props) => {
     return (
-        <div className="bg-gradient-to-b from-[#29F2CD] via-[#243B55] to-[#29F2CD] min-h-screen w-full text-white px-6 py-12">
+        <div className="bg-gradient-to-b from-[#29F2CD] via-[#243B55] to-[#29F2CD] w-full text-white px-6 py-12">
     {/* Hero Section */}
-    <section className="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center text-center md:text-left">
+    <section className="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center md:text-left">
       {/* Contenido del Hero */}
       <div className="md:w-1/2 space-y-6">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">

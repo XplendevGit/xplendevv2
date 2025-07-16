@@ -33,7 +33,7 @@ const Inicio = (props: Props) => {
           className="contenedor-inicio grid items-center max-w-[1240px] w-full gap-10 md:grid-cols-2"
         >
           {/* Columna izquierda con el título y subtítulo */}
-          <div className="text-center md:text-left">
+          <div className="md:text-left">
             <h1 className="text-[#ffffff] text-3xl md:text-5xl font-bold mb-4 leading-tight">
               Desarrollo Completo de
               <span className="text-[#D43EFF]"> Sitios Web</span>,
