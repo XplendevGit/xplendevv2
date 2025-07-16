@@ -6,7 +6,7 @@ const nextConfig = {
       'img.icons8.com', 
       'cdn-icons-png.flaticon.com',
       'www.flaticon.es',
-      'www.capterra.cl' // Se agregó este dominio que aparece en tu error
+      'www.capterra.cl',
     ], 
   },
   // Otras configuraciones de Next.js

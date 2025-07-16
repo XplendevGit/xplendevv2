@@ -5,7 +5,7 @@ import MembershipCard from './MembershipCard';
 
 const Membership = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#243B55] to-[#141E30] py-12 px-6 pt-[80px] flex flex-col items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-b from-[#112240] to-[#151F31] py-12 px-6 pt-[80px] flex flex-col items-center justify-center">
       <div className="text-center mb-8 space-y-4">
         <h1 className="text-white text-4xl md:text-5xl font-bold">
           Elige tu <span className="text-[#D43EFF]">Plan Perfecto</span>

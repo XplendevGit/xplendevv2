@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import PromocionEbook from './components/PromocionEbook'
 import OurServices from './components/OurServices'
+import HeroSection from './components/HeroSection'
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       </section>
       
       <section className="" id="hero">
-        <OurServices/>
+        <HeroSection/>
       </section>
 
       <section className="" id="app">
